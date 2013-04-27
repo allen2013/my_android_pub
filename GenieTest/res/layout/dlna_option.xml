@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+ xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+   android:background="#FFCBD2D8" >
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+   android:background="#FFCBD2D8" 
+   android:orientation="vertical" android:padding="5dip">
+<!-- 
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+   android:background="#FFCBD2D8" 
+   android:orientation="vertical">
+<TextView android:id="@+id/TextView01" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:textColor="@color/Black" android:text="@string/dlnasharepath"></TextView>
+<LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal">
+  <EditText
+  	android:id="@+id/shartpath"
+  	android:layout_weight="9.9" 
+    android:layout_width="wrap_content"
+  	android:layout_height="wrap_content" 
+  	android:textSize="20sp" 
+  	android:textColor="@color/Black" 
+  	android:editable="false"
+  	android:enabled="false">
+  </EditText>
+  <Button
+  	android:id="@+id/seleltbutton"
+  	android:layout_weight="0.1" 
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content" 
+  	 android:text="@string/select">
+  </Button>
+ </LinearLayout>
+
+</LinearLayout>
+
+  -->   
+
+<RelativeLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content" 
+  android:background="@drawable/layout_bg_2"
+  android:layout_margin="5dip" android:padding="3dip">
+<TextView android:id="@+id/TextView01" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:textColor="@color/Black" 
+	android:text="@string/dlnarefresh" 
+	android:layout_alignParentLeft="true" 
+	android:layout_toLeftOf="@+id/dlnareset" 
+	android:layout_centerVertical="true" android:layout_marginLeft="3dip"></TextView>
+<Button
+  	android:id="@+id/dlnareset"
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content" 
+  	android:layout_alignParentRight="true" 
+  	android:text="@string/refresh" 
+  	android:layout_centerVertical="true">
+  </Button>	
+</RelativeLayout>
+
+<RelativeLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content" 
+  android:background="@drawable/layout_bg_2"
+  android:layout_margin="5dip" android:padding="3dip">
+<TextView android:id="@+id/TextView0" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:textColor="@color/Black" 
+	android:text="@string/dlnarefolderfresh" 
+	android:layout_alignParentLeft="true" 
+	android:layout_toLeftOf="@+id/folderfresh" 
+	android:layout_centerVertical="true" 
+	android:layout_marginLeft="3dip"></TextView>
+<Button
+  	android:id="@+id/folderfresh"
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content" 
+  	android:layout_alignParentRight="true" 
+  	android:text="@string/refresh" 
+  	android:layout_centerVertical="true">
+  </Button>	
+</RelativeLayout>
+<RelativeLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:background="@drawable/layout_bg_2"
+   android:layout_margin="5dip" android:padding="3dip">
+<TextView android:id="@+id/TextView02" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:textColor="@color/Black" 
+	android:layout_toLeftOf="@+id/switchserver" 
+	android:layout_alignParentLeft="true" 
+	android:layout_centerVertical="true"
+	android:text="@string/turnonserver" android:layout_marginLeft="3dip"></TextView>
+<CheckBox
+	android:id="@+id/switchserver" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_alignParentRight="true" 
+	android:layout_centerVertical="true">
+</CheckBox>	
+</RelativeLayout>
+
+<RelativeLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:background="@drawable/layout_bg_2"
+  android:layout_margin="5dip" 
+  android:padding="3dip">
+<TextView android:id="@+id/TextView03" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:textColor="@color/Black" 
+	android:layout_toLeftOf="@+id/switchrender" 
+	android:layout_alignParentLeft="true" 
+	android:layout_centerVertical="true"
+	android:text="@string/turnonrender" android:layout_marginLeft="3dip"></TextView>
+<CheckBox
+	android:id="@+id/switchrender" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_alignParentRight="true" 
+	android:layout_centerVertical="true">
+</CheckBox>	
+</RelativeLayout>
+
+<RelativeLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:background="@drawable/layout_bg_2"
+  android:layout_margin="5dip" 
+  android:padding="3dip">
+<TextView android:id="@+id/TextView04" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:textColor="@color/Black" 
+	android:layout_alignParentLeft="true" 
+	android:text="@string/dlnanote" 
+	android:padding="1dip"></TextView>  
+<TextView android:id="@+id/TextView05" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:textColor="@color/Black" 
+	android:layout_alignParentLeft="true" 
+	android:layout_centerVertical="true"
+	android:text="@string/dlnaoptionnote" 
+	android:layout_below="@+id/TextView04" android:paddingBottom="5dip" android:paddingLeft="5dip" android:paddingRight="5dip" android:paddingTop="2dip"></TextView>
+</RelativeLayout>
+ <!-- 
+<TableLayout
+  android:layout_height="wrap_content" 
+  android:layout_width="fill_parent">		
+		
+<TableRow>  
+		<TextView android:id="@+id/TextView01" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:textColor="@color/Black" 
+			android:text="@string/dlnarefresh" ></TextView>
+		<Button
+		  	android:id="@+id/dlnareset"
+		  	android:layout_width="wrap_content"
+		  	android:layout_height="wrap_content" 
+		  	android:text="@string/refresh" >
+	    </Button>	
+		</TableRow>
+<TableRow>  
+		<TextView android:id="@+id/TextView02" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:textColor="@color/Black" 
+			android:text="@string/turnonserver"></TextView>
+		<CheckBox
+			android:id="@+id/switchserver" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true" >
+		</CheckBox>	
+		
+		</TableRow>  
+</TableLayout>  
+   --> 
+
+</LinearLayout>
+</ScrollView>

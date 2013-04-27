@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="wrap_content" android:layout_width="wrap_content">
+  
+	
+<TableRow>      
+	<LinearLayout
+		android:id="@+id/testlayout"	  	
+	  	android:layout_width="wrap_content"
+  		android:layout_height="wrap_content" android:orientation="vertical">
+  		<ImageButton  android:id="@+id/wireless"
+   				   android:layout_gravity="center"
+   				   android:src="@drawable/wireless"
+   				   android:layout_width="290dip"
+  				   android:layout_height="290dip" 
+   				   />
+  		<TextView  android:id="@+id/wireless_text"
+   				   android:layout_gravity="center"
+   				   android:text="test 1"
+   				   android:layout_width="wrap_content"
+  				   android:layout_height="wrap_content" 
+   				   />
+		</LinearLayout>
+   	<LinearLayout
+	  	android:layout_width="wrap_content"
+  		android:layout_height="wrap_content" android:orientation="vertical">
+  		<ImageButton  android:id="@+id/guestaccess"
+   				   android:layout_gravity="center"
+   				   android:src="@drawable/guestaccess"
+   				   android:layout_width="290dip"
+  				   android:layout_height="290dip" 
+   				   />
+  		<TextView  android:id="@+id/guestaccess_text"
+   				   android:layout_gravity="center"
+   				   android:text="test 1"
+   				   android:layout_width="wrap_content"
+  				   android:layout_height="wrap_content" 
+   				   />
+		</LinearLayout>   		        
+</TableRow>
+   
+<TableRow>        
+   	 <LinearLayout	  	
+	  	android:layout_width="wrap_content"
+  		android:layout_height="wrap_content" android:orientation="vertical">
+  		<ImageButton  android:id="@+id/map"
+   				   android:layout_gravity="center"
+   				   android:src="@drawable/map"
+   				   android:layout_width="290dip"
+  				   android:layout_height="290dip" 
+   				   />
+  		<TextView  android:id="@+id/map_text"
+   				   android:layout_gravity="center"
+   				   android:text="test 1"
+   				   android:layout_width="wrap_content"
+  				   android:layout_height="wrap_content" 
+   				   />
+		</LinearLayout>
+   	<LinearLayout
+	  	android:layout_width="wrap_content"
+  		android:layout_height="wrap_content" android:orientation="vertical">
+  		<ImageButton  android:id="@+id/traffic"
+   				   android:layout_gravity="center"
+   				   android:src="@drawable/traffic"
+   				   android:layout_width="290dip"
+  				   android:layout_height="290dip" 
+   				   />
+  		<TextView  android:id="@+id/traffic_text"
+   				   android:layout_gravity="center"
+   				   android:text="test 1"
+   				   android:layout_width="wrap_content"
+  				   android:layout_height="wrap_content" 
+   				   />
+		</LinearLayout>              
+</TableRow>
+   
+
+</TableLayout>

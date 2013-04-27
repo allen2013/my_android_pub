@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5E5FB">
+<RelativeLayout 
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/localrouterlogin">
+
+<LinearLayout 	
+				android:id="@+id/Logindialog_LV" 
+ 				android:layout_height="wrap_content" 
+ 				android:layout_width="fill_parent"
+ 				android:orientation="vertical">
+			
+ 
+	<TextView 	android:id="@+id/usernametv" 
+ 				android:layout_height="wrap_content"
+  				android:layout_width="wrap_content" 
+  				android:text="@string/login_username" 
+  				android:textSize="16dp" 
+  				android:layout_marginTop="3dp" 
+  				android:layout_marginLeft="5dp"
+  				android:textColor="@android:color/black"/>	
+
+ 	<EditText 	android:id="@+id/username" 
+ 				android:layout_height="wrap_content"
+  				android:layout_width="fill_parent" 
+  				android:editable="false"
+  				android:enabled="false"
+  				android:text="admin" android:layout_marginLeft="5dp" android:layout_marginRight="5dp"/>
+  	<TextView 	android:id="@+id/passwordtv" 
+  	    		android:textColor="@android:color/black"
+ 				android:layout_height="wrap_content"
+  				android:layout_width="wrap_content" android:text="@string/login_password" android:textSize="16sp" android:layout_marginTop="3dp" android:layout_marginLeft="5dp"/>				
+ 
+ 	<EditText 	android:id="@+id/password" 
+ 				android:layout_height="wrap_content"
+ 				android:layout_width="fill_parent" 
+ 				android:singleLine="true"
+ 				android:layout_marginLeft="5dp"
+ 				android:layout_marginRight="5dp"
+ 				android:imeActionId="2"
+ 				android:imeOptions="actionGo" android:password="true"/>
+  		
+  	<TextView 	android:id="@+id/default_tv" 
+ 				android:layout_height="wrap_content"
+  				android:layout_width="wrap_content" 
+  				android:textSize="16sp" 
+  				android:layout_marginTop="3dp" 
+  				android:layout_marginLeft="5dp" 
+  				android:text="@string/login_default" 
+  				android:textColor="@android:color/black"
+  				android:layout_gravity="center_horizontal"/>
+  		
+  <!-- Allen add for test login -->				
+  	<TextView 	android:id="@+id/test_tips_tv" 
+ 				android:layout_height="wrap_content"
+  				android:layout_width="wrap_content" 
+  				android:textSize="16sp" 
+  				android:layout_marginTop="3dp" 
+  				android:layout_marginLeft="5dp" 
+  				android:text="Just for test: Set interval for auto login, log write in genie_login_test.txt." 
+  				android:textColor="#FF0000"
+  				android:layout_gravity="center_horizontal"/>	
+  	<TextView 	android:id="@+id/test_interval_tv" 
+  	    		android:textColor="@android:color/black"
+ 				android:layout_height="wrap_content"
+  				android:layout_width="wrap_content" android:text="Auto login interval(Unit:second)" android:textSize="16sp" android:layout_marginTop="3dp" android:layout_marginLeft="5dp"/>				
+ 
+ 	<EditText 	android:id="@+id/interval_et" 
+ 				android:layout_height="wrap_content"
+ 				android:layout_width="fill_parent" 
+ 				android:singleLine="true"
+ 				android:layout_marginLeft="5dp"
+ 				android:layout_marginRight="5dp" 
+ 				android:text="60"
+ 				android:imeOptions="actionGo"/>
+ 	 					
+ 	<Button 	
+ 				android:layout_height="wrap_content"
+ 				android:gravity="center"
+ 				android:id="@+id/reset_log" 
+ 				android:layout_marginBottom="10dip" 
+ 				android:layout_marginLeft="10dip" 
+ 				android:layout_marginRight="10dip" 
+ 				android:text="clear genie_login_test.txt and reset login timer" 
+ 				android:layout_width="fill_parent" android:layout_weight="1"/>
+  <!-- Allen add for test login end -->				
+  						
+	<CheckBox 	android:id="@+id/remeberpassword" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:textColor="@android:color/black"
+				android:text="@string/remeberpassword" android:layout_marginLeft="5dp" android:layout_marginRight="5dp"/>
+	
+  	<TextView 	android:id="@+id/test_result_tv" 
+ 				android:layout_height="wrap_content"
+  				android:layout_width="wrap_content" 
+  				android:textSize="16sp" 
+  				android:layout_marginTop="3dp" 
+  				android:layout_marginLeft="5dp" 
+  				android:text="login test result:" 
+  				android:textColor="#FF0000"
+  				android:layout_gravity="center_horizontal"/>	
+
+</LinearLayout>
+
+	
+
+<RelativeLayout style="android:style/ButtonBar"
+				android:id="@+id/test444" 
+				android:layout_height="wrap_content" 
+ 				android:layout_below="@+id/Logindialog_LV" 
+ 				android:layout_width="wrap_content">
+ 				<LinearLayout 	
+ 				android:layout_height="wrap_content" 
+ 				android:layout_width="fill_parent"
+ 				android:orientation="horizontal" android:layout_alignRight="@+id/wait_view">
+ 				<TableLayout
+  					android:layout_height="wrap_content" 
+  					android:layout_width="fill_parent">
+  				<TableRow> 			
+ 					
+ 					<Button 	
+ 							android:layout_height="wrap_content"
+ 							android:gravity="center"
+ 							android:id="@+id/login_cancel" 
+ 							android:layout_marginBottom="10dip" 
+ 							android:layout_marginLeft="10dip" 
+ 							android:layout_marginRight="10dip" android:text="@string/cancel" android:layout_width="fill_parent" android:layout_weight="1"/>
+ 					<Button 	
+ 							android:layout_height="wrap_content"
+ 							android:gravity="center"
+ 							android:id="@+id/login_ok" 
+ 							android:layout_marginBottom="10dip" 
+ 							android:layout_marginLeft="10dip" 
+ 							android:layout_marginRight="10dip" 
+ 							android:text="@string/login" android:layout_width="fill_parent" android:layout_weight="1.2"/>
+ 					
+ 				</TableRow> 
+ 				</TableLayout>			
+				</LinearLayout>
+</RelativeLayout>
+  
+</RelativeLayout>
+</ScrollView>

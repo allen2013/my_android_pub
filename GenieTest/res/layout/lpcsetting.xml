@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="vertical" android:padding="5sp">
+<TextView 
+	android:layout_height="wrap_content" 
+	android:layout_width="fill_parent" 
+	android:id="@+id/lpcsetTV01" 
+	android:text="@string/lpcsetintro">
+	</TextView>
+<RadioGroup android:id="@+id/lpcsetRadioGroup01" 
+		  android:layout_width="fill_parent" 
+		  android:layout_height="wrap_content">	
+			<RadioButton 
+			android:layout_height="wrap_content" 
+			android:layout_width="wrap_content" 
+			android:text="@string/lpcset_none" 
+			android:id="@+id/lpcsetCBnone">
+			</RadioButton>
+			<TextView 
+			android:layout_height="wrap_content" 
+			android:layout_width="fill_parent" 
+			android:id="@+id/lpcsetTVnone" android:text="@string/lpcset_none_text">
+			</TextView>
+			<RadioButton 
+			android:layout_height="wrap_content" 
+			android:layout_width="wrap_content" 
+			android:text="@string/lpcset_minimal" android:id="@+id/lpcset_CBminimal">
+			</RadioButton>
+			<TextView 
+			android:layout_height="wrap_content" 
+			android:layout_width="fill_parent" 
+			android:id="@+id/lpcsetTVminimal" android:text="@string/lpcset_minimal_text">
+			</TextView>
+			<RadioButton 
+			android:layout_height="wrap_content" 
+			android:layout_width="wrap_content" 
+			android:text="@string/lpcset_low" android:id="@+id/lpcset_CBlow">
+			</RadioButton>
+			<TextView 
+			android:layout_height="wrap_content" 
+			android:layout_width="fill_parent" 
+			android:id="@+id/lpcsetTVlow" android:text="@string/lpcset_low_text">
+			</TextView>
+			<RadioButton 
+			android:layout_height="wrap_content" 
+			android:layout_width="wrap_content" 
+			android:text="@string/lpcset_moderate" android:id="@+id/lpcset_CBmoderate">
+			</RadioButton>
+			<TextView 
+			android:layout_height="wrap_content" 
+			android:layout_width="fill_parent" 
+			android:id="@+id/lpcsetTVmoderate" android:text="@string/lpcset_moderate_text">
+			</TextView>
+			<RadioButton 
+			android:layout_height="wrap_content" 
+			android:layout_width="wrap_content" 
+			android:id="@+id/lpcset_CBhigh" android:text="@string/lpcset_high">
+			</RadioButton>
+			<TextView 
+			android:layout_height="wrap_content" 
+			android:layout_width="fill_parent" 
+			android:id="@+id/lpcsetTVhigh" android:text="@string/lpcset_high_text">
+			</TextView>
+</RadioGroup>						
+</LinearLayout>
+</ScrollView>

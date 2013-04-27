@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="6">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content" android:layout_width="fill_parent">
+   <ImageButton
+       android:id="@+id/view_top"
+       android:layout_width="fill_parent"
+       android:layout_height="1dip"></ImageButton> 
+
+    <ImageButton 
+        android:id="@+id/volume_select"
+    	android:layout_width="40dip"
+    	android:layout_height="40dip" 
+    	android:layout_alignParentRight="true" 
+    	android:layout_alignParentTop="true" 
+    	android:layout_marginTop="10dip" 
+    	android:layout_marginRight="10dip" 
+    	android:background="@drawable/dlna_volume_select"></ImageButton>
+<com.dragonflow.MarqueeTextView android:id="@+id/play_title" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:layout_centerHorizontal="true" 
+	android:textColor="@color/blackcolor" 
+	android:layout_marginLeft="20dip" 
+	android:layout_marginRight="20dip" 
+	android:layout_marginTop="5dip" 
+	android:singleLine="true" 
+	android:layout_alignParentTop="true"></com.dragonflow.MarqueeTextView> 
+<FrameLayout
+	android:id="@+id/play_pic"
+	android:layout_centerHorizontal="true" 
+    android:layout_width="200dip"
+    android:layout_height="200dip" 
+    android:layout_below="@id/play_title">
+	<!-- <ImageView
+	android:id="@+id/play_bg_pic"
+	android:layout_width="wrap_content"
+    android:layout_height="wrap_content" android:background="@drawable/playmusic_bg_h"></ImageView>
+	 -->
+	<ImageView
+	android:id="@+id/play_thumbnail"
+	android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_gravity="center"></ImageView>
+
+	<ProgressBar
+	    android:id="@+id/thumbnail_progressBar"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" 
+	    style="@android:style/Widget.ProgressBar.Inverse"
+	    android:layout_gravity="center"/>
+	
+</FrameLayout>
+
+
+
+
+<LinearLayout
+	android:id="@+id/Layout_play_seek"
+	android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_marginTop="5sp" 
+    android:layout_marginLeft="5sp" 
+    android:layout_marginRight="5sp" 
+    android:layout_alignParentBottom="true" >
+	<!-- <LinearLayout 
+	    android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" >
+    <SeekBar android:id="@+id/play_seek"
+        android:max="100"
+        android:layout_height="wrap_content" 
+        android:progress="0" 
+        android:layout_marginLeft="25sp" 
+        android:layout_marginRight="25sp" 
+        android:layout_weight="1"
+        android:layout_width="wrap_content"/>
+    <Button 
+        android:id="@+id/testbutton2"
+        android:text="test"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content" ></Button>
+    </LinearLayout>
+     -->
+     <SeekBar android:id="@+id/play_seek"
+        android:max="100"
+        android:layout_height="wrap_content" 
+        android:progress="0" 
+        android:layout_marginLeft="25sp" 
+        android:layout_marginRight="25sp" 
+        android:layout_width="match_parent"/>
+    <RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_marginTop="5sp" 
+    android:layout_marginLeft="5sp" 
+    android:layout_marginRight="5sp">
+    	<TextView
+    	android:id="@+id/playtime"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content" 
+    	android:text="00:00:00" android:layout_alignParentLeft="true" android:textSize="10sp">
+    	</TextView>
+    	<TextView
+    	android:id="@+id/playtime_total"
+        android:layout_height="wrap_content" android:text="00:00:00" android:layout_alignParentRight="true" android:layout_width="wrap_content" android:textSize="10sp">
+    	</TextView>
+    </RelativeLayout>
+    </LinearLayout>
+
+    
+<!-- 
+<RelativeLayout
+	android:id="@+id/FrameLayout01"
+	android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_marginTop="5sp" 
+    android:layout_marginLeft="5sp" 
+    android:layout_marginRight="5sp" 
+    android:layout_alignParentBottom="true" 
+    android:layout_marginBottom="5sp">
+<LinearLayout
+	android:id="@+id/Layout_play_vulme"
+	android:orientation="horizontal"
+    android:layout_height="wrap_content" android:layout_width="fill_parent">
+    	<Button
+    	android:id="@+id/ImageView_music"
+		android:layout_width="wrap_content"
+    	android:layout_height="wrap_content" 
+    	android:layout_marginLeft="30sp" 
+		android:background="@drawable/voice" android:layout_marginRight="5sp"></Button>
+		
+    	<SeekBar android:id="@+id/voice_seek"
+        android:max="100"
+        android:progress="0" 
+        android:layout_height="wrap_content" 
+        android:layout_marginRight="28sp" android:layout_width="fill_parent"/>
+
+    </LinearLayout>    
+
+</RelativeLayout>        
+ -->
+
+
+<LinearLayout
+	 android:id="@+id/play_title2" 
+	 android:orientation="horizontal"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:layout_centerHorizontal="true" 
+	android:layout_alignParentBottom="true" 
+	android:layout_marginBottom="10sp" android:visibility="gone">
+<com.dragonflow.MarqueeTextView android:id="@+id/play_title3" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:layout_marginBottom="10sp" 
+	android:text="@string/slidespeedtext">
+	</com.dragonflow.MarqueeTextView> 
+	<Spinner 
+	android:id="@+id/slidespeed"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"></Spinner>
+</LinearLayout>
+
+
+
+</RelativeLayout>
+</LinearLayout>
+
+<LinearLayout	
+	android:id="@+id/Layout_play_control"
+	android:orientation="vertical"
+    android:background="@drawable/play_bj_h" android:layout_width="wrap_content" android:layout_alignParentRight="true" android:layout_height="fill_parent" android:layout_marginRight="5sp" android:layout_marginBottom="3sp" android:layout_marginTop="3sp">
+	<LinearLayout	
+	android:orientation="vertical"
+    android:layout_marginLeft="5sp" 
+    android:layout_marginRight="5sp" android:layout_height="fill_parent" android:layout_width="wrap_content">
+    	<Button
+    	android:id="@+id/Button_back"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:background="@drawable/play_back_off"
+    	></Button>
+    	<ImageView
+    	android:id="@+id/Button_playingtest"    
+    	android:layout_width="wrap_content"
+    	android:layout_weight="1" 
+    	android:layout_height="wrap_content"></ImageView>
+    	<!-- <Button
+    	android:id="@+id/Button_pause" 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:background="@drawable/play_pause_off"
+    	></Button>
+    	<ImageView
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+    	></ImageView> -->
+    	<ImageButton
+    	android:id="@+id/Button_play" 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:background="@drawable/play_play_off"
+    	></ImageButton>
+    	<ImageView
+    	android:id="@+id/Button_play_test2"     
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+    	></ImageView>
+    	<Button
+    	android:id="@+id/Button_stop" 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:background="@drawable/play_stop_off"
+    	></Button>
+    	<ImageView
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+    	></ImageView>
+    	<Button
+    	android:id="@+id/Button_pre"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:background="@drawable/play_pre_off"
+    	></Button>
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false" >
+
+    <item
+        android:drawable="@drawable/turbo_search_1"
+        android:duration="150"/>
+    <item
+        android:drawable="@drawable/turbo_search_2"
+        android:duration="150"/>
+    <item
+        android:drawable="@drawable/turbo_search_3"
+        android:duration="150"/>
+    <item
+        android:drawable="@drawable/turbo_search_4"
+        android:duration="150"/>
+    <item
+        android:drawable="@drawable/turbo_search_5"
+        android:duration="150"/>
+    <item
+        android:drawable="@drawable/turbo_search_6"
+        android:duration="150"/>
+    <item
+        android:drawable="@drawable/turbo_search_7"
+        android:duration="150"/>
+    <item
+        android:drawable="@drawable/turbo_search_8"
+        android:duration="150"/>
+   
+</animation-list>

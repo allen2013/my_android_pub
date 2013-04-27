@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="wireless">Ρυθμίσεις ασύρμ. δικτύου</string>
+<string name="settings">Ρυθμίσεις</string>
+<string name="guestaccess">Πρόσβαση επισκέπτη</string>
+<string name="guestsettings">Ρυθμίσεις επισκέπτη</string>
+<string name="map">Χάρτης δικτύου</string>
+<string name="traffic">Μέτρηση κυκλοφορίας</string>
+<string name="parentalcontrl">Γονικός έλεγχος</string>
+<string name="marketplace">Marketplace</string>
+
+<string name="loadingtraffic">Φόρτωση μέτρησης κυκλοφορίας</string>
+<string name="loadingmap">Φόρτωση χάρτη δικτύου</string>
+<string name="loadingguestaccess">Φόρτωση λειτουργίας πρόσβασης επισκέπτη</string>
+<string name="loadingwireless">Φόρτωση ρυθμίσεων ασύρματου δικτύου</string>
+<string name="loadingparentalcontrl">Φόρτωση γονικών ελέγχων</string>
+<string name="loadingmymedia">Γίνεται φόρτωση του στοιχείου Τα μέσα μου</string>
+
+
+<string name="remeberpassword">Απομνημόνευση κωδικού πρόσβασης</string>
+<string name="login">Σύνδεση</string>
+<string name="ok">OK</string>
+<string name="cancel">Άκυρο</string>
+<string name="wirelessname">Όνομα/SSID</string>
+<string name="name">SSID</string>
+<string name="channel">Κανάλι</string>
+<string name="networkkey">Κλειδί/κωδικός πρόσβασης</string>
+<string name="key">Κωδικός πρόσβασης</string>
+<string name="securityoptions">Επιλογές ασφάλειας</string>
+<string name="Period">Περίοδος απογραφής</string>
+<string name="Time">Χρόνος σύνδεσης (Ω:Λ)</string>
+<string name="Upload">Αποστολή/Μέσος όρος (M)</string>
+<string name="Download">Λήψη/Μέσος όρος (M)</string>
+<string name="Total">Σύνολο/Μέσος όρος (M)</string>
+<string name="Lpc_status">Κατάσταση</string>
+<string name="Lpc_control">Γονικός έλεγχος</string>
+<string name="Enable">Ενεργοποίηση</string>
+<string name="Disable">Απενεργοποίηση</string>
+<string name="Filteringlevel">Επίπεδο φιλτραρίσματος</string>
+<string name="OpenDNSaccount">Λογαριασμός OpenDNS</string>
+<string name="Filteringchang">Αλλαγή βασικών ρυθμίσεων</string>
+<string name="lpc_Positive">Προηγούμενο</string>
+<string name="lpc_Negative">Επόμενο</string>
+<string name="Lpc_done">Τέλος</string>
+<string name="lpc_presignlntitle">Εγκατάσταση του Live Parental Controls</string>
+<string name="lpc_createtitle">Δημιουργήστε ένα δωρεάν λογαριασμό OpenDNS</string>
+<string name="lpc_createname">Όνομα χρήστη</string>
+<string name="lpc_createpassword">Κωδικός πρόσβασης</string>
+<string name="lpc_createpassword2">Επιβεβαίωση κωδικού πρόσβασης</string>
+<string name="lpc_createemail">Email</string>
+<string name="lpc_createemail2">Επιβεβαίωση email</string>
+<string name="lpc_createeinvalidmail">Μη έγκυρο email</string>
+<string name="lpc_createcheck">Ελέγξτε τη διαθεσιμότητα</string>
+<string name="lpcsignintitle">Συνδεθείτε στο λογαριασμό OpenDNS</string>
+<string name="lpcsigninintro">Πληκτρολογήστε το όνομα χρήστη και τον κωδικό πρόσβασης παρακάτω.</string>
+<string name="lpc_createintro">Εισαγάγετε παρακάτω τα στοιχεία σας.</string>
+<string name="lpc_presignintro">Καλωσορίσατε. Αυτός ο οδηγός εγκατάστασης θα διαμορφώσει γρήγορα τα στοιχεία του Live Parental Controls της NETGEAR με την υποστήριξη της OpenDNS στο δρομολογητή NETGEAR.</string>
+<string name="lpc_presignintro1">Για να χρησιμοποιήσετε το Live Parental Controls, πρέπει να ανοίξετε δωρεάν ένα λογαριασμό OpenDNS. Μήπως έχετε ήδη;</string>
+<string name="lpc_presigninexist">Ναι, χρησιμοποιήστε το λογαριασμό OpenDNS που έχω ήδη.</string>
+<string name="lpc_presignincreate">Όχι, πρέπει να δημιουργήσω δωρεάν ένα λογαριασμό OpenDNS.</string>
+<string name="lpcsettitle">Επίπεδο φιλτραρίσματος</string>
+<string name="lpcsetintro">Όλοι οι υπολογιστές που συνδέονται στο δρομολογητή σας θα προστατεύονται από το περιεχόμενο που επιλέξετε παρακάτω. Μπορείτε να προσαρμόσετε αργότερα τις ρυθμίσεις του Live Parental Controls από τον ιστότοπό μας.</string>
+<string name="lpcset_none">Καμία</string>
+<string name="lpcset_none_text">Δεν έχει αποκλειστεί τίποτα.</string>
+<string name="lpcset_minimal">Ελάχιστη</string>
+<string name="lpcset_minimal_text">Παρέχει προστασία μόνο από επιθέσεις από ηλεκτρονικό "ψάρεμα".</string>
+<string name="lpcset_low">Χαμηλή</string>
+<string name="lpcset_low_text">Παρέχει προστασία από ιστότοπους με πορνογραφικό περιεχόμενο και επιθέσεις από ηλεκτρονικό "ψάρεμα".</string>
+<string name="lpcset_moderate">Μέτρια</string>
+<string name="lpcset_moderate_text">Παρέχει προστασία από ιστότοπους με περιεχόμενο για ενηλίκους, με παράνομες δραστηριότητες και επιθέσεις από ηλεκτρονικό "ψάρεμα".</string>
+<string name="lpcset_high">Υψηλή</string>
+<string name="lpcset_high_text">Παρέχει προστασία από ιστότοπους με περιεχόμενο για ενηλίκους ή παράνομες δραστηριότητες, από ιστότοπους κοινωνικής δικτύωσης, ιστότοπους κοινής χρήσης βίντεο, επιθέσεις από ηλεκτρονικό "ψάρεμα" και γενικότερα ιστότοπους με ανούσιο περιεχόμενο .</string>
+<string name="lpc">Γονικός έλεγχος</string>
+<string name="lpc_donetitle">Η εγκατάσταση ολοκληρώθηκε!</string>
+<string name="lpc_doneintro">Η εγκατάσταση του Live Parental Controls της NETGEAR με την υποστήριξη της OpenDNS ολοκληρώθηκε με επιτυχία. Την επόμενη φορά που θα εκτελέσετε το βοηθητικό πρόγραμμα διαχείρισης θα μεταβείτε στην οθόνη κατάστασης όπου μπορείτε να κάνετε τα εξής:</string>
+<string name="lpc_doneintro1">Να ελέγξετε αν έχει ενεργοποιηθεί το Live Parental Controls</string>
+<string name="lpc_doneintro2">Να ενεργοποιήσετε ή να απενεργοποιήσετε το Live Parental Controls</string>
+<string name="lpc_doneintro3">Να τροποποιήσετε τις βασικές ρυθμίσεις</string>
+<string name="lpc_doneintro4">Να αλλάξετε τις προσαρμοσμένες ρυθμίσεις, όπως ανά χρήστη και ώρα της ημέρας, με βάση το Live Parental Controls</string>
+<string name="lpc_done_bttext">Να μεταβώ στην οθόνη κατάστασης</string>
+<string name="lpc_introtitle">Επισημαίνεται ότι</string>
+<string name="lpc_introtext">Για να ορίσετε τους ελέγχους Live Parental Controls, χρειάζεστε ένα λογαριασμό OpenDNS. Μήπως έχετε ήδη ένα λογαριασμό;</string>
+<string name="lpc_enable">Ενεργοποιήθηκε</string>
+<string name="lpc_disable">Απενεργοποιημένη</string>
+<string name="search">Αναζήτηση</string>
+<string name="speedtest_text">Η τρέχουσα ταχύτητα λήψης από αυτόν τον ιστότοπο είναι %2 Kbps.</string>
+<string name="Kbps">Kbps</string>
+<string name="Clickhere">κάντε κλικ εδώ</string>
+<string name="Lpc_manage_nothing">Δεν έχει αποκλειστεί τίποτα.</string>
+<string name="lpc_manage_customset">Αλλαγή προσαρμοσμένων ρυθμίσεων</string>
+<string name="notenabled">Απενεργοποιημένη</string>
+<string name="connected">Έγινε σύνδεση</string>
+<string name="guestaccess_time">Χρονική περίοδος</string>
+<string name="guestaccess_security">Επιλογές ασφάλειας</string>
+<string name="disableguest_text">Χρησιμοποιείται η λειτουργία πρόσβασης επισκέπτη. Τυχόν απενεργοποίησή της μπορεί να διακόψει την ενεργή κυκλοφορία στο ασύρματο δίκτυο. Θέλετε να συνεχίσετε;</string>
+<string name="wpa">Ασφάλεια</string>
+<string name="about_title">Πληροφορίες για το NETGEAR genie</string>
+<string name="about_info">Πνευματικά δικαιώματα (c) 2013, NETGEAR Inc.</string>
+<string name="about_info1">Με την επιφύλαξη παντός δικαιώματος.</string>
+<string name="about_info2">Με την υποστήριξη της SiteView</string>
+<string name="version">Έκδοση</string>
+<string name="close">Κλείσιμο</string>
+<string name="notsupport">Ο δρομολογητής δεν υποστηρίζει αυτήν τη λειτουργία.</string>
+<string name="gatewaydev">Δρομολογητής</string>
+<string name="networkdev">Συσκευή δικτύου</string>
+<string name="windowspc">Υπολογιστής Windows</string>
+<string name="blurayplayer">Συσκευή αναπαραγωγής Blu-ray</string>
+<string name="bridge">Γέφυρα</string>
+<string name="cablestb">Καλωδιακός αποκωδικοποιητής</string>
+<string name="cameradev">Κάμερα</string>
+<string name="gamedev">Κονσόλα παιχνιδιών</string>
+<string name="imacdev">iMac</string>
+<string name="ipad">iPad</string>
+<string name="iphone">iPhone</string>
+<string name="ipodtouch">iPod Touch</string>
+<string name="linuxpc">Υπολογιστής Linux</string>
+<string name="macbookdev">MacBook</string>
+<string name="macminidev">Mac Mini</string>
+<string name="macprodev">Mac Pro</string>
+<string name="mediadev">Συσκευή μέσων</string>
+<string name="mobiledev">Smartphone</string>
+<string name="netstoragedev">Αποθήκευση</string>
+<string name="switchdev">Μεταγωγέας</string>
+<string name="printerdev">Εκτυπωτής</string>
+<string name="repeater">Επαναλήπτης</string>
+<string name="satellitestb">Δορυφορικός αποκωδικοποιητής</string>
+<string name="scannerdev">Σαρωτής</string>
+<string name="slingbox">SlingBox</string>
+<string name="stb">Άλλος αποκωδικοποιητής</string>
+<string name="tablepc">Tablet</string>
+<string name="tv">Τηλεόραση</string>
+<string name="unixpc">Υπολογιστής UNIX</string>
+<string name="map_custom">Προσαρμοσμένο όνομα</string>
+<string name="map_type">Τύπος</string>
+<string name="map_ip">Διεύθυνση IP</string>
+<string name="map_mac">Διεύθυνση MAC</string>
+<string name="modify">Τροποποίηση</string>
+<string name="refresh">Ανανέωση</string>
+<string name="apply">Εφαρμογή</string>
+<string name="custom">Προσαρμοσμένη</string>
+<string name="Traffic_set_text_1">Επανεκκίνηση μετρητή κυκλοφορίας στις</string>
+<string name="traffic_set_text_2">Ώρα έναρξης μετρητή κυκλοφορίας</string>
+<string name="traffic_set_hour">Ώρα</string>
+<string name="traffic_set_minute">Λεπτό</string>
+<string name="traffic_set_text_3">Την</string>
+<string name="traffic_set_text_4">ημέρα κάθε μήνα</string>
+<string name="today">Σήμερα</string>
+<string name="yesterday">Εχθές</string>
+<string name="this_week">Τρέχουσα εβδομάδα</string>
+<string name="this_month">Τρέχων μήνας</string>
+<string name="last_month">Τελευταίος μήνας</string>
+<string name="traffic_disable_text">Απενεργοποίηση μέτρησης κυκλοφορίας. Θέλετε να συνεχίσετε;</string>
+<string name="traffic_able_text">Ενεργοποίηση μέτρησης κυκλοφορίας. Θέλετε να συνεχίσετε;</string>
+<string name="login_username">Όνομα χρήστη</string>
+<string name="login_password">Κωδικός πρόσβασης</string>
+<string name="login_alertinfo">Η σύνδεση απέτυχε! Ελέγξτε εάν ο υπολογιστής είναι συνδεδεμένος στο δρομολογητή της NETGEAR.</string>
+<string name="wait">Παρακαλώ περιμένετε...</string>
+<string name="bad_password">Η σύνδεση απέτυχε. Πληκτρολογήστε ξανά τον σωστό κωδικό πρόσβασης διαχείρισης για το δρομολογητή NETGEAR.</string>
+<string name="search_hint">Αναζήτηση υποστήριξης</string>
+<string name="logout">Αποσύνδεση</string>
+<string name="about">Πληροφορίες</string>
+<string name="back">Πίσω</string>
+<string name="enablelpccontrol">Ενεργοποίηση του Live Parental Controls</string>
+
+<!--
+<string name="loading">@</string>
+
+-->
+
+<string name="pleasewait">Παρακαλώ περιμένετε...</string>
+
+
+<string name="wirelsssettin">Η αλλαγή των ρυθμίσεων μπορεί να διακόψει την ενεργή κυκλοφορία στο ασύρματο δίκτυο. Θέλετε να συνεχίσετε;</string>
+<string name="setwait">Γίνεται λήψη των πληροφοριών απόκρισης του δρομολογητή. Περιμένετε %1 δευτερόλεπτα.</string>
+<string name="seconds">Δευτερόλεπτα</string>
+<string name="login_default">(η προεπιλογή είναι \"password\")</string>
+<string name="wirelsssettinrelogin">Η ρύθμιση ασύρματου δικτύου άλλαξε με επιτυχία. Προσπελάστε ξανά το ασύρματο δίκτυο χρησιμοποιώντας τις νέες ρυθμίσεις ασύρματου δικτύου και τα στοιχεία σύνδεσης για το genie.</string>
+<string name="mymedia">Τα μέσα μου</string>
+<string name="dlna_server">Πηγή</string>
+<string name="dlna_render">Συσκευή αναπαραγωγής</string>
+<string name="dlna_control">Αναπαραγωγή</string>
+<string name="dlna_option">Επιλογές</string>
+
+
+<string name="menu_reset">Επαναφορά</string>
+<string name="chooserender">Επιλέξτε συσκευή αναπαραγωγής.</string>
+
+
+<string name="select">Επιλογή</string>
+<string name="servertiler">Πηγή</string>
+<string name="rendertitle">Συσκευή αναπαραγωγής</string>
+<string name="playingtitle">Αναπαραγωγή</string>
+<string name="optiontitle">Επιλογές</string>
+<string name="editsetting">Επεξεργασία ρυθμίσεων</string>
+<string name="save">Δημιουργήστε αντ ασφαλείας</string>
+<string name="trafficmeteritem01">Όριο όγκου κυκλοφορίας</string>
+<string name="trafficmeteritem02">Μηνιαίο όριο</string>
+<string name="trafficmeteritem03">Ώρα</string>
+<string name="trafficmeteritem04">Ημέρα</string>
+<string name="trafficmeteritem05">Ημέρα έναρξης μετρητή</string>
+<string name="trafficmeteritem06">Ώρα έναρξης μετρητή</string>
+<string name="monthlylimitmbytes">Μηνιαίο όριο (MB)</string>
+
+
+<string name="androiddevice">Συσκευή Android</string>
+<string name="androidphone">Τηλέφωνο Android</string>
+<string name="androidtablet">Tablet Android</string>
+<string name="slidespeedtext">Επιλογή ταχύτητας παρουσίασης</string>
+<string name="slide_slow">Αργή</string>
+<string name="slide_normal">Κανονική</string>
+<string name="slide_rast">γρήγοροs</string>
+<string name="Lpc_custom_setting">Αλλαγή προσαρμοσμένων ρυθμίσεων</string>
+<string name="license">Άδεια χρήσης</string>
+<string name="genielicensetitle">Όροι και προϋποθέσεις</string>
+<string name="neptunelicensetitle">Εντός της διανομής του NETGEAR genie.</string>
+<string name="fileopenfailed">Δεν είναι δυνατό το άνοιγμα του αρχείου.</string>
+<string name="playfails">Δεν είναι δυνατή η αναπαραγωγή του αρχείου.</string>
+<string name="nodevices">Δεν βρέθηκε κοινόχρηστη συσκευή. Για να χρησιμοποιήσετε αυτήν τη δυνατότητα, πρέπει να ενεργοποιήσετε τη δυνατότητα κοινής χρήσης αρχείων για συσκευές στο δίκτυο ή να συνδέσετε μια μονάδα αποθήκευσης USB στο δρομολογητή, αν υποστηρίζει σύνδεση συσκευών αποθήκευσης USB.</string>
+<string name="routermodel">Μοντέλο δρομολογητή</string>
+<string name="frimwareversion">Έκδοση υλικολογισμικού</string>
+<string name="dlnarefresh">Επανεκκίνηση υπηρεσίας μέσων</string>
+<string name="dlnarefolderfresh">Ανανέωση φακέλου προέλευσης</string>
+<string name="turnonserver">Κοινή χρήση αρχείων στο δίκτυο</string>
+<string name="turnonrender">Να επιτρέπεται η αναπαραγωγή στο δίκτυο</string>
+<string name="dlnanote">Σημείωση:</string>
+<string name="dlnaoptionnote">Επανεκκίνηση υπηρεσίας μέσων όταν αλλάζει η ρύθμιση ασύρματου δικτύου.</string>
+<string name="dlnaoptionnote1">Πατήστε Ανανέωση του φακέλου προέλευσης αν υπάρχει οποιαδήποτε αλλαγή στους φακέλους μέσων.</string>
+<string name="dlnaoptionnote2">Να γίνει κοινή χρήση του αρχείου στο δίκτυο ώστε να επιτρέπεται η πρόσβαση ατόμων σε αρχεία αυτής της συσκευής μέσω δικτύου.</string>
+<string name="dlnaoptionnote3">Να επιτρέπεται η χρήση αυτής της συσκευής για την αναπαραγωγή αρχείων μέσω δικτύου.</string>
+<string name="norender">Δεν βρέθηκε συσκευή αναπαραγωγής. Για την αναπαραγωγή αρχείων σε αυτήν τη συσκευή, μεταβείτε στο στοιχείο Επιλογές και επιλέξτε \"Να επιτρέπεται η αναπαραγωγή στο δίκτυο.\"</string>
+<string name="device_block">Αποκλεισμός</string>
+<string name="device_allow">Να επιτρέπεται</string>
+<string name="turnonaccesscontrol">Ενεργοποίηση Ελέγχου πρόσβασης</string>
+
+<string name="accesscontrol">Έλεγχος πρόσβασης</string>
+<string name="signalstrength">Ισχύς σήματος</string>
+
+<string name="linkrate">Ταχύτητα σύνδεσης</string>
+<string name="whatisit">Τι είναι;</string>
+<string name="dvr">DVR</string>
+<string name="choosesource">Επιλέξτε πηγή.</string>
+<string name="yes">Ναι</string>
+<string name="no">Όχι</string>
+<string name="notnetgearrouter">Ο δρομολογητής NETGEAR δεν βρέθηκε ή δεν <a href="http://www.netgear.com/landing/en-us/netgear-genie-routers.aspx">υποστηρίζεται</a>.</string>
+<string name="lpcinterneterror">Το Internet δεν είναι διαθέσιμο. Συνδέστε πρώτα το δρομολογητή στο Internet.</string>
+<string name="noconnectrouter">Συνδέστε ασύρματα αυτή τη συσκευή στο δρομολογητή NETGEAR και δοκιμάστε ξανά.</string>
+<string name="actiontimeout">Το χρονικό όριο για την ενέργεια έληξε. Προσπαθήστε ξανά.</string>
+<string name="emailisunavailable">Το email χρησιμοποιείται ήδη.</string>
+<string name="usernamenotavailable">Το όνομα χρήστη δεν είναι διαθέσιμο.</string>
+<string name="opendnsdeviceisnotmine">Το όνομα χρήστη δεν είναι διαθέσιμο.</string>
+<string name="usernameformatillegal">Το όνομα χρήστη πρέπει να ξεκινά και να τελειώνει με γράμμα ή αριθμό και μπορεί επίσης να περιέχει τα σύμβολα \'.\', \'-\' και \'_\'.</string>
+<string name="passwordlengthillegal">Το μήκος των κωδικών πρόσβασης πρέπει να είναι μεταξύ 6 και 20 χαρακτήρων.</string>
+<string name="s_average">Μέση τιμή</string>
+<string name="s_total">Σύνολο</string>
+<string name="s_download">Λήψη</string>
+<string name="s_upload">Αποστολή</string>
+<string name="s_mbytes">Mbyte</string>
+<string name="qrcode">Κωδικός QR</string>
+<string name="qrcodedescribe">Ευθυγραμμίστε τον κωδικό QR μέσα στο πλαίσιο για να αρχίσει η σάρωση.</string>
+<string name="unqrcodedescribe">Η συσκευή σας δεν μπορεί να τραβήξει φωτογραφίες ή να σαρώσει τον Kωδικό QR.</string>
+<string name="s_invaliduserpass">Μη έγκυρο όνομα χρήστη ή κωδικός πρόσβασης.</string>
+<string name="s_smartlogin_url_1"><a href="https://genie.netgear.com/UserProfile/#ForgotPasswordPlace:">Ξεχάσατε τον κωδικό πρόσβασης;  </a></string>
+<string name="s_smartlogin_url_2">Δεν διαθέτετε αναγνωριστικό; <a href="https://genie.netgear.com/UserProfile/#NewUserPlace:">Εγγραφή.</a></string>
+<string name="s_smartlogin_3">Απομνημόνευση αναγνωριστικού και κωδικού πρόσβασης</string>
+<string name="s_smartnetwork">Απομακρυσμένη</string>
+<string name="s_serial">Σειριακός</string>
+<string name="s_online">Συνδεδεμένη</string>
+<string name="s_offline">Εκτός σύνδεσης</string>
+<string name="s_mydevices">Οι συσκευές μου</string>
+<string name="s_routerlogin">Σύνδεση δρομολογητή</string>
+<string name="s_local">Τοπική</string>
+<string name="s_network_error">Κάποιο πρόβλημα στο δίκτυο εμποδίζει τη σύνδεση με το διακομιστή NETGEAR. Προσπαθήστε ξανά. Εάν έχετε ήδη συνδεθεί, δοκιμάστε να αποσυνδεθείτε και να επανασυνδεθείτε.</string>
+<string name="s_nointernet">Δεν εντοπίστηκε σύνδεση Διαδικτύου.</string>
+<string name="s_versionwarning">Απαιτείται Android 2.3 ή νεότερη έκδοση.</string>
+<string name="qr_connect_router">Σύνδεση σε</string>
+<string name="qr_url_found">Η διεύθυνση URL βρέθηκε:</string>
+<string name="qr_connect_http">Θέλετε να το ανοίξετε;</string>
+<string name="password_limit">8-63 χαρακτήρες ή 64 δεκαεξαδικές τιμές</string>
+
+<!-- Bypass Account -->
+<string name="NOCreateDeviceID">Δεν είναι δυνατή η λήψη πληροφοριών για τους λογαριασμούς χρηστών</string>
+<string name="NoCreateUserName">Δεν έχουν ρυθμιστεί λογαριασμοί χρήστη για αυτήν τη συσκευή.</string>
+<string name="NetWorkConnection">Δεν εντοπίστηκε σύνδεση Διαδικτύου.</string>
+<string name="loginBypassPasswordError">Ο κωδικός πρόσβασης δεν αντιστοιχεί σε αυτό το όνομα χρήστη. Προσπαθήστε ξανά.</string>
+<string name="loginfailed">Η σύνδεση στο βοηθητικό πρόγραμμα χρήστη απέτυχε.</string>
+<string name="logoutfailed">Η αποσύνδεση από το βοηθητικό πρόγραμμα χρήστη απέτυχε.</string>
+<string name="getbypass">Γίνεται λήψη των στοιχείων λογαριασμού</string>
+<string name="loggingbypass">Γίνεται σύνδεση…</string>
+<string name="exitbypass">Γίνεται αποσύνδεση…</string>
+<string name="lpcbypassuser">Έχετε συνδεθεί ως</string>
+
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffe5e5fb"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/layout_wifilist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:paddingBottom="5dp" >
+
+            <LinearLayout
+                android:id="@+id/LinearLayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/LinearLayout2"
+                android:orientation="vertical" >
+
+                <Spinner
+                    android:id="@+id/rs_wifiselector"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout3"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/bt_roomview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/title_bt_bj"
+                    android:text="@string/room_view"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/LinearLayout3"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/rs_refresh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/title_bt_bj"
+                    android:text="@string/refresh"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_roomlisttitle"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@id/layout_wifilist"
+            android:background="@color/DimGray" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:gravity="center|left"
+                android:paddingLeft="5dp"
+                android:text="@string/roomname_title"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:gravity="center_vertical"
+                android:text="@string/roomsignal"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="8"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/rs_roomlist"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/layout_rstoolbar"
+            android:layout_below="@+id/layout_roomlisttitle"
+            android:cacheColorHint="#00000000" >
+        </ListView>
+
+        <LinearLayout
+            android:id="@+id/layout_rstoolbar"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/title_bj"
+            android:gravity="center_vertical|center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/rs_room_add"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/title_bt_bj"
+                android:text="Add"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/rs_room_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/title_bt_bj"
+                android:text="Edit"
+                android:textColor="#ffffff"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/rs_room_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/title_bt_bj"
+                android:text="Delete"
+                android:textColor="#ffffff"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rs_progress"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#b0000000"
+        android:clickable="true"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal" >
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/rs_loading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

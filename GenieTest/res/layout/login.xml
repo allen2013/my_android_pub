@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 	xmlns:android="http://schemas.android.com/apk/res/android"
+ 				android:layout_height="wrap_content" 
+ 				android:layout_width="wrap_content">
+<LinearLayout 	xmlns:android="http://schemas.android.com/apk/res/android"
+ 				android:layout_height="fill_parent" 
+ 				android:layout_width="fill_parent"
+ 				android:orientation="vertical">
+ 				
+ 	<TextView 	android:id="@+id/alertinfo" 
+ 				android:layout_height="fill_parent"
+  				android:layout_width="wrap_content" 
+  				android:text="@string/login_alertinfo" 
+  				android:textColor="@color/crimson" 
+  				android:visibility="gone" 
+  				android:layout_margin="5dp" android:textSize="19sp"/>				
+ 				
+	<TextView 	android:id="@+id/usernametv" 
+ 				android:layout_height="fill_parent"
+  				android:layout_width="fill_parent" android:text="@string/login_username" android:textSize="16dp" android:layout_marginTop="3dp"/>	
+
+ 	<EditText 	android:id="@+id/username" 
+ 				android:layout_height="fill_parent"
+  				android:layout_width="fill_parent" 
+  				android:editable="false"
+  				android:enabled="false"
+  				android:text="admin" />
+  	<TextView 	android:id="@+id/passwordtv" 
+ 				android:layout_height="fill_parent"
+  				android:layout_width="fill_parent" android:text="@string/login_password" android:textSize="16sp" android:layout_marginTop="3dp"/>				
+ 
+ 	<EditText 	android:id="@+id/password" 
+ 				android:layout_height="fill_parent"
+ 				android:layout_width="fill_parent" 
+ 				android:text="password"
+ 				android:inputType="textCapCharacters" 
+ 				android:password="true"/>
+  				
+	<CheckBox 	android:id="@+id/remeberpassword" 
+				android:layout_width="fill_parent" 
+				android:layout_height="fill_parent"
+				android:text="@string/remeberpassword" />
+
+</LinearLayout>
+</ScrollView>

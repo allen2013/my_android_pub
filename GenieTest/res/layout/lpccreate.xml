@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" >
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="vertical" android:padding="5sp">
+<TextView 
+		android:id="@+id/TextView01" 
+		android:layout_height="wrap_content" 
+		android:layout_width="fill_parent" android:text="@string/lpc_createintro">
+		</TextView>
+<LinearLayout 
+		android:id="@+id/LinearLayout01" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:orientation="horizontal">
+		<TextView 
+		android:id="@+id/createtv_name" 
+		android:layout_height="wrap_content" 
+		android:layout_width="100dip" android:text="@string/lpc_createname"></TextView>
+		<EditText 
+		android:id="@+id/createET_name" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" android:singleLine="true"
+		android:layout_weight="1" android:hint="@string/lpc_createname"></EditText>
+
+		</LinearLayout>
+<LinearLayout 
+		android:id="@+id/LinearLayout01" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:orientation="horizontal">
+		<TextView 
+		android:id="@+id/createtv_name" 
+		android:layout_height="wrap_content" 
+		android:layout_width="100dip" android:visibility="invisible"></TextView>
+	
+		<Button 
+		android:id="@+id/createBT_check" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:layout_weight="1" 
+		android:text="@string/lpc_createcheck" />
+		
+		</LinearLayout>
+<LinearLayout 
+		android:id="@+id/LinearLayout02" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" android:orientation="horizontal">
+		<TextView 
+		android:id="@+id/createtv_password" 
+		android:layout_height="wrap_content" 
+		android:layout_width="100dip" android:text="@string/lpc_createpassword"></TextView>
+		<EditText 
+		android:id="@+id/createET_password" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content"  android:singleLine="true"
+		android:layout_weight="1" android:hint="@string/lpc_createpassword" android:password="true"></EditText>
+		</LinearLayout>
+<LinearLayout 
+		android:id="@+id/LinearLayout03" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" android:orientation="horizontal">
+		<TextView 
+		android:id="@+id/createTV_password2" 
+		android:layout_height="wrap_content" 
+		android:text="@string/lpc_createpassword2" 
+		android:layout_width="100dip"></TextView>
+		<EditText 
+		android:id="@+id/createET_password2" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content"  android:singleLine="true"
+		android:layout_weight="1" android:hint="@string/lpc_createpassword2" android:password="true"></EditText>
+		</LinearLayout>	
+<LinearLayout 
+		android:id="@+id/LinearLayout04" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" android:orientation="horizontal">
+		<TextView 
+		android:id="@+id/createTV_email" 
+		android:layout_height="wrap_content" 
+		android:layout_width="100dip" android:text="@string/lpc_createemail"></TextView>
+		<EditText 
+		android:id="@+id/createET_email" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content"  android:singleLine="true"
+		android:layout_weight="1" android:hint="@string/lpc_createemail"></EditText>
+		</LinearLayout>	
+<LinearLayout 
+		android:id="@+id/LinearLayout05" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" android:orientation="horizontal">
+		<TextView 
+		android:id="@+id/createTV_email2" 
+		android:layout_height="wrap_content" 
+		android:layout_width="100dip" android:text="@string/lpc_createemail2"></TextView>
+		<EditText 
+		android:id="@+id/createET_email2" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content"  android:singleLine="true"
+		android:layout_weight="1" android:hint="@string/lpc_createemail2"></EditText>
+		</LinearLayout>						
+</LinearLayout>
+</ScrollView>

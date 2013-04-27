@@ -1,0 +1,1 @@
+NETGEAR Genie is distributed under license. No title to or ownership rights in NETGEAR Genie or any portion of NETGEAR Genie are transferred. The end user of NETGEAR Genie agrees not to reverse engineer, decompile, disassemble or otherwise attempt to discover the source code.

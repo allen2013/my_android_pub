@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dragonflow.iScrollView
+ xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"> <!-- android:background="#FFFFFF" android:gravity="center" -->
+ 
+    <LinearLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="60dip"
+    	android:layout_marginBottom="40dip" >
+    
+	 	<EditText 	android:id="@+id/speedurl" 
+	 				android:layout_width="0px"
+	 				android:layout_height="wrap_content"
+	 				android:inputType="textUri" 
+	 				android:text="www.netgear.com" 
+	 				android:layout_weight="4" /> <!-- "textCapCharacters" -->
+	 				
+	 	<Button 	android:id="@+id/speedbutton" 
+	 				android:layout_width="0px"
+	 				android:layout_height="wrap_content"
+	 				android:text="@string/ok" 
+	 				android:layout_weight="1" />
+ 	
+ 	</LinearLayout>
+ 				
+ 	<TextView 	android:id="@+id/speedtip" 
+ 				android:layout_height="wrap_content"
+  				android:layout_width="fill_parent" 
+  				android:text="@string/inputurl" 
+  				android:textColor="@color/Black"
+  				android:gravity="center" />
+
+</LinearLayout>
+</com.dragonflow.iScrollView>

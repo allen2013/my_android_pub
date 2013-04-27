@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dragonflow.iScrollView 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	xmlns:test="http://schemas.android.com/apk/res/com.netgear.genie" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent">
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical" 
+  android:paddingBottom="12dip" 
+  android:paddingLeft="12dip" 
+  android:paddingRight="12dip" 
+  android:paddingTop="12dip">	
+  
+<!-- TrafficMeter  -->  
+<LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical" 
+  android:background="@drawable/layout_bg_2" 
+  android:layout_marginBottom="5dip" 
+  android:layout_marginLeft="5dip" 
+  android:layout_marginRight="5dip" 
+  android:layout_marginTop="5dip">
+  <RelativeLayout
+   		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content" 
+  		>
+    	<TextView android:id="@+id/tmsetting_t04"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textSize="20sp"
+  			android:textStyle="bold"
+  			android:textColor="@color/Black"
+  			android:text="@string/traffic" 
+  			android:layout_marginLeft="5dip" 
+  			android:layout_centerVertical="true"/>  	
+		<CheckBox 
+			android:id="@+id/ToggleButton01" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+	  		android:layout_marginLeft="5dip" 
+	  		android:layout_marginBottom="5dip" 
+	  		android:layout_marginRight="5dip" 
+	  		android:layout_marginTop="5dip"
+			android:layout_alignParentRight="true" /> 
+		<!-- ToggleButton -->  
+		<!-- android:text="@+id/ToggleButton01"  -->
+  </RelativeLayout>
+</LinearLayout>	
+<!-- TrafficMeter  -->  
+
+<!-- setting  -->  
+<LinearLayout
+  android:id="@+id/layout_traffic_setting"		
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical" 
+  android:background="@drawable/layout_bg_2" 
+  android:layout_marginBottom="5dip" 
+  android:layout_marginLeft="5dip" 
+  android:layout_marginRight="5dip" 
+  android:layout_marginTop="5dip" 
+  android:visibility="gone">
+ 	 	
+   	
+         	 	
+   	<RelativeLayout
+   		android:id="@+id/setting_item02"
+   		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:clickable="true">
+  		<!-- Monthly limit -->
+  		<TextView 
+  			android:id="@+id/setting_traffic_3"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="@color/Black" 
+  			android:layout_marginLeft="5dip" 
+  			android:layout_marginRight="5dip" 
+  			android:textSize="18sp" 
+  			android:textStyle="bold"
+  			android:text="@string/trafficmeteritem02" 
+  			android:layout_below="@+id/setting_traffic_1"/>
+  		<TextView 
+  			android:id="@+id/setting_traffic_4"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="@color/textcolors01" 
+  			android:layout_marginLeft="5dip" 
+  			android:layout_marginRight="5dip" 
+  			android:textSize="16sp"
+  			android:layout_alignParentLeft="true" 
+  			android:layout_below="@+id/setting_traffic_3"/>	
+  	  	<ImageView
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+	  		android:layout_marginLeft="5dip" 
+	  		android:layout_marginBottom="5dip" 
+	  		android:layout_marginRight="5dip" 
+	  		android:layout_marginTop="5dip"
+			android:layout_alignParentRight="true" 
+			android:layout_centerVertical="true" 
+			android:background="@drawable/t_10"/> 		
+   	</RelativeLayout> 
+   	<View  android:layout_height="1dp"
+  			android:layout_width="fill_parent"
+         android:background="#dcdcdc" />	
+    <RelativeLayout
+   		android:id="@+id/setting_item04"
+   		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:clickable="true">
+  		<!-- Day -->
+  		<TextView 
+  			android:id="@+id/setting_traffic_7"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="@color/Black" 
+  			android:layout_marginLeft="5dip" 
+  			android:layout_marginRight="5dip" 
+  			android:textSize="18sp" 
+  			android:textStyle="bold"
+  			android:text="@string/trafficmeteritem05"/>
+  		<TextView 
+  			android:id="@+id/setting_traffic_8"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="@color/textcolors01" 
+  			android:layout_marginLeft="5dip" 
+  			android:layout_marginRight="5dip" 
+  			android:textSize="16sp"
+  			android:layout_alignParentLeft="true" 
+  			android:layout_below="@+id/setting_traffic_7"/>	
+  		<ImageView
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+	  		android:layout_marginLeft="5dip" 
+	  		android:layout_marginBottom="5dip" 
+	  		android:layout_marginRight="5dip" 
+	  		android:layout_marginTop="5dip"
+			android:layout_alignParentRight="true" 
+			android:layout_centerVertical="true" 
+			android:background="@drawable/t_10"/> 
+   	</RelativeLayout> 
+   	<View  android:layout_height="1dp"
+  		android:layout_width="fill_parent"
+        android:background="#dcdcdc" />
+   	<RelativeLayout
+   		android:id="@+id/setting_item03"
+   		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:clickable="true">
+  	  	<!-- Traffic Counter Restart Time -->
+  		<TextView 
+  			android:id="@+id/setting_traffic_5"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="@color/Black" 
+  			android:layout_marginLeft="5dip" 
+  			android:layout_marginRight="5dip" 
+  			android:textSize="18sp"
+  			
+  			android:textStyle="bold"
+  			android:text="@string/trafficmeteritem06"/>
+  		<TextView 
+  			android:id="@+id/setting_traffic_6"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="@color/textcolors01" 
+  			android:layout_marginLeft="5dip" 
+  			android:layout_marginRight="5dip" 
+  			android:textSize="16sp"
+  			android:layout_alignParentLeft="true" 
+  			android:layout_below="@+id/setting_traffic_5"/>	
+  		<ImageView
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+	  		android:layout_marginLeft="5dip" 
+	  		android:layout_marginBottom="5dip" 
+	  		android:layout_marginRight="5dip" 
+	  		android:layout_marginTop="5dip"
+			android:layout_alignParentRight="true" 
+			android:layout_centerVertical="true" 
+			android:background="@drawable/t_10"/> 
+   	</RelativeLayout> 
+   	<View  android:layout_height="1dp"
+  			android:layout_width="fill_parent"
+         android:background="#dcdcdc" />	
+   	<RelativeLayout
+   		android:id="@+id/setting_item01"
+   		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content" 
+  		android:clickable="true">
+		<!-- Traffic Volume Limit -->
+  		<TextView 
+  			android:id="@+id/setting_traffic_1"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="@color/Black"
+  			android:text="@string/trafficmeteritem01" 
+  			android:textStyle="bold"
+  			
+  			android:layout_marginLeft="5dip" 
+  			android:layout_marginRight="5dip" 
+  			android:textSize="18sp"/>
+  		<TextView 
+  			android:id="@+id/setting_traffic_2"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:layout_marginLeft="5dip" 
+  			android:layout_marginRight="5dip" 
+  			android:layout_alignParentLeft="true" 
+  			android:textColor="@color/textcolors01" 
+  			android:textSize="16sp" 
+  			android:layout_below="@+id/setting_traffic_1"/>	
+  		<ImageView
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+	  		android:layout_marginLeft="5dip" 
+	  		android:layout_marginBottom="5dip" 
+	  		android:layout_marginRight="5dip" 
+	  		android:layout_marginTop="5dip"
+			android:layout_alignParentRight="true" 
+			android:layout_centerVertical="true" 
+			android:background="@drawable/t_10"/> 	
+   	</RelativeLayout> 
+   	
+</LinearLayout>	
+<!-- setting  -->  
+
+
+
+
+<!-- today  -->  
+<LinearLayout
+  android:id="@+id/layout_today"		
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical" 
+  android:visibility="gone"
+  android:background="@drawable/layout_bg_2" android:layout_marginBottom="5sp" android:layout_marginLeft="5sp" android:layout_marginRight="5sp" android:layout_marginTop="5sp">
+  	<!-- 
+  	<TextView 
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:layout_marginBottom="5dp" 
+  			android:layout_marginTop="5dp" 
+  			android:layout_gravity="center" 
+  			android:textColor="@color/Black" 
+  			android:textSize="20sp"
+  			android:textStyle="bold"
+  			android:text="@string/today"/> 
+  			
+  	<View  android:layout_height="1dp"
+  			android:layout_width="fill_parent"
+         android:background="#dcdcdc" />	
+         	 	
+   	<RelativeLayout
+   		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content" >
+  		<TextView 
+  			android:id="@+id/today_time_tv"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="@color/Black" 
+  			android:layout_marginLeft="5dp" 
+  			android:layout_marginRight="5dp" 
+  			android:text="@string/Time" 
+  			android:textStyle="bold"
+  			android:textSize="18sp"/>
+  		<TextView 
+  			android:id="@+id/today_time"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:layout_marginLeft="5dp" 
+  			android:layout_marginRight="5dp" 
+  			android:text="0"
+  			android:layout_alignParentLeft="true" 
+  			android:textColor="@color/textcolors01" 
+  			android:textSize="18sp" 
+  			android:layout_below="@+id/today_time_tv"/>	
+   	</RelativeLayout> 
+   	<View  android:layout_height="1dp"
+  			android:layout_width="fill_parent"
+         android:background="#dcdcdc" />	
+         	 	
+   	<RelativeLayout
+   		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content">
+  		<TextView 
+  			android:id="@+id/today_upload_tv"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="@color/Black" 
+  			android:layout_marginLeft="5dp" 
+  			android:layout_marginRight="5dp" 
+  			android:textStyle="bold"
+  			android:textSize="18sp" android:text="@string/Upload"/>
+  		<TextView 
+  			android:id="@+id/today_upload"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:layout_marginLeft="5dp" 
+  			android:layout_marginRight="5dp" 
+  			android:textSize="18sp"
+  			android:text="0"
+  			android:layout_alignParentLeft="true" 
+  			android:textColor="@color/textcolors01" 
+  			android:layout_below="@+id/today_upload_tv"/>	
+   	</RelativeLayout> 
+   	<View  android:layout_height="1dp"
+  			android:layout_width="fill_parent"
+         android:background="#dcdcdc" />	
+         	 	
+   	<RelativeLayout
+   		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content">
+  		<TextView 
+  			android:id="@+id/today_download_tv"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="@color/Black" 
+  			android:layout_marginLeft="5dp" 
+  			android:layout_marginRight="5dp" 
+  			android:textStyle="bold"
+  			android:textSize="18sp"
+  			android:text="@string/Download"/>
+  		<TextView 
+  			android:id="@+id/today_download"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:layout_marginLeft="5dp" 
+  			android:layout_marginRight="5dp" 
+  			android:textSize="18sp"
+  			android:text="0"
+  			android:layout_alignParentLeft="true" 
+  			android:textColor="@color/textcolors01" 
+  			android:layout_below="@+id/today_download_tv"/>	
+   	</RelativeLayout> 
+   	<View  android:layout_height="1dp"
+  			android:layout_width="fill_parent"
+         android:background="#dcdcdc" />	
+         	 	
+   	<RelativeLayout
+   		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content">
+  		<TextView 
+  			android:id="@+id/today_total_tv"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="@color/Black" 
+  			android:layout_marginLeft="5dp" 
+  			android:layout_marginRight="5dp" 
+  			android:textStyle="bold"
+  			android:textSize="18sp"
+  			android:text="@string/Total"/>
+  		<TextView 
+  			android:id="@+id/today_total"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:layout_marginLeft="5dp" 
+  			android:layout_marginRight="5dp" 
+  			android:textSize="18sp"
+  			android:text="0"
+  			android:layout_alignParentLeft="true" 
+  			android:textColor="@color/textcolors01" 
+  			android:layout_below="@+id/today_total_tv"/>	
+   	</RelativeLayout> 
+   	android:background="@drawable/dialog_alert_bg2"
+   	 -->
+   	 <com.chart.widget.HistogramView android:id="@+id/histogramView1"
+		    android:layout_width="fill_parent"
+		    android:layout_height="300dip"
+		     />
+</LinearLayout>	
+<!-- today  -->  
+
+<!-- yesterday  -->  
+<LinearLayout
+android:id="@+id/layout_yesterday"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical" 
+  android:visibility="gone"
+  android:background="@drawable/layout_bg_2" android:layout_marginBottom="5sp" android:layout_marginLeft="5sp" android:layout_marginRight="5sp" android:layout_marginTop="5sp">
+  	<!-- 
+  	<TextView 
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:layout_marginBottom="5dp" 
+  			android:layout_marginTop="5dp" 
+  			android:layout_gravity="center" 
+  			android:textSize="20sp"
+  			android:textStyle="bold"
+  			android:textColor="@color/Black" android:text="@string/yesterday"/> 
+  			
+  	<View  android:layout_height="1dp"
+  			android:layout_width="fill_parent"
+         android:background="#dcdcdc" />	
+         	 	
+   	<RelativeLayout
+   		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content">
+  		<TextView 
+  			android:id="@+id/yesterday_time_tv"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="@color/Black" 
+  			android:layout_marginLeft="5dp" 
+  			android:layout_marginRight="5dp" 
+  			android:textStyle="bold"
+  			android:textSize="18sp"
+  			android:text="@string/Time" />
+  		<TextView 
+  			android:id="@+id/yesterday_time"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:layout_marginLeft="5dp" 
+  			android:layout_marginRight="5dp" 
+  			android:textSize="18sp"
+  			android:text="0"
+  			android:layout_alignParentLeft="true" 
+  			android:textColor="@color/textcolors01" 
+  			android:layout_below="@+id/yesterday_time_tv"/>	
+   	</RelativeLayout> 
+   	<View  android:layout_height="1dp"
+  			android:layout_width="fill_parent"
+         android:background="#dcdcdc" />	
+         	 	
+   	<RelativeLayout
+   		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content">
+  		<TextView 
+  			android:id="@+id/yesterday_upload_tv"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="@color/Black" 
+  			android:layout_marginLeft="5dp" 
+  			android:layout_marginRight="5dp" 
+  			android:textStyle="bold"
+  			android:textSize="18sp" android:text="@string/Upload"/>
+  		<TextView 
+  			android:id="@+id/yesterday_upload"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:layout_marginLeft="5dp" 
+  			android:layout_marginRight="5dp" 
+  			android:textSize="18sp"
+  			android:text="0"
+  			android:layout_alignParentLeft="true" 
+  			android:textColor="@color/textcolors01" 
+  			android:layout_below="@+id/yesterday_upload_tv"/>	
+   	</RelativeLayout> 
+   	<View  android:layout_height="1dp"
+  			android:layout_width="fill_parent"
+         android:background="#dcdcdc" />	
+         	 	
+   	<RelativeLayout
+   		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content">
+  		<TextView 
+  			android:id="@+id/yesterday_download_tv"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="@color/Black" 
+  			android:layout_marginLeft="5dp" 
+  			android:layout_marginRight="5dp" 
+  			android:textStyle="bold"
+  			android:textSize="18sp"
+  			android:text="@string/Download"/>
+  		<TextView 
+  			android:id="@+id/yesterday_download"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:layout_marginLeft="5dp" 
+  			android:layout_marginRight="5dp" 
+  			android:textSize="18sp"
+  			android:text="0"
+  			android:layout_alignParentLeft="true" 
+  			android:textColor="@color/textcolors01" 
+  			android:layout_below="@+id/yesterday_download_tv"/>	
+   	</RelativeLayout> 
+   	<View  android:layout_height="1dp"
+  			android:layout_width="fill_parent"
+         android:background="#dcdcdc" />	
+         	 	
+   	<RelativeLayout
+   		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content">
+  		<TextView 
+  			android:id="@+id/yesterday_total_tv"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="@color/Black" 
+  			android:layout_marginLeft="5dp" 
+  			android:layout_marginRight="5dp" 
+  			android:textStyle="bold"
+  			android:textSize="18sp"
+  			android:text="@string/Total"/>
+  		<TextView 
+  			android:id="@+id/yesterday_total"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:layout_marginLeft="5dp" 
+  			android:layout_marginRight="5dp" 
+  			android:textSize="18sp"
+  			android:text="0"
+  			android:layout_alignParentLeft="true" 
+  			android:textColor="@color/textcolors01" 
+  			android:layout_below="@+id/yesterday_total_tv"/>	
+   	</RelativeLayout> 
+   	android:background="@drawable/dialog_alert_bg2"
+   	 -->
+   	 <com.chart.widget.HistogramView android:id="@+id/histogramView2"
+		    android:layout_width="fill_parent"
+		    android:layout_height="300dip"
+		     />
+</LinearLayout>	
+<!-- yesterday  --> 
+
+
+<!-- this week  -->  
+<LinearLayout
+android:id="@+id/layout_week"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical" 
+  android:visibility="gone"
+  android:background="@drawable/layout_bg_2" android:layout_marginBottom="5sp" android:layout_marginLeft="5sp" android:layout_marginRight="5sp" android:layout_marginTop="5sp">
+  <!-- 
+    	<TextView 
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:layout_marginBottom="5dp" 
+  			android:layout_marginTop="5dp" 
+  			android:layout_gravity="center" 
+  			android:textSize="20sp"
+  			android:textStyle="bold"
+  			android:textColor="@color/Black" android:text="@string/this_week"/> 
+  			
+  	<View  android:layout_height="1dp"
+  			android:layout_width="fill_parent"
+         android:background="#dcdcdc" />	
+         	 	
+   	<RelativeLayout
+   		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content">
+  		<TextView 
+  			android:id="@+id/week_time_tv"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="@color/Black" 
+  			android:layout_marginLeft="5dp" 
+  			android:layout_marginRight="5dp" 
+  			android:textStyle="bold"
+  			android:textSize="18sp"
+  			android:text="@string/Time" />
+  		<TextView 
+  			android:id="@+id/week_time"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:layout_marginLeft="5dp" 
+  			android:layout_marginRight="5dp" 
+  			android:textSize="18sp"
+  			android:text="0"
+  			android:layout_alignParentLeft="true" 
+  			android:textColor="@color/textcolors01" 
+  			android:layout_below="@+id/week_time_tv"/>	
+   	</RelativeLayout> 
+   	<View  android:layout_height="1dp"
+  			android:layout_width="fill_parent"
+         android:background="#dcdcdc" />	
+         	 	
+   	<RelativeLayout
+   		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content">
+  		<TextView 
+  			android:id="@+id/week_upload_tv"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="@color/Black" 
+  			android:layout_marginLeft="5dp" 
+  			android:layout_marginRight="5dp" 
+  			android:textStyle="bold"
+  			android:textSize="18sp" android:text="@string/Upload"/>
+  		<TextView 
+  			android:id="@+id/week_upload"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:layout_marginLeft="5dp" 
+  			android:layout_marginRight="5dp" 
+  			android:textSize="18sp"
+  			android:text="0"
+  			android:layout_alignParentLeft="true" 
+  			android:textColor="@color/textcolors01" 
+  			android:layout_below="@+id/week_upload_tv"/>	
+   	</RelativeLayout> 
+   	<View  android:layout_height="1dp"
+  			android:layout_width="fill_parent"
+         android:background="#dcdcdc" />	
+         	 	
+   	<RelativeLayout
+   		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content" >
+  		<TextView 
+  			android:id="@+id/week_download_tv"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="@color/Black" 
+  			android:layout_marginLeft="5dp" 
+  			android:layout_marginRight="5dp" 
+  			android:textStyle="bold"
+  			android:textSize="18sp"
+  			android:text="@string/Download"/>
+  		<TextView 
+  			android:id="@+id/week_download"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:layout_marginLeft="5dp" 
+  			android:layout_marginRight="5dp" 
+  			android:textSize="18sp"
+  			android:text="0"
+  			android:layout_alignParentLeft="true" 
+  			android:textColor="@color/textcolors01" 
+  			android:layout_below="@+id/week_download_tv"/>	
+   	</RelativeLayout> 
+   	<View  android:layout_height="1dp"
+  			android:layout_width="fill_parent"
+         android:background="#dcdcdc" />	
+         	 	
+   	<RelativeLayout
+   		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content">
+  		<TextView 
+  			android:id="@+id/week_total_tv"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="@color/Black" 
+  			android:layout_marginLeft="5dp" 
+  			android:layout_marginRight="5dp" 
+  			android:textStyle="bold"
+  			android:textSize="18sp"
+  			android:text="@string/Total"/>
+  		<TextView 
+  			android:id="@+id/week_total"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:layout_marginLeft="5dp" 
+  			android:layout_marginRight="5dp" 
+  			android:textSize="18sp"
+  			android:text="0"
+  			android:layout_alignParentLeft="true" 
+  			android:textColor="@color/textcolors01" 
+  			android:layout_below="@+id/week_total_tv"/>	
+   	</RelativeLayout> 
+   	<com.chart.widget.HistogramView android:id="@+id/histogramView3"
+		    android:layout_width="fill_parent"
+		    android:layout_height="300dip"
+		    test:text="Traffic  Meter 2"
+		    android:background="@drawable/dialog_alert_bg2" />
+   	 -->
+   	 
+</LinearLayout>	
+<!-- this week   --> 
+
+<!-- this month  -->  
+<LinearLayout
+android:id="@+id/layout_month"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical" 
+  android:visibility="gone"
+  android:background="@drawable/layout_bg_2" android:layout_marginBottom="5sp" android:layout_marginLeft="5sp" android:layout_marginRight="5sp" android:layout_marginTop="5sp">
+  	<!-- 
+  	<TextView 
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:layout_marginBottom="5dp" 
+  			android:layout_marginTop="5dp" 
+  			android:layout_gravity="center" 
+  			android:textSize="20sp"
+  			android:textStyle="bold"
+  			android:textColor="@color/Black" android:text="@string/this_month"/> 
+  			
+  	<View  android:layout_height="1dp"
+  			android:layout_width="fill_parent"
+         android:background="#dcdcdc" />	
+         	 	
+   	<RelativeLayout
+   		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content">
+  		<TextView 
+  			android:id="@+id/month_time_tv"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="@color/Black" 
+  			android:layout_marginLeft="5dp" 
+  			android:layout_marginRight="5dp" 
+  			android:textStyle="bold"
+  			android:textSize="18sp"
+  			android:text="@string/Time" />
+  		<TextView 
+  			android:id="@+id/month_time"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:layout_marginLeft="5dp" 
+  			android:layout_marginRight="5dp" 
+  			android:textSize="18sp"
+  			android:text="0"
+  			android:layout_alignParentLeft="true" 
+  			android:textColor="@color/textcolors01" 
+  			android:layout_below="@+id/month_time_tv"/>	
+   	</RelativeLayout> 
+   	<View  android:layout_height="1dp"
+  			android:layout_width="fill_parent"
+         android:background="#dcdcdc" />	
+         	 	
+   	<RelativeLayout
+   		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content">
+  		<TextView 
+  			android:id="@+id/month_upload_tv"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="@color/Black" 
+  			android:layout_marginLeft="5dp" 
+  			android:layout_marginRight="5dp" 
+  			android:textStyle="bold"
+  			android:textSize="18sp" android:text="@string/Upload"/>
+  		<TextView 
+  			android:id="@+id/month_upload"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:layout_marginLeft="5dp" 
+  			android:layout_marginRight="5dp" 
+  			android:textSize="18sp"
+  			android:text="0"
+  			android:layout_alignParentLeft="true" 
+  			android:textColor="@color/textcolors01" 
+  			android:layout_below="@+id/month_upload_tv"/>	
+   	</RelativeLayout> 
+   	<View  android:layout_height="1dp"
+  			android:layout_width="fill_parent"
+         android:background="#dcdcdc" />	
+         	 	
+   	<RelativeLayout
+   		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content">
+  		<TextView 
+  			android:id="@+id/month_download_tv"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="@color/Black" 
+  			android:layout_marginLeft="5dp" 
+  			android:layout_marginRight="5dp" 
+  			android:textStyle="bold"
+  			android:textSize="18sp" android:text="@string/Download"/>
+  		<TextView 
+  			android:id="@+id/month_download"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:layout_marginLeft="5dp" 
+  			android:layout_marginRight="5dp" 
+  			android:textSize="18sp"
+  			android:text="0"
+  			android:layout_alignParentLeft="true" 
+  			android:textColor="@color/textcolors01" 
+  			android:layout_below="@+id/month_download_tv"/>	
+   	</RelativeLayout> 
+   	<View  android:layout_height="1dp"
+  			android:layout_width="fill_parent"
+         android:background="#dcdcdc" />	
+         	 	
+   	<RelativeLayout
+   		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content">
+  		<TextView 
+  			android:id="@+id/month_total_tv"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="@color/Black" 
+  			android:layout_marginLeft="5dp" 
+  			android:layout_marginRight="5dp" 
+  			android:textStyle="bold"
+  			android:textSize="18sp" android:text="@string/Total"/>
+  		<TextView 
+  			android:id="@+id/month_total"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:layout_marginLeft="5dp" 
+  			android:layout_marginRight="5dp" 
+  			android:textSize="18sp"
+  			android:text="0"
+  			android:layout_alignParentLeft="true" 
+  			android:textColor="@color/textcolors01" 
+  			android:layout_below="@+id/month_total_tv"/>	
+   	</RelativeLayout> 
+   	 <com.chart.widget.HistogramView android:id="@+id/histogramView4"
+		    android:layout_width="fill_parent"
+		    android:layout_height="300dip"
+		    test:text="Traffic  Meter 2"
+		    android:background="@drawable/dialog_alert_bg2" />
+   	 -->
+   	
+</LinearLayout>	
+<!-- this month   --> 
+
+<!-- last month  -->  
+<LinearLayout
+android:id="@+id/layout_lastmonth"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical" 
+  android:visibility="gone"
+  android:background="@drawable/layout_bg_2" android:layout_marginBottom="5sp" android:layout_marginLeft="5sp" android:layout_marginRight="5sp" android:layout_marginTop="5sp">
+  	<!-- 
+  	<TextView 
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:layout_marginBottom="5dp" 
+  			android:layout_marginTop="5dp" 
+  			android:layout_gravity="center" 
+  			android:textSize="20sp"
+  			android:textStyle="bold"
+  			android:textColor="@color/Black" android:text="@string/last_month"/> 
+  			
+  	<View  android:layout_height="1dp"
+  			android:layout_width="fill_parent"
+         android:background="#dcdcdc" />	
+         	 	
+   	<RelativeLayout
+   		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content">
+  		<TextView 
+  			android:id="@+id/last_month_time_tv"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="@color/Black" 
+  			android:layout_marginLeft="5dp" 
+  			android:layout_marginRight="5dp" 
+  			android:textStyle="bold"
+  			android:textSize="18sp"
+  			android:text="@string/Time" />
+  		<TextView 
+  			android:id="@+id/last_month_time"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:layout_marginLeft="5dp" 
+  			android:layout_marginRight="5dp" 
+  			android:textSize="18sp"
+  			android:text="0"
+  			android:layout_alignParentLeft="true" 
+  			android:textColor="@color/textcolors01" 
+  			android:layout_below="@+id/last_month_time_tv"/>	
+   	</RelativeLayout> 
+   	<View  android:layout_height="1dp"
+  			android:layout_width="fill_parent"
+         android:background="#dcdcdc" />	
+         	 	
+   	<RelativeLayout
+   		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content">
+  		<TextView 
+  			android:id="@+id/last_month_upload_tv"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="@color/Black" 
+  			android:layout_marginLeft="5dp" 
+  			android:layout_marginRight="5dp" 
+  			android:textStyle="bold"
+  			android:textSize="18sp" android:text="@string/Upload"/>
+  		<TextView 
+  			android:id="@+id/last_month_upload"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:layout_marginLeft="5dp" 
+  			android:layout_marginRight="5dp" 
+  			android:textSize="18sp"
+  			android:text="0"
+  			android:layout_alignParentLeft="true" 
+  			android:textColor="@color/textcolors01" 
+  			android:layout_below="@+id/last_month_upload_tv"/>	
+   	</RelativeLayout> 
+   	<View  android:layout_height="1dp"
+  			android:layout_width="fill_parent"
+         android:background="#dcdcdc" />	
+         	 	
+   	<RelativeLayout
+   		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content">
+  		<TextView 
+  			android:id="@+id/last_month_download_tv"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="@color/Black" 
+  			android:layout_marginLeft="5dp" 
+  			android:layout_marginRight="5dp" 
+  			android:textStyle="bold"
+  			android:textSize="18sp" android:text="@string/Download"/>
+  		<TextView 
+  			android:id="@+id/last_month_download"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:layout_marginLeft="5dp" 
+  			android:layout_marginRight="5dp" 
+  			android:textSize="18sp"
+  			android:text="0"
+  			android:layout_alignParentLeft="true" 
+  			android:textColor="@color/textcolors01" 
+  			android:layout_below="@+id/last_month_download_tv"/>	
+   	</RelativeLayout> 
+   	<View  android:layout_height="1dp"
+  			android:layout_width="fill_parent"
+         android:background="#dcdcdc" />	
+         	 	
+   	<RelativeLayout
+   		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content">
+  		<TextView 
+  			android:id="@+id/last_month_total_tv"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="@color/Black" 
+  			android:layout_marginLeft="5dp" 
+  			android:layout_marginRight="5dp" 
+  			android:textStyle="bold"
+  			android:textSize="18sp" android:text="@string/Total"/>
+  		<TextView 
+  			android:id="@+id/last_month_total"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:layout_marginLeft="5dp" 
+  			android:layout_marginRight="5dp" 
+  			android:textSize="18sp"
+  			android:text="0"
+  			android:layout_alignParentLeft="true" 
+  			android:textColor="@color/textcolors01" 
+  			android:layout_below="@+id/last_month_total_tv"/>	
+   	</RelativeLayout> 
+   	 <com.chart.widget.HistogramView android:id="@+id/histogramView5"
+		    android:layout_width="fill_parent"
+		    android:layout_height="300dip"
+		    test:text="Traffic  Meter 2"
+		    android:background="@drawable/dialog_alert_bg2" />
+   	 -->
+   	
+</LinearLayout>	
+<!-- this month   --> 
+
+</LinearLayout>
+</com.dragonflow.iScrollView>  

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/auto_close"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+         android:clickable="true"
+        android:background="@android:drawable/list_selector_background"
+        android:text="@string/auto_close" />
+
+    <TextView
+        android:id="@+id/auto_5s"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@android:drawable/list_selector_background"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="@string/slide_rast" />
+    
+    <TextView
+        android:id="@+id/auto_10s"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@android:drawable/list_selector_background"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="@string/slide_normal" />
+
+    <TextView
+        android:id="@+id/auto_15s"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@android:drawable/list_selector_background"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="@string/slide_slow" />
+
+    <!--  <TextView
+        android:id="@+id/auto_20s"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+         android:clickable="true"
+        android:background="@android:drawable/list_selector_background"
+        android:text="@string/auto_20s" />
+    
+    <TextView
+        android:id="@+id/auto_25s"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+         android:clickable="true"
+        android:background="@android:drawable/list_selector_background"
+        android:text="@string/auto_25s" />
+    
+    <TextView
+        android:id="@+id/auto_30s"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+         android:clickable="true"
+        android:background="@android:drawable/list_selector_background"
+        android:text="@string/auto_30s" />
+         -->
+
+</LinearLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="CustomWindowTitleBackground">
+        <item name="android:background">@drawable/title_bj</item>
+    </style>
+    <style name="activityTitlebar" parent="android:Theme">
+    	<item name="android:windowNoTitle">false</item>
+        <item name="android:windowTitleSize">88dip</item>
+        <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+    </style>
+    <style name="activityTitlebarNoSearch" parent="android:Theme">    	
+    	<item name="android:windowNoTitle">false</item>
+        <item name="android:windowTitleSize">44dip</item>
+        <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+    </style>
+    <style name="bigactivityTitlebar" parent="android:Theme">
+    	<item name="android:windowNoTitle">false</item>
+        <item name="android:windowTitleSize">108dip</item>
+        <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+    </style>
+    <style name="bigactivityTitlebarNoSearch" parent="android:Theme">    	
+    	<item name="android:windowNoTitle">false</item>
+        <item name="android:windowTitleSize">54dip</item>
+        <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+    </style>
+    
+    <style name="mainviewbg" parent="android:Theme">
+    	<item name="android:windowTitleSize">0dip</item>
+     	<item name="android:windowBackground">@drawable/mainbg</item>
+	</style>
+    
+    <style name="notitle">
+		<item name="android:windowNoTitle">true</item> 
+	</style>
+	
+	<style name="listtextsize" parent="android:Theme">
+    	<item name="android:textSize">18sp</item>
+    	<item name="android:textColor">#000000</item>
+	</style>
+
+    <style name="main_tab_bottom">
+        <item name="android:textSize">@dimen/bottom_tab_font_size</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@drawable/home_btn_bg</item>
+        <item name="android:paddingTop">@dimen/bottom_tab_padding_up</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>  
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">@dimen/bottom_tab_padding_drawable</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    
+    <style name="fb_tab_bottom">
+        <item name="android:textSize">@dimen/bottom_tab_font_size</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@drawable/fb_toolbar_sbg</item>
+        <item name="android:paddingTop">@dimen/bottom_tab_padding_up</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>  
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">@dimen/bottom_tab_padding_drawable</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+
+		<item name="android:windowFrame">@null</item>
+
+		<item name="android:windowIsFloating">true</item>
+
+		<item name="android:windowIsTranslucent">true</item>
+
+		<item name="android:windowNoTitle">false</item>
+
+		<item name="android:background">#f02fcfff</item>
+		<item name="android:windowContentOverlay">@null</item>
+
+		<item name="android:backgroundDimEnabled">false</item>
+
+	</style>
+    <style name="smartpopwindow_anim_style">
+        <item name="android:windowEnterAnimation">@anim/popup_up_in</item> <!-- 指定显示的动画xml -->
+        <!-- <item name="android:windowExitAnimation">@anim/hold</item>  指定消失的动画xml -->
+    </style>
+    
+    <style name="AppTheme" parent="android:Theme.Light" />
+
+    <style name="Animation_dropdown" mce_bogus="1" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/popup_enter</item>
+        <item name="android:windowExitAnimation">@anim/popup_exit</item>
+    </style>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="vertical" android:background="#FFFFFF">
+ 	
+<com.dragonflow.ScrollLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/ScrollLayout"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="#E5E5FB">
+
+</com.dragonflow.ScrollLayout>  
+<LinearLayout 
+    android:id="@+id/popuppage"
+   	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginBottom="5dip"
+    android:layout_gravity="bottom|center">
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+   android:orientation="vertical"
+   android:background="#FFCBD2D8">
+<ListView android:id="@+id/ListView01" 
+	android:layout_height="wrap_content" 
+	android:layout_width="match_parent"
+	android:fastScrollEnabled="true"
+	android:textColor="@color/Black"
+	android:cacheColorHint="#00000000"></ListView>   
+
+<LinearLayout	
+	android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:layout_alignParentBottom="true" 
+	android:background="@drawable/play_bj" 
+	android:gravity="center">
+    	<LinearLayout	
+	android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:layout_marginLeft="5sp" 
+    android:layout_marginRight="5sp" 
+    android:layout_marginBottom="10sp" 
+    android:layout_marginTop="10sp">
+    	
+    	<ImageView
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+    	></ImageView>
+    	<Button
+    	android:id="@+id/Button_pause" 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:background="@drawable/play_pause_off"
+    	></Button>
+    	<ImageView
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+    	></ImageView>
+    	<Button
+    	android:id="@+id/Button_play" 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:background="@drawable/play_play_off"
+    	></Button>
+    	<ImageView
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+    	></ImageView>
+    	<Button
+    	android:id="@+id/Button_stop" 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:background="@drawable/play_stop_off"
+    	></Button>
+    	<ImageView
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+    	></ImageView>
+    	
+    </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

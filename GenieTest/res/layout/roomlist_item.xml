@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants" >
+
+    <TextView
+        android:id="@+id/roomname"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="6"
+        android:gravity="center|left"
+        android:paddingLeft="5dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/MediumSeaGreen"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/roomsignal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="6"
+        android:gravity="center_vertical"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Black"
+        android:textSize="18dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="8"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/rs_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/title_bt_bj"
+            android:text="@string/test_wifisignal"
+            android:textColor="@android:color/white"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+</LinearLayout>

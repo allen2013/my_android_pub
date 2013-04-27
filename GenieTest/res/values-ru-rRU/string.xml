@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="wireless">Настройки Wi-Fi</string>
+<string name="settings">Настройки</string>
+<string name="guestaccess">Гостевой доступ</string>
+<string name="guestsettings">Параметры гостевого доступа</string>
+<string name="map">Карта сети</string>
+<string name="traffic">Счетчик трафика</string>
+<string name="parentalcontrl">Родительск. контроль</string>
+<string name="marketplace">Marketplace</string>
+
+<string name="loadingtraffic">Загрузка счетчика трафика</string>
+<string name="loadingmap">Загрузка карты сети</string>
+<string name="loadingguestaccess">Загрузка гостевого доступа</string>
+<string name="loadingwireless">Загрузка параметров беспроводного соединения</string>
+<string name="loadingparentalcontrl">Загрузка родительского контроля</string>
+<string name="loadingmymedia">Загрузка "Мои мультимедиа</string>
+
+
+<string name="remeberpassword">Запомнить пароль</string>
+<string name="login">Вход в систему</string>
+<string name="ok">OK</string>
+<string name="cancel">Отмена</string>
+<string name="wirelessname">Имя/SSID</string>
+<string name="name">SSID</string>
+<string name="channel">Канал</string>
+<string name="networkkey">Ключ/пароль</string>
+<string name="key">Пароль</string>
+<string name="securityoptions">Параметры безопасности</string>
+<string name="Period">Период подсчета</string>
+<string name="Time">Время подключения (Ч:М)</string>
+<string name="Upload">Передача/среднее (М)</string>
+<string name="Download">Загрузка/среднее (М)</string>
+<string name="Total">Всего/среднее (М)</string>
+<string name="Lpc_status">Состояние</string>
+<string name="Lpc_control">Родительск. контроль</string>
+<string name="Enable">Включить</string>
+<string name="Disable">Отключить</string>
+<string name="Filteringlevel">Уровень фильтрации</string>
+<string name="OpenDNSaccount">Учетная запись OpenDNS</string>
+<string name="Filteringchang">Изменение основных настроек</string>
+<string name="lpc_Positive">Назад</string>
+<string name="lpc_Negative"> Далее </string>
+<string name="Lpc_done">Готово</string>
+<string name="lpc_presignlntitle">Настройка Live Parental Controls</string>
+<string name="lpc_createtitle">Создание бесплатной учетной записи OpenDNS.</string>
+<string name="lpc_createname">Имя пользователя</string>
+<string name="lpc_createpassword">Пароль</string>
+<string name="lpc_createpassword2">Подтвердите пароль</string>
+<string name="lpc_createemail">Адрес эл. Почты</string>
+<string name="lpc_createemail2">Подтвердите адрес эл. Почты</string>
+<string name="lpc_createeinvalidmail">Недействительный адрес эл. Почты</string>
+<string name="lpc_createcheck">Проверить доступность</string>
+<string name="lpcsignintitle">Зарегистрируйтесь с использованием своей учетной записи OpenDNS</string>
+<string name="lpcsigninintro">Ниже введите свое имя пользователя и пароль.</string>
+<string name="lpc_createintro">Введите свою информацию ниже.</string>
+<string name="lpc_presignintro">Вас приветствует мастер установки, который быстро выполнит настройку NETGEAR Live Parental Controls с использованием сервиса OpenDNS на вашем маршрутизаторе NETGEAR.</string>
+<string name="lpc_presignintro1">Для использования Live Parental Controls требуется бесплатная учетная запись OpenDNS. Она у вас уже есть?</string>
+<string name="lpc_presigninexist">Да, использовать мою существующую учетную запись OpenDNS.</string>
+<string name="lpc_presignincreate">Нет, мне нужно создать бесплатную учетную запись OpenDNS.</string>
+<string name="lpcsettitle">Уровень фильтрации</string>
+<string name="lpcsetintro">Все компьютеры, подключенные к вашему маршрутизатору, буду защищены от контента, который вы выберите ниже. Можно выполнить настройку Live Parental Controls позже на нашем веб-сайте.</string>
+<string name="lpcset_none">Отсутствует</string>
+<string name="lpcset_none_text">Блокировка не включена.</string>
+<string name="lpcset_minimal">Минимальный</string>
+<string name="lpcset_minimal_text">Защита только от фишинг-атак.</string>
+<string name="lpcset_low">Низкий</string>
+<string name="lpcset_low_text">Защита от посещения веб-сайтов с порнографическим содержимым и от фишинг-атак.</string>
+<string name="lpcset_moderate">Средний</string>
+<string name="lpcset_moderate_text">Защита от посещения всех веб-сайтов, предназначенных для взрослых, веб-сайтов, занимающихся противозаконной деятельностью, и от фишинг-атак.</string>
+<string name="lpcset_high">Высокий</string>
+<string name="lpcset_high_text">Защита от посещения всех веб-сайтов, предназначенных для взрослых, веб-сайтов, занимающихся противозаконной деятельностью, веб-сайтов социальных сетей, веб-сайтов, предназначенных для обмена видеоматериалами, от фишинг-атак и от посещения веб-сайтов, напрасно отнимающих время.</string>
+<string name="lpc">Родительск. контроль</string>
+<string name="lpc_donetitle">Настройка завершена!</string>
+<string name="lpc_doneintro">Настройка NETGEAR Live Parental Controls с использованием сервиса OpenDNS успешно завершена. При следующем запуске утилиты управления отобразится экран состояния, на котором можно выполнить следующие действия:</string>
+<string name="lpc_doneintro1">проверить, включена ли утилита Live Parental Controls</string>
+<string name="lpc_doneintro2">отключить или включить Live Parental Controls</string>
+<string name="lpc_doneintro3">изменить основные настройки</string>
+<string name="lpc_doneintro4">изменить такие пользовательские настройки, как Live Parental Controls для определенных пользователей и времени суток</string>
+<string name="lpc_done_bttext">Перейти на экран состояния</string>
+<string name="lpc_introtitle">Внимание!</string>
+<string name="lpc_introtext">Для установки родительского контроля Live Parental Controls необходимо иметь учетную запись OpenDNS. Учетная запись уже создана?</string>
+<string name="lpc_enable">Включено</string>
+<string name="lpc_disable">Отключено</string>
+<string name="search">Поиск</string>
+<string name="speedtest_text">Текущая скорость загрузки с данного web-сайта: %2 Кбит/с</string>
+<string name="Kbps">Кбит/с</string>
+<string name="Clickhere">нажмите здесь</string>
+<string name="Lpc_manage_nothing">Блокировка не включена.</string>
+<string name="lpc_manage_customset">Изменение пользовательских настроек</string>
+<string name="notenabled">Отключено</string>
+<string name="connected">Подключено</string>
+<string name="guestaccess_time">Период времени</string>
+<string name="guestaccess_security">Параметры безопасности</string>
+<string name="disableguest_text">Используется доступ для гостей. При отключении доступа для гостей активный трафик в беспроводной сети может быть приостановлен. Продолжить?</string>
+<string name="wpa">Безопасность</string>
+<string name="about_title">О программе NETGEAR genie</string>
+<string name="about_info">Авторские права (c) NETGEAR Inc., 2013</string>
+<string name="about_info1">Все права защищены.</string>
+<string name="about_info2">С использованием сервиса SiteView</string>
+<string name="version">Версия</string>
+<string name="close">Закрыть</string>
+<string name="notsupport">Маршрутизатор не поддерживает данную функцию.</string>
+<string name="gatewaydev">Маршрутизатор</string>
+<string name="networkdev">Сетевое устройство</string>
+<string name="windowspc">ПК с Windows</string>
+<string name="blurayplayer">Плеер Blu-ray</string>
+<string name="bridge">Мост</string>
+<string name="cablestb">Кабельная STB</string>
+<string name="cameradev">Камера</string>
+<string name="gamedev">Игровая приставка</string>
+<string name="imacdev">iMac</string>
+<string name="ipad">iPad</string>
+<string name="iphone">iPhone</string>
+<string name="ipodtouch">iPod Touch</string>
+<string name="linuxpc">Linux PC</string>
+<string name="macbookdev">MacBook</string>
+<string name="macminidev">Mac Mini</string>
+<string name="macprodev">Mac Pro</string>
+<string name="mediadev">Мультимедийное устройство</string>
+<string name="mobiledev">Смартфон</string>
+<string name="netstoragedev">Устройство хранения</string>
+<string name="switchdev">Коммутатор</string>
+<string name="printerdev">Принтер</string>
+<string name="repeater">Повторитель</string>
+<string name="satellitestb">Спутниковая STB</string>
+<string name="scannerdev">Сканер</string>
+<string name="slingbox">SlingBox</string>
+<string name="stb">Другая STB</string>
+<string name="tablepc">Планшет</string>
+<string name="tv">Телевизор</string>
+<string name="unixpc">ПК с UNIX</string>
+<string name="map_custom">Собственное имя</string>
+<string name="map_type">Тип</string>
+<string name="map_ip">IP-адрес</string>
+<string name="map_mac">MAC-адрес</string>
+<string name="modify">Изменить</string>
+<string name="refresh">Обновить</string>
+<string name="apply">Применить</string>
+<string name="custom">Пользовательская установка</string>
+<string name="Traffic_set_text_1">Сбросить счетчик трафика в</string>
+<string name="traffic_set_text_2">Время запуска счетчика трафика</string>
+<string name="traffic_set_hour">Часов</string>
+<string name="traffic_set_minute">Минут</string>
+<string name="traffic_set_text_3">на</string>
+<string name="traffic_set_text_4">день каждого месяца</string>
+<string name="today">Сегодня</string>
+<string name="yesterday">Вчера</string>
+<string name="this_week">За неделю</string>
+<string name="this_month">За текущий месяц</string>
+<string name="last_month">За прошедший месяц</string>
+<string name="traffic_disable_text">Отключить счетчик трафика. Продолжить?</string>
+<string name="traffic_able_text">Включить счетчик трафика. Продолжить?</string>
+<string name="login_username">Имя пользователя</string>
+<string name="login_password">Пароль</string>
+<string name="login_alertinfo">Ошибка при входе! Проверьте подключение данного компьютера к маршрутизатору NETGEAR.</string>
+<string name="wait">Подождите...</string>
+<string name="bad_password">Не удалось войти в систему. Введите правильный пароль администратора для маршрутизатора NETGEAR.</string>
+<string name="search_hint">Поиск поддержки</string>
+<string name="logout">Выход</string>
+<string name="about">Информация</string>
+<string name="back">Назад </string>
+<string name="enablelpccontrol">Включение Live Parental Controls</string>
+
+<!--
+<string name="loading">@</string>
+
+-->
+
+<string name="pleasewait">Подождите...</string>
+
+
+<string name="wirelsssettin">При изменении настроек активный трафик в беспроводной сети может быть приостановлен. Продолжить?</string>
+<string name="setwait">Получение информации отклика маршрутизатора, подождите %1 с.</string>
+<string name="seconds">Секунды</string>
+<string name="login_default">(в качестве пароля по умолчанию используется слово \"password\")</string>
+<string name="wirelsssettinrelogin">Параметры беспроводного соединения успешно изменены. Повторно подключитесь к беспроводной сети, используя новые параметры соединения, и войдите в программу genie.</string>
+<string name="mymedia">Мои мультимедиа</string>
+<string name="dlna_server">Источник</string>
+<string name="dlna_render">Проигрыватель</string>
+<string name="dlna_control">Воспроизведение</string>
+<string name="dlna_option">Параметры</string>
+
+
+<string name="menu_reset">Сброс</string>
+<string name="chooserender">Выберите проигрыватель.</string>
+
+
+<string name="select">Выбрать</string>
+<string name="servertiler">Источник</string>
+<string name="rendertitle">Проигрыватель</string>
+<string name="playingtitle">Воспроизведение</string>
+<string name="optiontitle">Параметры</string>
+<string name="editsetting">Редактировать параметры</string>
+<string name="save">Резервное копирование</string>
+<string name="trafficmeteritem01">Ограничение объема трафика</string>
+<string name="trafficmeteritem02">Месячное ограничение</string>
+<string name="trafficmeteritem03">Время</string>
+<string name="trafficmeteritem04">День</string>
+<string name="trafficmeteritem05">Дата запуска счетчика</string>
+<string name="trafficmeteritem06">Время запуска счетчика</string>
+<string name="monthlylimitmbytes">Ограничение объема трафика в месяц (МБ)</string>
+
+
+<string name="androiddevice">Устройство с ОС Android</string>
+<string name="androidphone">Телефон с ОС Android</string>
+<string name="androidtablet">Планшет с ОС Android</string>
+<string name="slidespeedtext">Выбрать скорость слайд-шоу</string>
+<string name="slide_slow">Медленно</string>
+<string name="slide_normal">Обычный</string>
+<string name="slide_rast">поститься</string>
+<string name="Lpc_custom_setting">Изменение пользовательских настроек</string>
+<string name="license">Лицензия</string>
+<string name="genielicensetitle">Условия</string>
+<string name="neptunelicensetitle">В рамках распространения NETGEAR genie.</string>
+<string name="fileopenfailed">Невозможно открыть файл.</string>
+<string name="playfails">Невозможно воспроизвести файл.</string>
+<string name="nodevices">Общие устройства не обнаружены. Для использования этой функции необходимо разрешить доступ к файлам устройств по сети или, если маршрутизатор поддерживает подключение USB-накопителей, подключить к маршрутизатору USB-накопитель.</string>
+<string name="routermodel">Модель маршрутизатора</string>
+<string name="frimwareversion">Версия микропрограммного обеспечения</string>
+<string name="dlnarefresh">Перезапустить мультимедийную службу</string>
+<string name="dlnarefolderfresh">Обновить папку-источник</string>
+<string name="turnonserver">Открыть доступ к файлам по сети</string>
+<string name="turnonrender">Разрешить воспроизведение в сети</string>
+<string name="dlnanote">Примечание:</string>
+<string name="dlnaoptionnote">Перезапустить мультимедийную службу при изменении параметров беспроводной сети.</string>
+<string name="dlnaoptionnote1">При изменении в папках мультимедиа нажмите "Обновить папку-источник".</string>
+<string name="dlnaoptionnote2">Откройте доступ к файлам по сети, чтобы позволить другим пользователям работать с файлами на этом устройстве по сети.</string>
+<string name="dlnaoptionnote3">Разрешите пользователям доступ к этому устройству для воспроизведения файлов по сети.</string>
+<string name="norender">Проигрыватель не найден. Для воспроизведения файлов на этом устройстве перейдите в раздел параметров и выберите \"Разрешить воспроизведение по сети.\"</string>
+<string name="device_block">Блокировать</string>
+<string name="device_allow">Разрешить</string>
+<string name="turnonaccesscontrol">Включить контроль доступа</string>
+
+<string name="accesscontrol">Контроль доступа</string>
+<string name="signalstrength">Уровень сигнала</string>
+
+<string name="linkrate">Скорость связи</string>
+<string name="whatisit">Что это?</string>
+<string name="dvr">DVR</string>
+<string name="choosesource">Выберите источник.</string>
+<string name="yes"> Да </string>
+<string name="no"> Нет </string>
+<string name="notnetgearrouter">Маршрутизатор NETGEAR не найден или не <a href="http://www.netgear.com/landing/en-us/netgear-genie-routers.aspx">поддерживается</a>.</string>
+<string name="lpcinterneterror">Отсутствует соединение с Интернетом. Сначала подключите маршрутизатор к Интернету.</string>
+<string name="noconnectrouter">Подключите устройство по беспроводному соединению к маршрутизатору NETGEAR и повторите попытку.</string>
+<string name="actiontimeout">Время ожидания для операции истекло. Повторите попытку.</string>
+<string name="emailisunavailable">Адрес электронной почты занят.</string>
+<string name="usernamenotavailable">Имя пользователя недоступно.</string>
+<string name="opendnsdeviceisnotmine">Имя пользователя недоступно.</string>
+<string name="usernameformatillegal">Имена пользователей должны начинаться и заканчиваться буквой или цифрой, а также могут содержать символы \'.\', \'-\' и \'_\'.</string>
+<string name="passwordlengthillegal">Пароль должен содержать от 6 до 20 символов.</string>
+<string name="s_average">Среднее</string>
+<string name="s_total">Всего</string>
+<string name="s_download">Загрузить</string>
+<string name="s_upload">Загрузить</string>
+<string name="s_mbytes">МБайт</string>
+<string name="qrcode">QR-код</string>
+<string name="qrcodedescribe">Для запуска сканирования выровняйте QR-код по рамке.</string>
+<string name="unqrcodedescribe">Фотографирование или сканирование QR-кода на вашем устройстве невозможно.</string>
+<string name="s_invaliduserpass">Недействительное имя пользователя или пароль</string>
+<string name="s_smartlogin_url_1"><a href="https://genie.netgear.com/UserProfile/#ForgotPasswordPlace:">Забыли пароль?  </a></string>
+<string name="s_smartlogin_url_2">Еще не зарегистрированы? <a href="https://genie.netgear.com/UserProfile/#NewUserPlace:">Зарегистрируйтесь.</a></string>
+<string name="s_smartlogin_3">Запомнить имя пользователя и пароль</string>
+<string name="s_smartnetwork">Удаленный</string>
+<string name="s_serial">Серийный</string>
+<string name="s_online">В сети</string>
+<string name="s_offline">Не в сети</string>
+<string name="s_mydevices">Мои устройства</string>
+<string name="s_routerlogin">Вход в систему маршрутизатора</string>
+<string name="s_local">Локальный</string>
+<string name="s_network_error">Не удается подключиться к серверу NETGEAR вследствие возникновения проблемы в сети. Повторите попытку. Если вы уже вошли в систему, выйдите из нее и снова зарегистрируйтесь.</string>
+<string name="s_nointernet">Подключение к Интернету не обнаружено.</string>
+<string name="s_versionwarning">Необходим Android 2.3 или выше.</string>
+<string name="qr_connect_router">Подключиться к</string>
+<string name="qr_url_found">URL-адрес найден:</string>
+<string name="qr_connect_http">Открыть его?</string>
+<string name="password_limit">8–63 символа или 64 шестнадцатеричных значений</string>
+
+<!-- Bypass Account -->
+<string name="NOCreateDeviceID">Не удалось загрузить информацию об учетных записях пользователей</string>
+<string name="NoCreateUserName">Учетные записи пользователей для этого устройства не настроены.</string>
+<string name="NetWorkConnection">Подключение к Интернету не обнаружено.</string>
+<string name="loginBypassPasswordError">Пароль не соответствует этому имени пользователя. Повторите попытку.</string>
+<string name="loginfailed">Не удалось войти в пользовательскую утилиту.</string>
+<string name="logoutfailed">Не удалось выйти из пользовательской утилиты.</string>
+<string name="getbypass">Загрузка информации об учетной записи</string>
+<string name="loggingbypass">Выполняется вход в систему…</string>
+<string name="exitbypass">Выполняется выход из системы…</string>
+<string name="lpcbypassuser">Вы зарегистрированы как</string>
+
+
+
+
+
+
+
+</resources>

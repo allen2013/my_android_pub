@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dragonflow.iScrollView 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent">
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:background="#E5E5FB" android:paddingLeft="8sp" android:paddingRight="5sp" android:paddingTop="5sp">
+  <LinearLayout
+     android:focusable="true" android:focusableInTouchMode="true"
+     android:layout_width="0dp" android:layout_height="0dp"/> 
+  <LinearLayout
+  	 android:layout_width="fill_parent"
+  	 android:layout_height="wrap_content" 
+  	 android:orientation="horizontal"
+  	 android:layout_gravity="center"
+  	 android:background="@drawable/layout_bg_2">
+  <LinearLayout
+  	 android:layout_width="fill_parent"
+  	 android:layout_height="wrap_content" 
+  	 android:orientation="horizontal"
+  	 android:layout_weight="1"
+  	 android:gravity="center_vertical"
+  	 android:layout_marginTop="8dip"
+  	 android:layout_marginBottom="8dip"
+  	 android:layout_marginLeft="5dip" android:layout_gravity="center_vertical">		 
+	 <TextView android:id="@+id/tmsetting_t02"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="@color/Black" 
+  			android:textStyle="bold"
+  			android:text="@string/trafficmeteritem02" android:textSize="16sp"/>	
+
+  <LinearLayout
+  	 android:layout_height="wrap_content" 
+  	 android:orientation="horizontal" android:layout_width="wrap_content" android:paddingLeft="5dip">		
+  	 <TextView 
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="@color/Black" 
+  			android:text="("/>		
+	<TextView android:id="@+id/mbytes"
+  			android:layout_width="wrap_content"
+  			android:textColor="@color/Black"
+  			android:singleLine="true"
+  			android:layout_height="wrap_content" 
+  			android:text="@string/mbytes" 
+  			android:textStyle="bold" 
+  			android:typeface="sans" />			
+ 	<TextView 
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:textColor="@color/Black" 
+  			android:text=")"/>	
+  	</LinearLayout>			
+	</LinearLayout>	
+  	<EditText 	android:id="@+id/monthlimit" 
+ 			android:layout_height="wrap_content"
+ 			android:inputType="number"
+ 			android:textColor="@color/Black"
+ 			android:maxLength="6"
+ 			android:gravity="right" 
+ 			android:layout_width="fill_parent"
+ 			android:layout_weight="1"
+ 			android:layout_marginTop="8dip"
+ 			android:layout_marginBottom="3dip"
+ 			android:layout_marginRight="8dip"/> 
+   </LinearLayout>
+   <TextView android:id="@+id/tmsetting_t03"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:textColor="@color/Black"
+  		android:layout_marginTop="10dp" android:text="@string/traffic_set_text_2" />
+   <LinearLayout
+  	 android:layout_width="fill_parent"
+  	 android:layout_height="wrap_content" 
+  	 android:orientation="vertical"
+  	 android:layout_gravity="center"
+  	 android:background="@drawable/layout_bg_2">
+  	<LinearLayout
+  	 android:layout_width="fill_parent"
+  	 android:layout_height="wrap_content" 
+  	 android:orientation="horizontal"
+  	 android:layout_weight="1"
+  	 android:gravity="center_vertical"
+  	 android:layout_marginTop="5dip"
+  	 android:layout_marginLeft="5dip" android:layout_gravity="center_vertical">
+  	<TextView android:id="@+id/tmsetting_t04"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  			android:textColor="@color/Black"
+  			android:layout_marginLeft="5dip" 
+  			android:textStyle="bold"
+  			android:layout_weight="1"
+  			android:text="@string/trafficmeteritem04" android:textSize="16sp"/>
+  	<Spinner
+ 			android:id="@+id/day" 
+ 			android:gravity="center"
+ 			android:layout_height="wrap_content"
+ 			android:textColor="@color/Black"
+ 			android:layout_weight="1" 
+ 			android:layout_width="fill_parent"
+ 			android:layout_marginLeft="5dip"
+			android:layout_marginRight="5dip"/>
+  	</LinearLayout>
+  	<View  android:layout_height="1dp"
+  		android:layout_width="fill_parent"
+        android:background="#dcdcdc" />
+  	<LinearLayout
+  	 android:layout_width="fill_parent"
+  	 android:layout_height="wrap_content" 
+  	 android:orientation="horizontal"
+  	 android:layout_weight="1"
+  	 android:gravity="center_vertical"
+  	 android:layout_marginTop="5dip"
+  	 android:layout_marginLeft="5dip" android:layout_gravity="center_vertical">
+  	<TextView android:id="@+id/tmsetting_t04"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  			android:textColor="@color/Black"
+  			android:layout_marginLeft="5dip" 
+  			android:textStyle="bold"
+  			android:layout_weight="1"
+  			android:text="@string/trafficmeteritem03" android:textSize="16sp"/>
+  	<LinearLayout
+  	 android:layout_width="fill_parent"
+  	 android:layout_height="wrap_content" 
+  	 android:orientation="horizontal" android:layout_marginLeft="5sp" android:layout_marginRight="5sp" android:layout_weight="0.3">
+  		<TextView
+ 			android:text="@string/traffic_set_hour" 
+ 			android:layout_width="wrap_content"
+ 			android:textColor="@color/Black"
+  			android:layout_height="wrap_content" 
+  			android:textSize="12sp"
+  			android:layout_marginLeft="5dp" android:layout_marginRight="5dp">
+  		</TextView>
+  		<!-- <EditText 	android:id="@+id/hour" 
+ 					android:layout_height="wrap_content"
+ 					android:layout_width="fill_parent" 
+ 					android:inputType="number"
+ 					android:maxLength="2"
+ 					android:textColor="@color/Black"
+ 					android:layout_weight="1" 
+ 					android:gravity="center"/>  -->
+ 		<Spinner android:id="@+id/sp_trafficmeter_hour" 
+  			android:textColor="@color/Black"
+			android:layout_height="wrap_content" 
+  			android:layout_marginBottom="5dip"
+  			android:gravity="center"
+			android:layout_width="wrap_content"/>
+ 		<TextView
+ 			android:text="@string/traffic_set_minute" 
+ 			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content" 
+  			android:textColor="@color/Black"
+  			android:textSize="12sp"
+  			android:layout_marginLeft="5dp" android:layout_marginRight="5dp">
+  		</TextView>			
+ 		<EditText 	android:id="@+id/mins" 
+ 					android:layout_height="wrap_content"
+ 					android:inputType="number" 
+ 					android:layout_width="fill_parent" 
+ 					android:maxLength="2"
+ 					android:textColor="@color/Black"
+ 					android:layout_weight="1" 
+ 					android:gravity="center"/> 	
+ 					
+  	</LinearLayout>	
+  	</LinearLayout>
+  	</LinearLayout>
+  	
+  	<LinearLayout
+  	 android:layout_width="fill_parent"
+  	 android:layout_height="wrap_content" 
+  	 android:orientation="vertical"
+  	 android:layout_gravity="center"
+  	 android:layout_marginTop="20dip"
+  	 android:background="@drawable/layout_bg_2">
+    <TextView android:id="@+id/tmsetting_t01"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:layout_marginTop="5dip"
+  			android:layout_marginBottom="5dip"
+  			android:textStyle="bold"
+  			android:layout_marginLeft="5dip" 
+  			android:textSize="16sp"
+  			android:textColor="@color/Black" android:text="@string/trafficmeteritem01"/>
+  	<Spinner android:id="@+id/tmsettingSpinner_01" 
+  		android:textColor="@color/Black"
+		android:layout_height="wrap_content" 
+  		android:layout_marginBottom="5dip"
+		android:layout_width="fill_parent"
+		android:layout_marginLeft="5dip"
+		android:layout_marginRight="5dip"/>
+	</LinearLayout>
+</LinearLayout>
+</com.dragonflow.iScrollView>

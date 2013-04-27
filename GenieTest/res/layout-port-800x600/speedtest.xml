@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+     android:background="#FFFFFF">
+    
+    <TextView 	android:id="@+id/speedtip" 
+ 				android:layout_height="wrap_content"
+  				android:layout_width="fill_parent" 
+  				android:text="@string/inputurl" 
+  				android:textColor="@color/Black" />
+ 
+ 	<EditText 	android:id="@+id/speedurl" 
+ 				android:layout_height="wrap_content"
+ 				android:layout_width="fill_parent" 
+ 				android:text="www.netgear.com"
+ 				android:inputType="textCapCharacters"/>
+ 				
+ 	<Button 	android:id="@+id/speedbutton" 
+ 				android:layout_width="wrap_content" 
+ 				android:layout_height="wrap_content"
+ 				android:text="@string/ok" />
+    
+</LinearLayout>

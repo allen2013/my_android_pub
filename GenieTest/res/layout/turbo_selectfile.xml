@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/turbo_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/tb_select_image1"
+            android:layout_width="107dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/turbo_select_bg1" />
+
+        <LinearLayout
+            android:id="@+id/layout_select_owndevice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/tb_select_image2"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:src="@drawable/turbo_device2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_select_otherdevice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tb_otherdevice_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right" />
+
+            <ImageView
+                android:id="@+id/tb_select_image3"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:src="@drawable/turbo_device2" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true" >
+
+            <LinearLayout
+                android:id="@+id/layout_select_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/layout_select_video"
+                android:layout_below="@+id/layout_select_video"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/tb_select_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:src="@drawable/turbo_image" />
+
+                <TextView
+                    android:id="@+id/tb_text_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/turbo_image" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_select_file"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/tb_select_file"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:src="@drawable/turbo_file" />
+
+                <TextView
+                    android:id="@+id/tb_text_file"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/turbo_file" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_select_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/layout_select_music"
+                android:layout_below="@+id/layout_select_image"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/tb_select_message"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:src="@drawable/turbo_message" />
+
+                <TextView
+                    android:id="@+id/tb_text_message"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/turbo_message" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_select_music"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/layout_select_video"
+                android:layout_alignTop="@+id/layout_select_file"
+                android:layout_marginRight="44dp"
+                android:layout_marginTop="44dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/tb_select_music"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:src="@drawable/turbo_music" />
+
+                <TextView
+                    android:id="@+id/tb_text_music"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/turbo_music" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_select_history"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignTop="@+id/layout_select_message"
+                android:layout_marginTop="40dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/tb_select_history"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:src="@drawable/turbo_history" />
+
+                <TextView
+                    android:id="@+id/tb_text_history"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/turbo_history" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_select_video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layout_select_music"
+                android:layout_toRightOf="@+id/layout_select_file"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/tb_select_video"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:src="@drawable/turbo_video" />
+
+                <TextView
+                    android:id="@+id/tb_text_video"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/turbo_video" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/titler"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="54dip" android:background="@drawable/title_bj">
+    
+     <Button android:id="@+id/back"   
+	   		android:layout_marginLeft="5dp" 
+	   		android:layout_height="wrap_content"
+	   		 android:layout_width="wrap_content" 
+	   		 android:layout_alignParentLeft="true" 
+	   		 android:background="@drawable/title_bt_bj" 
+	   		 android:text="@string/back" 
+	   		 android:textColor="#FFFFFF" 
+	   		 android:padding="3dip" 
+	   		 android:layout_centerVertical="true"/> 
+   
+    <ImageView android:id="@+id/netgear"   
+	   		android:layout_width="wrap_content"   
+       		android:background="@drawable/genie" 
+       		android:layout_centerInParent="true" 
+       		android:layout_height="wrap_content" 
+       		android:layout_centerVertical="false"/>   
+	
+    <Button android:id="@+id/about"   
+	   		android:layout_height="wrap_content"
+	   		 android:layout_width="wrap_content" 
+	   		android:layout_marginRight="5dip" 
+	   		android:layout_alignParentRight="true" 
+	   		android:background="@drawable/title_bt_bj" 
+	   		android:text="@string/about" 
+	   		android:textColor="#FFFFFF" 
+	   		android:padding="3dip" 
+	   		android:layout_centerVertical="true"/> 
+</RelativeLayout>
+<LinearLayout
+  android:id="@+id/RelativeLayout2"
+  android:layout_width="fill_parent"
+  android:layout_height="54dip" 
+  android:orientation="horizontal"
+  android:gravity="center" android:background="@drawable/search_bj">		   			   
+<LinearLayout
+        android:focusable="true" android:focusableInTouchMode="true"
+        android:layout_width="0dp" android:layout_height="0dp"/> 
+<EditText 
+		android:id="@+id/main_input"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_weight="9" 
+		android:background="@android:drawable/editbox_background"
+		android:singleLine="true" 
+		android:focusable="true" 
+		android:focusableInTouchMode="true" 
+		android:hint="@string/search_hint" 
+		android:textSize="15sp" 
+		android:layout_marginLeft="15dip"></EditText>
+<Button 
+		android:id="@+id/search" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:background="@drawable/shousuo" 
+		android:layout_marginLeft="5dip" 
+		android:layout_marginRight="15dip"></Button>	
+</LinearLayout>	
+</LinearLayout>

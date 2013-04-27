@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="wireless">Configurações sem fio</string>
+<string name="settings">Configurações</string>
+<string name="guestaccess">Acesso de convidado</string>
+<string name="guestsettings">Configurações de convidado</string>
+<string name="map">Mapa de rede</string>
+<string name="traffic">Medidor de tráfego</string>
+<string name="parentalcontrl">Controle dos pais</string>
+<string name="marketplace">Marketplace</string>
+
+<string name="loadingtraffic">Carregando medidor de tráfego</string>
+<string name="loadingmap">Carregando mapa da rede</string>
+<string name="loadingguestaccess">Carregando acesso de convidado</string>
+<string name="loadingwireless">Carregando as configurações sem fio</string>
+<string name="loadingparentalcontrl">Carregando controles dos pais</string>
+<string name="loadingmymedia">Carregando Minhas mídias</string>
+
+
+<string name="remeberpassword">Lembrar senha</string>
+<string name="login">Login</string>
+<string name="ok">OK</string>
+<string name="cancel">Cancelar</string>
+<string name="wirelessname">Nome/SSID</string>
+<string name="name">SSID</string>
+<string name="channel">Canal</string>
+<string name="networkkey">Chave/Senha</string>
+<string name="key">Senha</string>
+<string name="securityoptions">Opções de segurança</string>
+<string name="Period">Período de contagem</string>
+<string name="Time">Tempo de conexão (H:M)</string>
+<string name="Upload">Carregamento/Média (M)</string>
+<string name="Download">Download/Média (M)</string>
+<string name="Total">Total/Média (M)</string>
+<string name="Lpc_status">Status</string>
+<string name="Lpc_control">Controle dos pais</string>
+<string name="Enable">Habilitar</string>
+<string name="Disable">Desabilitar</string>
+<string name="Filteringlevel">Nível de filtragem</string>
+<string name="OpenDNSaccount">Conta OpenDNS</string>
+<string name="Filteringchang">Alterar configurações básicas</string>
+<string name="lpc_Positive">Voltar</string>
+<string name="lpc_Negative">Avançar</string>
+<string name="Lpc_done">Concluído</string>
+<string name="lpc_presignlntitle">Configuração do Live Parental Controls</string>
+<string name="lpc_createtitle">Crie uma conta OpenDNS gratuita</string>
+<string name="lpc_createname">Nome de usuário</string>
+<string name="lpc_createpassword">Senha</string>
+<string name="lpc_createpassword2">Confirmar senha</string>
+<string name="lpc_createemail">E-mail</string>
+<string name="lpc_createemail2">Confirmar e-mail</string>
+<string name="lpc_createeinvalidmail">E-mail inválido</string>
+<string name="lpc_createcheck">Verificar disponibilidade</string>
+<string name="lpcsignintitle">Conecte-se a sua conta OpenDNS</string>
+<string name="lpcsigninintro">Insira abaixo seu nome de usuário e sua senha.</string>
+<string name="lpc_createintro">Insira suas informações abaixo.</string>
+<string name="lpc_presignintro">Bem-vindo! Este Assistente de configuração irá configurar de forma rápida no roteador NETGEAR o Live Parental Controls com base na tecnologia OpenDNS.</string>
+<string name="lpc_presignintro1">Para usar o Live Parental Controls, é necessária uma conta OpenDNS gratuita. Você já possui uma?</string>
+<string name="lpc_presigninexist">Sim, uso minha conta OpenDNS existente.</string>
+<string name="lpc_presignincreate">Não, preciso criar uma conta OpenDNS gratuita.</string>
+<string name="lpcsettitle">Nível de filtragem</string>
+<string name="lpcsetintro">Todos os computadores conectados ao roteador estarão protegidos do conteúdo selecionado abaixo. É possível personalizar o Live Parental Controls posteriormente ou no site.</string>
+<string name="lpcset_none">Nenhum</string>
+<string name="lpcset_none_text">Nada bloqueado.</string>
+<string name="lpcset_minimal">Mínimo</string>
+<string name="lpcset_minimal_text">Proteção apenas contra ataques de phishing.</string>
+<string name="lpcset_low">Baixo</string>
+<string name="lpcset_low_text">Proteção contra conteúdo pornográfico e ataques de phishing.</string>
+<string name="lpcset_moderate">Moderado</string>
+<string name="lpcset_moderate_text">Proteção contra sites com conteúdo para adultos, atividades ilegais e ataques de phishing.</string>
+<string name="lpcset_high">Alto</string>
+<string name="lpcset_high_text">Proteção contra sites com conteúdo para adultos, atividades ilegais, sites de rede social, sites de compartilhamento de vídeos, ataques de phishing e outras formas de distração em geral.</string>
+<string name="lpc">Controle dos pais</string>
+<string name="lpc_donetitle">Configuração concluída!</string>
+<string name="lpc_doneintro">Você concluiu com êxito a configuração do Live Parental Controls NETGEAR com base na tecnologia OpenDNS. Na próxima vez em que o Utilitário de gerenciamento for executado, você será redirecionado à tela Status, onde poderá:</string>
+<string name="lpc_doneintro1">verificar se o Live Parental Controls está habilitado</string>
+<string name="lpc_doneintro2">desabilitar ou habilitar o Live Parental Controls</string>
+<string name="lpc_doneintro3">modificar configurações básicas</string>
+<string name="lpc_doneintro4">alterar as configurações personalizadas, como as de acordo com o usuário e com a hora do dia com base no Live Parental Controls</string>
+<string name="lpc_done_bttext">Direcione-me à tela Status</string>
+<string name="lpc_introtitle">Observação</string>
+<string name="lpc_introtext">Para definir o Live Parental Controls, você precisa de uma conta OpenDNS. Você já tem uma conta?</string>
+<string name="lpc_enable">Habilitado</string>
+<string name="lpc_disable">Desabilitado</string>
+<string name="search">Pesquisar</string>
+<string name="speedtest_text">A velocidade atual de download deste site é de %2Kbps.</string>
+<string name="Kbps">Kbps</string>
+<string name="Clickhere">clique aqui</string>
+<string name="Lpc_manage_nothing">Nada bloqueado.</string>
+<string name="lpc_manage_customset">Alterar configurações personalizadas</string>
+<string name="notenabled">Não habilitado</string>
+<string name="connected">Conectado</string>
+<string name="guestaccess_time">Período de tempo</string>
+<string name="guestaccess_security">Opções de segurança</string>
+<string name="disableguest_text">Acesso de convidado em uso. Desabilitá-lo poderá interromper o tráfego ativo na rede sem fio. Deseja continuar?</string>
+<string name="wpa">Segurança</string>
+<string name="about_title">Sobre o NETGEAR genie</string>
+<string name="about_info">Copyright (c) 2013, NETGEAR Inc.</string>
+<string name="about_info1">Todos os direitos reservados.</string>
+<string name="about_info2">Baseado na tecnologia SiteView</string>
+<string name="version">Versão</string>
+<string name="close">Fechar</string>
+<string name="notsupport">O roteador não oferece suporte a esta função.</string>
+<string name="gatewaydev">Roteador</string>
+<string name="networkdev">Dispositivo de rede</string>
+<string name="windowspc">Windows PC</string>
+<string name="blurayplayer">Blu-ray Player</string>
+<string name="bridge">Ponte</string>
+<string name="cablestb">STB a cabo</string>
+<string name="cameradev">Câmera</string>
+<string name="gamedev">Console de jogos</string>
+<string name="imacdev">iMac</string>
+<string name="ipad">iPad</string>
+<string name="iphone">iPhone</string>
+<string name="ipodtouch">iPod Touch</string>
+<string name="linuxpc">Linux PC</string>
+<string name="macbookdev">MacBook</string>
+<string name="macminidev">Mac Mini</string>
+<string name="macprodev">Mac Pro</string>
+<string name="mediadev">Dispositivo de mídia</string>
+<string name="mobiledev">Smartphone</string>
+<string name="netstoragedev">Armazenamento</string>
+<string name="switchdev">Switch</string>
+<string name="printerdev">Impressora</string>
+<string name="repeater">Repetição</string>
+<string name="satellitestb">STB via satélite</string>
+<string name="scannerdev">Scanner</string>
+<string name="slingbox">SlingBox</string>
+<string name="stb">Outro STB</string>
+<string name="tablepc">Tablet</string>
+<string name="tv">TV</string>
+<string name="unixpc">UNIX PC</string>
+<string name="map_custom">Nome fantasia</string>
+<string name="map_type">Tipo</string>
+<string name="map_ip">Endereço IP</string>
+<string name="map_mac">Endereço MAC</string>
+<string name="modify">Modificar</string>
+<string name="refresh">Atualizar</string>
+<string name="apply">Aplicar</string>
+<string name="custom">Personalizar</string>
+<string name="Traffic_set_text_1">Reiniciar o contador de tráfego em</string>
+<string name="traffic_set_text_2">Hora inicial do medidor de tráfego</string>
+<string name="traffic_set_hour">Hora</string>
+<string name="traffic_set_minute">Minuto</string>
+<string name="traffic_set_text_3">No</string>
+<string name="traffic_set_text_4">dia de cada mês</string>
+<string name="today">Hoje</string>
+<string name="yesterday">Ontem</string>
+<string name="this_week">Esta semana</string>
+<string name="this_month">Este mês</string>
+<string name="last_month">Último mês</string>
+<string name="traffic_disable_text">Desabilitar medidor de tráfego. Deseja continuar?</string>
+<string name="traffic_able_text">Habilitar medidor de tráfego. Deseja continuar?</string>
+<string name="login_username">Nome de usuário</string>
+<string name="login_password">Senha</string>
+<string name="login_alertinfo">Falha ao fazer login! Verifique se este computador está conectado ao roteador NETGEAR.</string>
+<string name="wait">Aguarde...</string>
+<string name="bad_password">Falha ao fazer login. Insira novamente a senha admin correta do seu roteador NETGEAR.</string>
+<string name="search_hint">Pesquisar suporte</string>
+<string name="logout">Logoff</string>
+<string name="about">Sobre</string>
+<string name="back">Voltar</string>
+<string name="enablelpccontrol">Habilitar Live Parental Controls</string>
+
+<!--
+<string name="loading">@</string>
+
+-->
+
+<string name="pleasewait">Aguarde...</string>
+
+
+<string name="wirelsssettin">Alterar as configurações pode interromper o tráfego ativo na rede sem fio. Deseja continuar?</string>
+<string name="setwait">Recebendo informações de resposta do roteador. Aguarde %1 segundos.</string>
+<string name="seconds">Segundos</string>
+<string name="login_default">(o padrão é \"password\").</string>
+<string name="wirelsssettinrelogin">A configuração sem fio foi alterada com sucesso. Conecte-se novamente à sua rede sem fio usando a nova configuração sem fio e o novo login do genie.</string>
+<string name="mymedia">Minhas mídias</string>
+<string name="dlna_server">Origem</string>
+<string name="dlna_render">Player</string>
+<string name="dlna_control">Reproduzindo</string>
+<string name="dlna_option">Opções</string>
+
+
+<string name="menu_reset">Redefinir</string>
+<string name="chooserender">Selecione um player.</string>
+
+
+<string name="select">Selecionar</string>
+<string name="servertiler">Origem</string>
+<string name="rendertitle">Player</string>
+<string name="playingtitle">Reproduzindo</string>
+<string name="optiontitle">Opções</string>
+<string name="editsetting">Editar configurações</string>
+<string name="save">Backup</string>
+<string name="trafficmeteritem01">Limite do volume de tráfego</string>
+<string name="trafficmeteritem02">Limite mensal</string>
+<string name="trafficmeteritem03">Hora</string>
+<string name="trafficmeteritem04">Dia</string>
+<string name="trafficmeteritem05">Dia inicial do contador</string>
+<string name="trafficmeteritem06">Hora inicial do contador</string>
+<string name="monthlylimitmbytes">Limite mensal (MB)</string>
+
+
+<string name="androiddevice">Dispositivo Android</string>
+<string name="androidphone">Telefone Android</string>
+<string name="androidtablet">Tablet Android</string>
+<string name="slidespeedtext">Selecionar velocidade da apresentação de slides</string>
+<string name="slide_slow">Devagar</string>
+<string name="slide_normal">Normal</string>
+<string name="slide_rast">rápido</string>
+<string name="Lpc_custom_setting">Alterar configurações personalizadas</string>
+<string name="license">Licença</string>
+<string name="genielicensetitle">Termos e condições</string>
+<string name="neptunelicensetitle">Na distribuição do NETGEAR genie.</string>
+<string name="fileopenfailed">Não é possível abrir o arquivo.</string>
+<string name="playfails">Não é possível reproduzir o arquivo.</string>
+<string name="nodevices">Nenhum dispositivo compartilhado foi encontrado. Para usar este recurso, é necessário habilitar o recurso de compartilhamento de arquivo para dispositivos na rede ou conectar uma unidade de armazenamento USB ao roteador se o roteador for compatível com conexão de armazenamento USB.</string>
+<string name="routermodel">Modelo do roteador</string>
+<string name="frimwareversion">Versão do firmware</string>
+<string name="dlnarefresh">Reiniciar o serviço de mídia</string>
+<string name="dlnarefolderfresh">Atualizar a pasta de origem</string>
+<string name="turnonserver">Compartilhar arquivos na rede</string>
+<string name="turnonrender">Permitir a reprodução na rede</string>
+<string name="dlnanote">Observação:</string>
+<string name="dlnaoptionnote">Reinicie o serviço de mídia quando a configuração da rede sem fio for alterada.</string>
+<string name="dlnaoptionnote1">Toque em Atualizar pasta de origem se não houver nenhuma alteração na(s) pasta(s) de mídia.</string>
+<string name="dlnaoptionnote2">Compartilhe arquivos na rede para dar acesso às pessoas neste dispositivo na rede.</string>
+<string name="dlnaoptionnote3">Permita que as pessoas usem este dispositivo para reproduzir arquivos na rede.</string>
+<string name="norender">Nenhum player foi encontrado. Para reproduzir arquivos neste dispositivo, acesse Opções e selecione \“Permitir reprodução na rede.\”</string>
+<string name="device_block">Bloquear</string>
+<string name="device_allow">Permitir</string>
+<string name="turnonaccesscontrol">Ativar controle de acesso</string>
+
+<string name="accesscontrol">Controle de acesso</string>
+<string name="signalstrength">Intensidade do sinal</string>
+
+<string name="linkrate">Taxa de link</string>
+<string name="whatisit">O que é?</string>
+<string name="dvr">DVR</string>
+<string name="choosesource">Selecione uma origem.</string>
+<string name="yes">Sim</string>
+<string name="no">Não</string>
+<string name="notnetgearrouter">Roteador NETGEAR não encontrado ou não <a href="http://www.netgear.com/landing/en-us/netgear-genie-routers.aspx">compatível</a>.</string>
+<string name="lpcinterneterror">A Internet não está disponível. Conecte seu roteador à Internet primeiro.</string>
+<string name="noconnectrouter">Conecte este dispositivo sem fio ao seu roteador NETGEAR e tente novamente.</string>
+<string name="actiontimeout">A ação expirou. Tente novamente.</string>
+<string name="emailisunavailable">O e-mail foi gerado.</string>
+<string name="usernamenotavailable">O nome de usuário está indisponível.</string>
+<string name="opendnsdeviceisnotmine">O nome de usuário está indisponível.</string>
+<string name="usernameformatillegal">O nome de usuário deve começar e terminar com uma letra ou um número e pode conter \'.\',  \'-\' e \'_\'.</string>
+<string name="passwordlengthillegal">As senhas devem conter entre 6 e 20 caracteres.</string>
+<string name="s_average">Média</string>
+<string name="s_total">Total</string>
+<string name="s_download">Download</string>
+<string name="s_upload">Carregar</string>
+<string name="s_mbytes">Mbytes</string>
+<string name="qrcode">QR Code</string>
+<string name="qrcodedescribe">Alinhar o QR code dentro do quadro para iniciar a verificação.</string>
+<string name="unqrcodedescribe">Seu dispositivo não é apto para tirar fotos ou verificar o QR Code.</string>
+<string name="s_invaliduserpass">Nome de usuário ou senha inválidos.</string>
+<string name="s_smartlogin_url_1">Esqueceu sua senha<a href="https://genie.netgear.com/UserProfile/#ForgotPasswordPlace:">?  </a></string>
+<string name="s_smartlogin_url_2">Não possui uma ID? <a href="https://genie.netgear.com/UserProfile/#NewUserPlace:">Assinar.</a></string>
+<string name="s_smartlogin_3">Lembrar minha ID e senha</string>
+<string name="s_smartnetwork">Remoto</string>
+<string name="s_serial">Serial</string>
+<string name="s_online">On-line</string>
+<string name="s_offline">Off-line</string>
+<string name="s_mydevices">Meus dispositivos</string>
+<string name="s_routerlogin">Login do roteador</string>
+<string name="s_local">Local</string>
+<string name="s_network_error">Um problema de rede está impedindo a conexão ao servidor NETGEAR. Tente novamente. Se você já estiver conectado, desconecte-se e tente se conectar novamente.</string>
+<string name="s_nointernet">Nenhuma conexão com a Internet foi detectada.</string>
+<string name="s_versionwarning">Necessário Android 2.3 ou superior.</string>
+<string name="qr_connect_router">Conectar a</string>
+<string name="qr_url_found">URL encontrada:</string>
+<string name="qr_connect_http">Deseja abri-la?</string>
+<string name="password_limit">8 a 63 caracteres ou 64 valores hexadecimais</string>
+
+<!-- Bypass Account -->
+<string name="NOCreateDeviceID">Não foi possível fazer download das informações sobre contas de usuários</string>
+<string name="NoCreateUserName">Nenhuma conta de usuário está configurada para este dispositivo.</string>
+<string name="NetWorkConnection">Nenhuma conexão com a Internet foi detectada.</string>
+<string name="loginBypassPasswordError">A senha não corresponde com este nome de usuário. Tente novamente.</string>
+<string name="loginfailed">Não foi possível fazer login no Utilitário do usuário.</string>
+<string name="logoutfailed">Não foi possível fazer logout do Utilitário do usuário.</string>
+<string name="getbypass">Fazendo download das informações da conta</string>
+<string name="loggingbypass">Fazendo login…</string>
+<string name="exitbypass">Desconectando…</string>
+<string name="lpcbypassuser">Você está conectado como</string>
+
+
+
+
+
+
+
+</resources>

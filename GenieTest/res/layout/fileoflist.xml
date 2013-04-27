@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FileLayout"
+    android:layout_width="100dp"
+    android:layout_height="105dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="5dp"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/file_ico"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"
+        android:scaleType="fitEnd" />
+
+    <TextView
+        android:id="@+id/file_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:lines="2"
+        android:text="" />
+
+</LinearLayout>

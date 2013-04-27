@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="wireless">Brezžične nastavitve</string>
+<string name="settings">Nastavitve</string>
+<string name="guestaccess">Dostop gostom</string>
+<string name="guestsettings">Nastavitev gosta</string>
+<string name="map">Zemljevid omrežja</string>
+<string name="traffic">Merilnik prometa</string>
+<string name="parentalcontrl">Parental Controls</string>
+<string name="marketplace">Marketplace</string>
+
+<string name="loadingtraffic">Nalaganje merilnika prometa</string>
+<string name="loadingmap">Nalaganje zemljevida omrežja</string>
+<string name="loadingguestaccess">Nalaganje dostopa gostom</string>
+<string name="loadingwireless">Nalaganje nastavitev za brezžično omrežje</string>
+<string name="loadingparentalcontrl">Nalaganje pripomočka Parental Controls</string>
+<string name="loadingmymedia">Nalaganje moje predstavnosti</string>
+
+
+<string name="remeberpassword">Zapomni si geslo</string>
+<string name="login">Prijava</string>
+<string name="ok">V redu</string>
+<string name="cancel">Prekliči</string>
+<string name="wirelessname">Ime/SSID</string>
+<string name="name">SSID</string>
+<string name="channel">Kanal</string>
+<string name="networkkey">Ključ/geslo</string>
+<string name="key">Geslo</string>
+<string name="securityoptions">Varnostne možnosti</string>
+<string name="Period">Obdobje štetja</string>
+<string name="Time">Čas povezave (H:M)</string>
+<string name="Upload">Nalaganje/povprečno (M)</string>
+<string name="Download">Prenos/povprečno (M)</string>
+<string name="Total">Skupaj/povprečno (M)</string>
+<string name="Lpc_status">Stanje</string>
+<string name="Lpc_control">Parental Controls</string>
+<string name="Enable">Omogoči</string>
+<string name="Disable">Onemogoči</string>
+<string name="Filteringlevel">Raven filtriranja</string>
+<string name="OpenDNSaccount">Račun OpenDNS</string>
+<string name="Filteringchang">Spreminjanje osnovnih nastavitev</string>
+<string name="lpc_Positive">Nazaj</string>
+<string name="lpc_Negative">Naprej</string>
+<string name="Lpc_done">Končano</string>
+<string name="lpc_presignlntitle">Nastavitev pripomočka Live Parental Controls</string>
+<string name="lpc_createtitle">Ustvarjanje brezplačnega računa OpenDNS</string>
+<string name="lpc_createname">Uporabniško ime</string>
+<string name="lpc_createpassword">Geslo</string>
+<string name="lpc_createpassword2">Potrditev gesla</string>
+<string name="lpc_createemail">E-pošta</string>
+<string name="lpc_createemail2">Potrditev e-pošte</string>
+<string name="lpc_createeinvalidmail">Neveljavna e-pošta</string>
+<string name="lpc_createcheck">Preveri razpoložljivost</string>
+<string name="lpcsignintitle">Vpis v račun OpenDNS</string>
+<string name="lpcsigninintro">Spodaj vnesite uporabniško ime in geslo.</string>
+<string name="lpc_createintro">Spodaj vnesite informacije</string>
+<string name="lpc_presignintro">Pozdravljeni, namestitveni čarovnik bo hitro konfiguriral NETGEAR Live Parental Controls s tehnologijo OpenDNS v usmerjevalniku NETGEAR.</string>
+<string name="lpc_presignintro1">Če želite uporabljati Live Parental Controls, potrebujete brezplačen račun OpenDNS. Ali ga že imate?</string>
+<string name="lpc_presigninexist">Da, uporabi obstoječ račun OpenDNS.</string>
+<string name="lpc_presignincreate">Ne, ustvariti želim brezplačen račun OpenDNS.</string>
+<string name="lpcsettitle">Raven filtriranja</string>
+<string name="lpcsetintro">Vsi računalniki, povezani z usmerjevalnikom, bodo zaščiteni pred spodaj izbrano vsebino. Live Parental Controls lahko pozneje prilagodite na našem spletnem mestu.</string>
+<string name="lpcset_none">Brez</string>
+<string name="lpcset_none_text">Nič ni blokirano.</string>
+<string name="lpcset_minimal">Minimalna</string>
+<string name="lpcset_minimal_text">Ščiti samo pred napadi z lažnim predstavljanjem.</string>
+<string name="lpcset_low">Nizko</string>
+<string name="lpcset_low_text">Ščiti pred pornografijo in napadi z lažnim predstavljanjem.</string>
+<string name="lpcset_moderate">Zmerna</string>
+<string name="lpcset_moderate_text">Ščiti pred vsemi mesti z vsebino za odrasle, nezakonitimi dejavnostmi in napadi z lažnim predstavljanjem.</string>
+<string name="lpcset_high">Visoko</string>
+<string name="lpcset_high_text">Ščiti pred vsemi mesti z vsebino za odrasle, nezakonitimi dejavnostmi, družabnimi omrežji, mesti za izmenjavo videoposnetkov, napadi z lažnim predstavljanjem in ostalimi mesti za zapravljanje časa.</string>
+<string name="lpc">Parental Controls</string>
+<string name="lpc_donetitle">Nastavitev je dokončana.</string>
+<string name="lpc_doneintro">Uspešno ste nastavili NETGEAR Live Parental Controls s tehnologijo OpenDNS. "Ko boste naslednjič zagnali pripomoček za upravljanje, boste preusmerjeni na zaslon s stanjem, kjer lahko:</string>
+<string name="lpc_doneintro1">preverite, ali je Live Parental Controls omogočen,</string>
+<string name="lpc_doneintro2">onemogočite ali omogočite Live Parental Controls,</string>
+<string name="lpc_doneintro3">spremenite osnovne nastavitve,</string>
+<string name="lpc_doneintro4">spremenite nastavitve pripomočka Live Parental Controls po meri, na primer za posameznega uporabnika ali obdobje dneva;</string>
+<string name="lpc_done_bttext">Preusmeri me na zaslon s stanjem</string>
+<string name="lpc_introtitle">Zapomnite si</string>
+<string name="lpc_introtext">Če želite nastaviti Live Parental Controls, potrebujete račun OpenDNS. Ali že imate račun?</string>
+<string name="lpc_enable">Omogočeno</string>
+<string name="lpc_disable">onemogočen</string>
+<string name="search">Iskanje</string>
+<string name="speedtest_text">Trenutna hitrost prenosa s spletne strani je %2 Kb/s.</string>
+<string name="Kbps">Kb/s</string>
+<string name="Clickhere">kliknite tukaj</string>
+<string name="Lpc_manage_nothing">Nič ni blokirano.</string>
+<string name="lpc_manage_customset">Spreminjanje nastavitev po meri</string>
+<string name="notenabled">Ni omogočeno</string>
+<string name="connected">Povezava je vzpos.</string>
+<string name="guestaccess_time">Časovno obdobje</string>
+<string name="guestaccess_security">Varnostne možnosti</string>
+<string name="disableguest_text">Dostop gostom je v uporabi. Če dostop onemogočite, lahko prekinete aktivni promet v brezžičnem omrežju. Ali želite nadaljevati?</string>
+<string name="wpa">Varnost</string>
+<string name="about_title">Vizitka NETGEAR genie</string>
+<string name="about_info">Copyright (c) 2013, NETGEAR Inc.</string>
+<string name="about_info1">Vse pravice pridržane.</string>
+<string name="about_info2">Delovanje omogoča SiteView</string>
+<string name="version">Različica</string>
+<string name="close">Zapri</string>
+<string name="notsupport">Usmerjevalnik ne podpira te funkcije.</string>
+<string name="gatewaydev">Usmerjevalnik</string>
+<string name="networkdev">Omrežna naprava</string>
+<string name="windowspc">Osebni računalnik Windows</string>
+<string name="blurayplayer">Predvajalnik Blu-ray</string>
+<string name="bridge">Most</string>
+<string name="cablestb">Kabelski sprejemnik</string>
+<string name="cameradev">Kamera</string>
+<string name="gamedev">Igralna konzola</string>
+<string name="imacdev">iMac</string>
+<string name="ipad">iPad</string>
+<string name="iphone">iPhone</string>
+<string name="ipodtouch">iPod Touch</string>
+<string name="linuxpc">Osebni računalnik Linux</string>
+<string name="macbookdev">MacBook</string>
+<string name="macminidev">Mac Mini</string>
+<string name="macprodev">Mac Pro</string>
+<string name="mediadev">Medij</string>
+<string name="mobiledev">Pametni telefon</string>
+<string name="netstoragedev">Pomnilnik</string>
+<string name="switchdev">Stikalo</string>
+<string name="printerdev">Tiskalnik</string>
+<string name="repeater">Ponavljalnik</string>
+<string name="satellitestb">Satelitski sprejemnik</string>
+<string name="scannerdev">Optični bralnik</string>
+<string name="slingbox">SlingBox</string>
+<string name="stb">Drug sprejemnik</string>
+<string name="tablepc">Tablični računalnik</string>
+<string name="tv">TV</string>
+<string name="unixpc">Osebni računalnik UNIX</string>
+<string name="map_custom">Ime po meri</string>
+<string name="map_type">Vrsta</string>
+<string name="map_ip">Naslov IP</string>
+<string name="map_mac">Naslov MAC</string>
+<string name="modify">Spremeni</string>
+<string name="refresh">Osveži</string>
+<string name="apply">Uporabi</string>
+<string name="custom">Po meri</string>
+<string name="Traffic_set_text_1">Znova zaženi števec prometa pri</string>
+<string name="traffic_set_text_2">Začetni čas merilnika prometa</string>
+<string name="traffic_set_hour">Ura</string>
+<string name="traffic_set_minute">Minuta</string>
+<string name="traffic_set_text_3">Na</string>
+<string name="traffic_set_text_4">dan v mesecu</string>
+<string name="today">Danes</string>
+<string name="yesterday">Včeraj</string>
+<string name="this_week">Ta teden</string>
+<string name="this_month">Ta mesec</string>
+<string name="last_month">Prejšnji mesec</string>
+<string name="traffic_disable_text">Onemogoči merilnik prometa. Ali želite nadaljevati?</string>
+<string name="traffic_able_text">Omogoči merilnik prometa. Ali želite nadaljevati?</string>
+<string name="login_username">Uporabniško ime</string>
+<string name="login_password">Geslo</string>
+<string name="login_alertinfo">Prijava ni uspela! Preverite, ali je računalnik povezan z usmerjevalnikom NETGEAR.</string>
+<string name="wait">Počakajte...</string>
+<string name="bad_password">Prijava ni uspela. Znova vnesite pravilno skrbniško geslo za usmerjevalnik NETGEAR.</string>
+<string name="search_hint">Iskanje podpore</string>
+<string name="logout">Odjava</string>
+<string name="about">Vizitka</string>
+<string name="back">Nazaj</string>
+<string name="enablelpccontrol">Omogoči Live Parental Controls</string>
+
+<!--
+<string name="loading">@</string>
+
+-->
+
+<string name="pleasewait">Počakajte...</string>
+
+
+<string name="wirelsssettin">Spreminjanje nastavitev lahko onemogoči aktivni promet v brezžičnem omrežju. Ali želite nadaljevati?</string>
+<string name="setwait">Prejemam odzivne informacije usmerjevalnika. Počakajte %1 sekundo.</string>
+<string name="seconds">Sekund</string>
+<string name="login_default">(privzeto je \"password\")</string>
+<string name="wirelsssettinrelogin">Brezžična nastavitev je uspešno spremenjena. Z novo brezžično nastavitvijo se ponovno pridružite v brezžično omrežje in se prijavite v program genie.</string>
+<string name="mymedia">Moja predstavnost</string>
+<string name="dlna_server">Vir</string>
+<string name="dlna_render">Predvajalnik</string>
+<string name="dlna_control">Predvajanje</string>
+<string name="dlna_option">Možnosti</string>
+
+
+<string name="menu_reset">Ponastavi</string>
+<string name="chooserender">Izberite predvajalnik.</string>
+
+
+<string name="select">Izberi</string>
+<string name="servertiler">Vir</string>
+<string name="rendertitle">Predvajalnik</string>
+<string name="playingtitle">Predvajanje</string>
+<string name="optiontitle">Možnosti</string>
+<string name="editsetting">Uredi nastavitve</string>
+<string name="save">Varnostno kopiranje</string>
+<string name="trafficmeteritem01">Mejna količina prometa</string>
+<string name="trafficmeteritem02">Mesečna omejitev</string>
+<string name="trafficmeteritem03">Čas</string>
+<string name="trafficmeteritem04">Dan</string>
+<string name="trafficmeteritem05">Začetni dan števca</string>
+<string name="trafficmeteritem06">Začetni čas števca</string>
+<string name="monthlylimitmbytes">Mesečna mejna vrednost (MB)</string>
+
+
+<string name="androiddevice">Naprava Android</string>
+<string name="androidphone">Telefon Android</string>
+<string name="androidtablet">Tablični računalnik Android</string>
+<string name="slidespeedtext">Izberi hitrost diaprojekcije</string>
+<string name="slide_slow">Počasi</string>
+<string name="slide_normal">Navadno</string>
+<string name="slide_rast">nagel</string>
+<string name="Lpc_custom_setting">Spreminjanje nastavitev po meri</string>
+<string name="license">Licenca</string>
+<string name="genielicensetitle">Pogoji in določila</string>
+<string name="neptunelicensetitle">V distribuciji NETGEAR genie.</string>
+<string name="fileopenfailed">Datoteke ni mogoče odpreti.</string>
+<string name="playfails">Datoteke ni mogoče predvajati.</string>
+<string name="nodevices">Najdena ni bila nobena naprava v skupni rabi. Za uporabo te funkcije morate omogočiti funkcijo izmenjave datotek za naprave v omrežju ali usmerjevalnik povezati s pomnilnikom USB, če usmerjevalnik podpira povezavo USB za shranjevanje.</string>
+<string name="routermodel">Model usmerjevalnika</string>
+<string name="frimwareversion">Različica vdelane programske opreme</string>
+<string name="dlnarefresh">Ponovno zaženi predstavnostno storitev</string>
+<string name="dlnarefolderfresh">Osveži izvirno mapo</string>
+<string name="turnonserver">Izmenjuj datoteke v omrežju</string>
+<string name="turnonrender">Dovoli predvajanje v omrežju</string>
+<string name="dlnanote">Opomba:</string>
+<string name="dlnaoptionnote">Ponovno zaženi predstavnostno storitev, ko je spremenjena nastavitev brezžičnega omrežja.</string>
+<string name="dlnaoptionnote1">Pritisnite Osveži izvirno mapo v primeru spremembe v predstavnostnih mapah.</string>
+<string name="dlnaoptionnote2">Izmenjuj datoteko v omrežju, da bodo uporabniki lahko prek omrežja dostopali do datotek v tej napravi.</string>
+<string name="dlnaoptionnote3">Uporabnikom dovoli uporabo te naprave za predvajanje datotek prek omrežja.</string>
+<string name="norender">Najden ni bil noben predvajalnik. Če želite predvajati datoteke s to napravo, v Možnosti izberite \"Dovoli predvajanje v omrežju\".</string>
+<string name="device_block">Zavrni</string>
+<string name="device_allow">Dovoli</string>
+<string name="turnonaccesscontrol">Vklopi nadzor dostopa</string>
+
+<string name="accesscontrol">Nadzor dostopa</string>
+<string name="signalstrength">Moč signala</string>
+
+<string name="linkrate">Hitrost povezave</string>
+<string name="whatisit">Kaj je to?</string>
+<string name="dvr">DVR</string>
+<string name="choosesource">Izberite vir.</string>
+<string name="yes">Da</string>
+<string name="no">Ne</string>
+<string name="notnetgearrouter">Usmerjevalnika NETGEAR ni bilo mogoče najti ali pa ni <a href="http://www.netgear.com/landing/en-us/netgear-genie-routers.aspx">podprt</a>.</string>
+<string name="lpcinterneterror">Internet ni na voljo. Najprej z usmerjevalnikom vzpostavite internetno povezavo.</string>
+<string name="noconnectrouter">Napravo brezžično povežite z usmerjevalnikom NETGEAR in poskusite znova.</string>
+<string name="actiontimeout">Časovna omejitev dejanja je potekla. Poskusite znova.</string>
+<string name="emailisunavailable">E-poštni naslov je že v uporabi.</string>
+<string name="usernamenotavailable">Uporabniško ime ni na voljo.</string>
+<string name="opendnsdeviceisnotmine">Uporabniško ime ni na voljo.</string>
+<string name="usernameformatillegal">Uporabniška imena se morajo začeti in končati s črko ali številko in lahko vsebujejo znake ".", "-" ter "_".</string>
+<string name="passwordlengthillegal">Gesla morajo imeti od 6 do 20 znakov.</string>
+<string name="s_average">Povprečje</string>
+<string name="s_total">Skupaj</string>
+<string name="s_download">Prenos</string>
+<string name="s_upload">Prenesi</string>
+<string name="s_mbytes">MB</string>
+<string name="qrcode">Koda QR</string>
+<string name="qrcodedescribe">Če želite začeti skeniranje, kodo QR poravnajte znotraj okvirja.</string>
+<string name="unqrcodedescribe">Naprava ne more fotografirati ali skenirati Kode QR.</string>
+<string name="s_invaliduserpass">Neveljavno uporabniško ime ali geslo.</string>
+<string name="s_smartlogin_url_1"><a href="https://genie.netgear.com/UserProfile/#ForgotPasswordPlace:">Ste pozabili geslo?  </a></string>
+<string name="s_smartlogin_url_2">Nimate ID-ja? <a href="https://genie.netgear.com/UserProfile/#NewUserPlace:">Prijavite se.</a></string>
+<string name="s_smartlogin_3">Zapomni si moja ID in geslo</string>
+<string name="s_smartnetwork">Oddaljeno</string>
+<string name="s_serial">Serijska številka</string>
+<string name="s_online">S povezavo</string>
+<string name="s_offline">Brez povezave</string>
+<string name="s_mydevices">Moje naprave</string>
+<string name="s_routerlogin">Prijavno ime za usmerjevalnik</string>
+<string name="s_local">Lokalno</string>
+<string name="s_network_error">Zaradi težave v omrežju ne morete vzpostaviti povezave s strežnikom NETGEAR. Poskusite znova. Če ste že prijavljeni, se poskusite odjaviti in znova prijaviti.</string>
+<string name="s_nointernet">Nobena internetna povezava ni zaznana.</string>
+<string name="s_versionwarning">Zahtevan je Android 2.3 ali novejši.</string>
+<string name="qr_connect_router">Vzpostavi povezavo z</string>
+<string name="qr_url_found">Najdeni URL:</string>
+<string name="qr_connect_http">Ali ga želite odpreti</string>
+<string name="password_limit">8–63 znakov ali 64 šestnajstiških vrednosti</string>
+
+<!-- Bypass Account -->
+<string name="NOCreateDeviceID">Informacij o uporabniških računih ni bilo mogoče prenesti</string>
+<string name="NoCreateUserName">Za to napravo ni konfiguriran noben uporabniški račun.</string>
+<string name="NetWorkConnection">Nobena internetna povezava ni zaznana.</string>
+<string name="loginBypassPasswordError">Geslo se ne ujema z uporabniškim imenom Poskusite znova.</string>
+<string name="loginfailed">Prijava v uporabniški pripomoček ni uspela.</string>
+<string name="logoutfailed">Odjava iz uporabniškega pripomočka ni uspela.</string>
+<string name="getbypass">Prenašanje informacij o računu</string>
+<string name="loggingbypass">Prijavljanje ...</string>
+<string name="exitbypass">Odjavljanje ...</string>
+<string name="lpcbypassuser">Prijavljeni ste kot</string>
+
+
+
+
+
+
+
+</resources>

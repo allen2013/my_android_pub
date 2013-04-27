@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dragonflow.iScrollView
+ xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" >
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" 
+  android:orientation="vertical" >
+
+<RelativeLayout
+    android:id="@+id/LPC_mainitem"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dip"
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip"
+    android:layout_marginTop="5dip"
+    android:background="@drawable/layout_bg_2"
+    android:orientation="horizontal" >
+
+	<TextView 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:text="@string/Lpc_control"  
+			android:id="@+id/lpc_manage_control" 
+			android:textSize="16sp" 
+    		android:textColor="@color/Black"
+			android:layout_marginLeft="5dip" 
+			android:layout_marginRight="5dip" 
+			android:layout_marginTop="5dip" android:textStyle="bold">
+	</TextView>
+	<CheckBox 	
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 				
+			android:layout_alignParentRight="true" 
+			android:id="@+id/lpc_controlBT" 
+			android:layout_marginBottom="5dip" 
+			android:layout_marginLeft="5dip" 
+			android:layout_marginRight="5dip" 
+			android:layout_marginTop="5dip"/>
+			<!-- android:layout_below="@+id/lpc_manage_control" 
+			android:text="@string/enablelpccontrol" -->  <!-- ToggleButton --> 
+</RelativeLayout>
+<RelativeLayout 
+	android:id="@+id/LPC_item01" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:background="@drawable/layout_bg_2" 
+	android:layout_marginBottom="5dip" 
+	android:layout_marginLeft="10dip" 
+	android:layout_marginRight="10dip" 
+	android:layout_marginTop="5dip">
+<RelativeLayout 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:id="@+id/lpc_levelchangBT">
+	<TextView 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:gravity="center_vertical" 
+			android:text="@string/Filteringlevel" 
+			android:textSize="16sp" 
+    		android:textColor="@color/Black"
+			android:id="@+id/lpc_manage_level" 
+			android:layout_marginLeft="5dip" 
+			android:layout_marginRight="5dip" 
+			android:layout_marginTop="5dip" android:textStyle="bold">
+	</TextView>
+	
+		<TextView 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			
+			android:textSize="16sp" 
+    		android:layout_below="@+id/lpc_manage_level" 
+			android:id="@+id/lpc_filterTV" 
+			android:textColor="@color/textcolors01" 
+			android:layout_marginLeft="5dip" 
+			android:layout_marginRight="5dip" 
+			android:layout_marginTop="5dip">
+	</TextView>
+	  		<ImageView
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+	  		android:layout_alignParentRight="true" 
+			android:layout_centerVertical="true" 
+			android:background="@drawable/t_10" 
+			android:layout_marginBottom="5dip" 
+			android:layout_marginLeft="5dip" 
+			android:layout_marginRight="5dip" 
+			android:layout_marginTop="5dip"/> 	
+	</RelativeLayout>
+</RelativeLayout>	
+
+
+<RelativeLayout 
+	android:id="@+id/LPC_item02" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:background="@drawable/layout_bg_2" 
+	android:layout_marginBottom="5dip" 
+	android:layout_marginLeft="10dip" 
+	android:layout_marginRight="10dip" 
+	android:layout_marginTop="5dip">
+	
+<RelativeLayout 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:clickable="true" android:id="@+id/lpc_customchangBT">
+	<TextView 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:textSize="16sp" 
+    		android:textColor="@color/Black"
+			android:id="@+id/lpc_manage_level" 
+			android:text="@string/Lpc_custom_setting" 
+			android:layout_marginLeft="5dip" 
+			android:layout_marginRight="5dip" 
+			android:layout_marginTop="5dip" android:textStyle="bold">
+	</TextView>
+	
+	<TextView 
+			android:id="@+id/lpc_customset"
+			android:layout_height="wrap_content" 
+			android:layout_width="wrap_content" 
+			android:layout_alignParentLeft="true" 	
+			android:singleLine="true"
+			android:layout_below="@+id/lpc_manage_level" 
+			android:textColor="@color/textcolors01" 
+			android:layout_marginBottom="5dip" 
+			android:layout_marginLeft="5dip" 
+			android:layout_marginRight="5dip" 
+			android:layout_marginTop="5dip">
+	</TextView>
+		
+	  		<ImageView
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+	  		android:layout_alignParentRight="true" 
+			android:layout_centerVertical="true" 
+			android:background="@drawable/t_10" 
+			android:layout_marginBottom="5dip" 
+			android:layout_marginLeft="5dip" 
+			android:layout_marginRight="5dip" 
+			android:layout_marginTop="5dip"/> 	
+	</RelativeLayout>	
+</RelativeLayout>		
+	
+<RelativeLayout 
+	android:id="@+id/LPC_item3"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:background="@drawable/layout_bg_2" 
+	android:layout_marginBottom="5dip" 
+	android:layout_marginLeft="10dip" 
+	android:layout_marginRight="10dip" 
+	android:layout_marginTop="5dip">
+	<TextView 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:gravity="center_vertical" 
+		android:textSize="16sp" 
+    	android:text="@string/OpenDNSaccount" 
+		android:id="@+id/lpc_manage_account"
+		 android:textColor="@color/Black" 
+		 android:layout_marginLeft="5dip" 
+		 android:layout_marginRight="5dip" 
+		 android:layout_marginTop="5dip" android:textStyle="bold">
+	</TextView>
+		<TextView 
+			android:layout_height="wrap_content" 
+			android:layout_width="wrap_content" 
+			android:layout_alignParentLeft="true" 			
+			android:layout_below="@+id/lpc_manage_account" 
+			android:singleLine="true"
+			android:id="@+id/lpc_account" 
+			android:textColor="@color/textcolors01" 
+			android:layout_marginBottom="5dip" 
+			android:layout_marginLeft="5dip" 
+			android:layout_marginRight="5dip" 
+			android:layout_marginTop="5dip">
+		</TextView>
+</RelativeLayout>		
+
+<LinearLayout 
+	android:id="@+id/LPC_item4" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:background="@drawable/layout_bg_2" 
+	android:layout_marginBottom="5dip" 
+	android:layout_marginLeft="10dip" 
+	android:layout_marginRight="10dip" 
+	android:clickable="true"
+	android:layout_marginTop="5dip">
+<RelativeLayout 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:clickable="true"
+	android:id="@+id/lpc_bypassaccount">
+	<TextView 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:gravity="center_vertical" 
+			android:text="@string/lpcbypassaccount" 
+			android:textSize="16sp" 
+    		android:textColor="@color/Black"
+			android:id="@+id/lpc_manage_bypass_account" 
+			android:layout_marginLeft="5dip" 
+			android:layout_marginRight="5dip" 
+			android:layout_marginTop="5dip" android:textStyle="bold">
+	</TextView>
+	
+		<TextView 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			
+			android:textSize="16sp" 
+    		android:layout_below="@+id/lpc_manage_bypass_account" 
+			android:id="@+id/lpc_bypassaccount_name" 
+			android:textColor="@color/textcolors01" 
+			android:layout_marginLeft="5dip" 
+			android:layout_marginRight="5dip" 
+			android:layout_marginTop="5dip">
+	</TextView>
+	  		<ImageView
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+	  		android:layout_alignParentRight="true" 
+			android:layout_centerVertical="true" 
+			android:background="@drawable/t_10" 
+			android:layout_marginBottom="5dip" 
+			android:layout_marginLeft="5dip" 
+			android:layout_marginRight="5dip" 
+			android:layout_marginTop="5dip"/> 	
+	</RelativeLayout>
+</LinearLayout>		
+
+</LinearLayout>
+</com.dragonflow.iScrollView>

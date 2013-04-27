@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/alllinearlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/titler"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="44dip" android:background="@drawable/title_bj">
+    
+     <Button android:id="@+id/but_back"   
+	   		android:layout_marginLeft="5dip" 
+	   		android:layout_height="wrap_content"
+	   		 android:layout_width="wrap_content" 
+	   		 android:layout_alignParentLeft="true" 
+	   		 android:background="@drawable/title_bt_bj" 
+	   		 android:text="@string/back" 
+	   		 android:textColor="#FFFFFF" 
+	   		 android:padding="3dip" 
+	   		 android:layout_centerVertical="true"/> 
+   
+    <TextView android:id="@+id/txt_total"   
+	   		android:layout_width="wrap_content" 
+       		android:layout_centerInParent="true" 
+       		android:layout_height="wrap_content" 
+       		android:layout_centerVertical="false" 
+       		android:textColor="@color/blackcolor" 
+       		android:textStyle="bold" 
+       		android:typeface="normal"
+       		android:textSize="19sp"/>   
+   
+ 	<com.dlnashare.SpinnerButton 
+        android:id="@+id/but_auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dip" 
+	   	android:layout_alignParentRight="true" 
+	   	android:background="@drawable/title_bt_bj" 
+        android:text="@string/auto_broadcast"
+        android:textColor="#FFFFFF" 
+	   	android:padding="3dip" 
+	   	android:layout_centerVertical="true"
+        />
+</RelativeLayout>	
+
+    
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="fill_parent"
+        android:layout_height="242dp"
+        android:layout_weight="0.83"
+        android:orientation="vertical" >
+
+        <com.dlnashare.MyGallery
+            android:id="@+id/gallery1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:spacing="20px" >
+        </com.dlnashare.MyGallery>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/downlinear"
+        android:layout_width="fill_parent"
+        android:layout_height="51dp"
+        android:orientation="vertical" >
+
+        <Gallery
+            android:id="@+id/gallery"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:spacing="20px" >
+
+        </Gallery>
+    </LinearLayout>
+
+</LinearLayout>

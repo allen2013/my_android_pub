@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dragonflow.iScrollView
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="#FFFFFF">
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:orientation="vertical"
+   android:layout_height="wrap_content">
+  
+<TextView
+        android:focusable="true" 
+        android:focusableInTouchMode="true"
+        android:layout_width="0dp" 
+        android:layout_height="0dp"/> 
+  
+  <TextView 	android:id="@+id/tname" 
+ 				android:focusable="true" 
+        		android:focusableInTouchMode="true"
+ 				android:layout_height="wrap_content"
+  				android:layout_width="wrap_content" 
+  				android:textColor="@color/Black" 
+  				android:layout_marginTop="5dp" 
+  				android:textSize="16sp" 
+  				android:text="@string/wirelessname" 
+  				android:layout_marginLeft="10sp" 
+  				android:layout_marginRight="10sp" android:textStyle="bold"/>
+ 
+  <EditText 	android:id="@+id/ename" 
+ 				android:layout_height="wrap_content"
+ 				android:layout_width="fill_parent" 
+ 				android:gravity="left"
+ 				android:layout_marginLeft="10sp" android:layout_marginRight="10sp"/>
+  <TextView 	android:id="@+id/tpassword" 
+ 				android:layout_height="wrap_content"
+  				android:layout_width="wrap_content" 
+  				android:textColor="@color/Black" android:layout_marginTop="3dp" android:textSize="16sp" android:text="@string/networkkey" android:layout_marginLeft="10sp" android:layout_marginRight="10sp" android:textStyle="bold"/>
+ 
+  <EditText 	android:id="@+id/epassword" 
+ 				android:layout_height="wrap_content"
+ 				android:layout_width="fill_parent" 
+ 				android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:gravity="left"/>
+  <TextView 	android:id="@+id/tpasswordlimit" 
+ 				android:layout_height="wrap_content"
+  				android:layout_width="match_parent"
+  				android:gravity="top|center_horizontal"
+  				android:textColor="@color/Black" android:textSize="12sp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="1dp" android:text="@string/password_limit"/>
+  
+ 	<TextView 	android:id="@+id/channel_text" 
+ 				android:layout_height="wrap_content"
+  				android:layout_width="wrap_content" 
+  				android:textColor="@color/Black" android:layout_marginTop="3dp" android:textSize="16sp" android:layout_marginLeft="10sp" android:layout_marginRight="10sp" android:textStyle="bold"/>	
+  				
+  	 <Spinner 	android:id="@+id/channel" 
+ 				android:layout_height="wrap_content"
+ 				android:layout_width="fill_parent" 
+ 				android:theme="@android:style/Theme.NoTitleBar"
+ 				android:layout_marginLeft="10sp" android:layout_marginRight="10sp"/>	
+ 				
+ 	<TextView 	android:id="@+id/wpa_text" 
+ 				android:layout_height="wrap_content"
+  				android:layout_width="wrap_content" 
+  				android:textColor="@color/Black" android:layout_marginTop="3dp" android:textSize="16sp" android:layout_marginLeft="10sp" android:layout_marginRight="10sp" android:textStyle="bold"/>	
+  				
+  	 <Spinner 	android:id="@+id/wpa" 
+ 				android:layout_height="wrap_content"
+ 				android:layout_width="fill_parent" 
+ 				android:gravity="left" 
+ 				android:layout_marginLeft="10sp" android:layout_marginRight="10sp"/>					
+  						 	
+ 				
+
+ 				
+
+</LinearLayout>
+</com.dragonflow.iScrollView>
+

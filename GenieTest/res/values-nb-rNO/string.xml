@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="wireless">Trådløsinnstillinger</string>
+<string name="settings">Innstillinger</string>
+<string name="guestaccess">Gjestetilgang</string>
+<string name="guestsettings">Gjesteinnstillinger</string>
+<string name="map">Nettverkskart</string>
+<string name="traffic">Trafikkmåler</string>
+<string name="parentalcontrl">Parental Controls</string>
+<string name="marketplace">Marketplace</string>
+
+<string name="loadingtraffic">Laster trafikkmåler</string>
+<string name="loadingmap">Laster nettverkskart</string>
+<string name="loadingguestaccess">Laste gjestetilgang</string>
+<string name="loadingwireless">Laster inn trådløsinnstillinger</string>
+<string name="loadingparentalcontrl">Laster Parental Controls</string>
+<string name="loadingmymedia">Laster inn mine medier</string>
+
+
+<string name="remeberpassword">Husk passord</string>
+<string name="login">Logg på</string>
+<string name="ok">OK</string>
+<string name="cancel">Avbryt</string>
+<string name="wirelessname">Navn/SSID</string>
+<string name="name">SSID</string>
+<string name="channel">Kanal</string>
+<string name="networkkey">Nøkkel/passord</string>
+<string name="key">Passord</string>
+<string name="securityoptions">Sikkerhetsalternativer</string>
+<string name="Period">Telleperiode</string>
+<string name="Time">Tilkoblingstid (T:M)</string>
+<string name="Upload">Opplasting / gjennomsnitt (M)</string>
+<string name="Download">Nedlasting/gjennomsnitt (M)</string>
+<string name="Total">Totalt/gjennomsnitt (M)</string>
+<string name="Lpc_status">Status</string>
+<string name="Lpc_control">Parental Controls</string>
+<string name="Enable">Aktiver</string>
+<string name="Disable">Deaktiver</string>
+<string name="Filteringlevel">Filtreringsnivå</string>
+<string name="OpenDNSaccount">OpenDNS-konto</string>
+<string name="Filteringchang">Endre grunnleggende innstillinger</string>
+<string name="lpc_Positive">Forrige</string>
+<string name="lpc_Negative">Neste</string>
+<string name="Lpc_done">Ferdig</string>
+<string name="lpc_presignlntitle">Konfigurere Live Parental Controls</string>
+<string name="lpc_createtitle">Opprett en gratis OpenDNS-konto</string>
+<string name="lpc_createname">Brukernavn</string>
+<string name="lpc_createpassword">Passord</string>
+<string name="lpc_createpassword2">Bekreft passord</string>
+<string name="lpc_createemail">E-post</string>
+<string name="lpc_createemail2">Bekreft e-post</string>
+<string name="lpc_createeinvalidmail">Ugyldig e-post</string>
+<string name="lpc_createcheck">Kontroller tilgjengelighet</string>
+<string name="lpcsignintitle">Logg deg på OpenDNS-kontoen</string>
+<string name="lpcsigninintro">Angi brukernavnet og passordet nedenfor.</string>
+<string name="lpc_createintro">Angi informasjonen din nedenfor.</string>
+<string name="lpc_presignintro">Velkommen! Denne konfigureringsveiviseren konfigurere raskt NETGEAR Live Parental Controls med OpenDNS på NETGEAR-ruteren.</string>
+<string name="lpc_presignintro1">Før du kan bruke Live Parental Controls, må du ha en gratis OpenDNS-konto. Har du allerede en konto?</string>
+<string name="lpc_presigninexist">Ja, bruk min eksisterende OpenDNS-konto.</string>
+<string name="lpc_presignincreate">Nei, jeg må opprette en gratis OpenDNS-konto.</string>
+<string name="lpcsettitle">Filtreringsnivå</string>
+<string name="lpcsetintro">Alle datamaskiner som er koblet til ruteren, vil være beskyttet mot innholdet du velger nedenfor. Du kan tilpasse Live Parental Controls senere på vårt webområde.</string>
+<string name="lpcset_none">Ingen</string>
+<string name="lpcset_none_text">Ingenting er blokkert.</string>
+<string name="lpcset_minimal">Minimal</string>
+<string name="lpcset_minimal_text">Beskytter bare mot svindelforsøk (phishing).</string>
+<string name="lpcset_low">Lav</string>
+<string name="lpcset_low_text">Beskytter mot pornografi og svindelforsøk (phishing).</string>
+<string name="lpcset_moderate">Moderat</string>
+<string name="lpcset_moderate_text">Beskytter mot alle områder med innhold for voksne, ulovlig aktivitet og svindelforsøk (phishing).</string>
+<string name="lpcset_high">Høy</string>
+<string name="lpcset_high_text">Beskytter mot alle områder med innhold for voksne, ulovlig aktivitet, områder for sosiale nettverk, videodelingsområder, svindelforsøk (phishing) og generelle områder som er bortkastet tid.</string>
+<string name="lpc">Parental Controls</string>
+<string name="lpc_donetitle">Konfigurasjonen er fullført.</string>
+<string name="lpc_doneintro">Du har konfigurert NETGEAR Live Parental Controls med OpenDNS. Neste gang du kjører behandlingsverktøyet, kommer du til statusskjermbildet der du kan gjøre følgende:</string>
+<string name="lpc_doneintro1">kontrollere om Live Parental Controls er aktivert</string>
+<string name="lpc_doneintro2">deaktivere eller aktivere Live Parental Controls</string>
+<string name="lpc_doneintro3">endre grunnleggende innstillinger</string>
+<string name="lpc_doneintro4">endre tilpassede innstillinger, for eksempel en Live Parental Controls som er brukerspesifikk og basert på bestemte tidspunkter</string>
+<string name="lpc_done_bttext">Før meg til statusskjermbildet</string>
+<string name="lpc_introtitle">Vær oppmerksom på følgende</string>
+<string name="lpc_introtext">Hvis du vil angi Live Parental Controls, trenger du en OpenDNS-konto. Har du allerede en konto?</string>
+<string name="lpc_enable">Aktivert</string>
+<string name="lpc_disable">Deaktivert</string>
+<string name="search">Søk</string>
+<string name="speedtest_text">Den gjeldende nedlastingshastigheten fra dette webområdet er %2 Kbps.</string>
+<string name="Kbps">kbps</string>
+<string name="Clickhere">klikk her</string>
+<string name="Lpc_manage_nothing">Ingenting er blokkert.</string>
+<string name="lpc_manage_customset">Endre tilpassede innstillinger</string>
+<string name="notenabled">Ikke aktivert</string>
+<string name="connected">Tilkoblet</string>
+<string name="guestaccess_time">Tidsperiode</string>
+<string name="guestaccess_security">Sikkerhetsalternativer</string>
+<string name="disableguest_text">Gjestetilgang er i bruk. Hvis du deaktiverer den, kan dette forstyrre aktiv trafikk på det trådløse nettverket. Vil du fortsette?</string>
+<string name="wpa">Sikkerhet</string>
+<string name="about_title">Om NETGEAR genie</string>
+<string name="about_info">Copyright (c) 2013, NETGEAR Inc.</string>
+<string name="about_info1">Med enerett.</string>
+<string name="about_info2">Drevet av SiteView</string>
+<string name="version">Versjon</string>
+<string name="close">Lukk</string>
+<string name="notsupport">Ruteren støtter ikke denne funksjonen.</string>
+<string name="gatewaydev">Ruter</string>
+<string name="networkdev">Nettverksenhet</string>
+<string name="windowspc">Windows-PC</string>
+<string name="blurayplayer">Blu-ray-spiller</string>
+<string name="bridge">Bro</string>
+<string name="cablestb">Kabel-STB</string>
+<string name="cameradev">Kamera</string>
+<string name="gamedev">Spillkonsoll</string>
+<string name="imacdev">iMac</string>
+<string name="ipad">iPad</string>
+<string name="iphone">iPhone</string>
+<string name="ipodtouch">iPod Touch</string>
+<string name="linuxpc">Linux-PC</string>
+<string name="macbookdev">MacBook</string>
+<string name="macminidev">Mac Mini</string>
+<string name="macprodev">Mac Pro</string>
+<string name="mediadev">Medieenhet</string>
+<string name="mobiledev">Smarttelefon</string>
+<string name="netstoragedev">Lagring</string>
+<string name="switchdev">Bryter</string>
+<string name="printerdev">Skriver</string>
+<string name="repeater">Gjentaker</string>
+<string name="satellitestb">Satellitt-STB</string>
+<string name="scannerdev">Skanner</string>
+<string name="slingbox">SlingBox</string>
+<string name="stb">Andre STB</string>
+<string name="tablepc">Nettbrett</string>
+<string name="tv">TV</string>
+<string name="unixpc">UNIX-PC</string>
+<string name="map_custom">Kundenavn</string>
+<string name="map_type">Type</string>
+<string name="map_ip">IP-adresse</string>
+<string name="map_mac">MAC-adresse</string>
+<string name="modify">Endre</string>
+<string name="refresh">Oppdater</string>
+<string name="apply">Bruk</string>
+<string name="custom">Tilpasset</string>
+<string name="Traffic_set_text_1">Start trafikkteller på nytt på</string>
+<string name="traffic_set_text_2">Starttid for trafikkmåler</string>
+<string name="traffic_set_hour">Time</string>
+<string name="traffic_set_minute">Minutt</string>
+<string name="traffic_set_text_3">På den</string>
+<string name="traffic_set_text_4">dagen i måneden</string>
+<string name="today">I dag</string>
+<string name="yesterday">I går</string>
+<string name="this_week">Denne uken</string>
+<string name="this_month">Denne måneden</string>
+<string name="last_month">Siste måned</string>
+<string name="traffic_disable_text">Deaktiver trafikkmåler. Vil du fortsette?</string>
+<string name="traffic_able_text">Aktiver trafikkmåler. Vil du fortsette?</string>
+<string name="login_username">Brukernavn</string>
+<string name="login_password">Passord</string>
+<string name="login_alertinfo">Pålogging mislyktes. Kontroller at datamaskinen er koblet til NETGEAR-ruteren.</string>
+<string name="wait">Vent litt...</string>
+<string name="bad_password">Pålogging mislyktes. Angi riktig adminpassord for NETGEAR-ruteren.</string>
+<string name="search_hint">Søkestøtte</string>
+<string name="logout">Logg av</string>
+<string name="about">Om</string>
+<string name="back">Tilbake</string>
+<string name="enablelpccontrol">Aktiver Live Parental Controls</string>
+
+<!--
+<string name="loading">@</string>
+
+-->
+
+<string name="pleasewait">Vent litt...</string>
+
+
+<string name="wirelsssettin">Hvis du endrer innstillingene, kan dette forstyrre aktiv trafikk på det trådløse nettverket. Vil du fortsette?</string>
+<string name="setwait">Mottar informasjon om svar fra ruter, vent %1 sekunder.</string>
+<string name="seconds">Sekunder</string>
+<string name="login_default">(standard er \"password\")</string>
+<string name="wirelsssettinrelogin">Trådløsinnstillingen ble endret. Koble til det trådløse nettverket på nytt ved hjelp av nye trådløsinnstillinger, og logg på genie.</string>
+<string name="mymedia">Mine medier</string>
+<string name="dlna_server">Kilde</string>
+<string name="dlna_render">Spiller</string>
+<string name="dlna_control">Spiller av</string>
+<string name="dlna_option">Alternativer</string>
+
+
+<string name="menu_reset">Tilbakestill</string>
+<string name="chooserender">Velg en spiller.</string>
+
+
+<string name="select">Velg</string>
+<string name="servertiler">Kilde</string>
+<string name="rendertitle">Spiller</string>
+<string name="playingtitle">Spiller av</string>
+<string name="optiontitle">Alternativer</string>
+<string name="editsetting">Redigere innstillinger</string>
+<string name="save">Sikkerhetskopier</string>
+<string name="trafficmeteritem01">Trafikkvolumgrense</string>
+<string name="trafficmeteritem02">Månedsgrense</string>
+<string name="trafficmeteritem03">Klokkeslett</string>
+<string name="trafficmeteritem04">Dag</string>
+<string name="trafficmeteritem05">Startdag for teller</string>
+<string name="trafficmeteritem06">Starttidspunkt for teller</string>
+<string name="monthlylimitmbytes">Månedlig grense (MB)</string>
+
+
+<string name="androiddevice">Android-enhet</string>
+<string name="androidphone">Android-telefon</string>
+<string name="androidtablet">Android-nettbrett</string>
+<string name="slidespeedtext">Velg hastighet for lysbildevisning</string>
+<string name="slide_slow">Sakte</string>
+<string name="slide_normal">Normal</string>
+<string name="slide_rast">rask</string>
+<string name="Lpc_custom_setting">Endre tilpassede innstillinger</string>
+<string name="license">Lisens</string>
+<string name="genielicensetitle">Vilkår og betingelser</string>
+<string name="neptunelicensetitle">Innen distribusjonen av NETGEAR genie.</string>
+<string name="fileopenfailed">Filen kan ikke åpnes.</string>
+<string name="playfails">Filen kan ikke spilles av.</string>
+<string name="nodevices">Fant ingen delt enhet. Hvis du vil bruke denne funksjonen, må du aktivere fildelingsfunksjonen for enheter på nettverket, eller koble en USB-lagringsstasjon til ruteren hvis ruteren støtter USB-lagringstilkobling.</string>
+<string name="routermodel">Rutermodell</string>
+<string name="frimwareversion">Fastvareversjon</string>
+<string name="dlnarefresh">Start medietjeneste på nytt</string>
+<string name="dlnarefolderfresh">Oppdater kildemappe</string>
+<string name="turnonserver">Del filer på nettverk</string>
+<string name="turnonrender">Tillat avspilling på nettverk</string>
+<string name="dlnanote">Merk:</string>
+<string name="dlnaoptionnote">Start medietjenesten på nytt når den innstillingen for det trådløse nettverket blir endret.</string>
+<string name="dlnaoptionnote1">Trykk på Oppdater kildemappe hvis det blir gjort endringer i mediemappen(e).</string>
+<string name="dlnaoptionnote2">Del fil i nettverk for å gi folk tilgang til filer på denne enheten via nettverket.</string>
+<string name="dlnaoptionnote3">Tillat at folk kan bruke denne enheten til å spille av filer via nettverket.</string>
+<string name="norender">Finner ikke spiller. Hvis du vil spille av filer på denne enheten, går du til Alternativer og velger \"Tillat spilling på nettverk\".</string>
+<string name="device_block">Blokker</string>
+<string name="device_allow">Tillat</string>
+<string name="turnonaccesscontrol">Slå tilgangskontroll på</string>
+
+<string name="accesscontrol">Tilgangskontrolll</string>
+<string name="signalstrength">Signalstyrke</string>
+
+<string name="linkrate">Tilkoblingshastighet</string>
+<string name="whatisit">Hva er det?</string>
+<string name="dvr">DVR</string>
+<string name="choosesource">Velg en kilde.</string>
+<string name="yes">Ja</string>
+<string name="no">Nei</string>
+<string name="notnetgearrouter">Finner ikke NETGEAR-ruter, eller den er ikke <a href="http://www.netgear.com/landing/en-us/netgear-genie-routers.aspx">støttet</a>.</string>
+<string name="lpcinterneterror">Internett er ikke tilgjengelig. Koble ruteren til Internett først.</string>
+<string name="noconnectrouter">Koble enheten trådløst til NETGEAR-ruteren og prøv igjen.</string>
+<string name="actiontimeout">Tidsavbrudd for handling. Prøv på nytt.</string>
+<string name="emailisunavailable">E-postadressen er opptatt.</string>
+<string name="usernamenotavailable">Brukernavnet er utilgjengelig.</string>
+<string name="opendnsdeviceisnotmine">Brukernavnet er utilgjengelig.</string>
+<string name="usernameformatillegal">Brukernavn må begynne og slutte med en bokstav eller et tall og kan også inneholde ., ,, - og _.</string>
+<string name="passwordlengthillegal">Passord må inneholde mellom 6 og 20 tegn.</string>
+<string name="s_average">Gjennomsnittlig</string>
+<string name="s_total">Totalt</string>
+<string name="s_download">Last ned</string>
+<string name="s_upload">Last opp</string>
+<string name="s_mbytes">MB</string>
+<string name="qrcode">QR-kode</string>
+<string name="qrcodedescribe">Legg QR-koden innenfor rammen for å starte skanningen.</string>
+<string name="unqrcodedescribe">Enheten kan ikke ta bilder eller skanne QR-koden.</string>
+<string name="s_invaliduserpass">Ugyldig brukernavn eller passord.</string>
+<string name="s_smartlogin_url_1"><a href="https://genie.netgear.com/UserProfile/#ForgotPasswordPlace:">Har du glemt passordet ditt?  </a></string>
+<string name="s_smartlogin_url_2">Har du ikke en ID? <a href="https://genie.netgear.com/UserProfile/#NewUserPlace:">Registrer deg.</a></string>
+<string name="s_smartlogin_3">Husk ID og passord</string>
+<string name="s_smartnetwork">Ekstern</string>
+<string name="s_serial">Seriell</string>
+<string name="s_online">Tilkoblet</string>
+<string name="s_offline">Frakoblet</string>
+<string name="s_mydevices">Mine enheter</string>
+<string name="s_routerlogin">Pålogging, ruter</string>
+<string name="s_local">Lokal</string>
+<string name="s_network_error">En nettverksfeil forhindrer deg i å koble til NETGEAR-serveren. Prøv på nytt. Hvis du allerede er logget på, kan du prøve å logge av og deretter på igjen.</string>
+<string name="s_nointernet">Ingen Internett-tilkobling er oppdaget.</string>
+<string name="s_versionwarning">Du trenger Android 2.3 eller nyere.</string>
+<string name="qr_connect_router">Koble til</string>
+<string name="qr_url_found">URL funnet:</string>
+<string name="qr_connect_http">Vil du åpne den?</string>
+<string name="password_limit">8–63 tegn eller 64 heksadesimalverdier</string>
+
+<!-- Bypass Account -->
+<string name="NOCreateDeviceID">Kunne ikke laste ned informasjon om brukerkontoer</string>
+<string name="NoCreateUserName">Det er ikke konfigurert noen brukerkontoer for denne enheten.</string>
+<string name="NetWorkConnection">Ingen Internett-tilkobling er oppdaget.</string>
+<string name="loginBypassPasswordError">Passordet samsvarer ikke med brukernavnet. Prøv på nytt.</string>
+<string name="loginfailed">Påloggingen for brukerverktøyet mislyktes.</string>
+<string name="logoutfailed">Avloggingen for brukerverktøyet mislyktes.</string>
+<string name="getbypass">Laster ned kontoinformasjon</string>
+<string name="loggingbypass">Logger på …</string>
+<string name="exitbypass">Logger av …</string>
+<string name="lpcbypassuser">Du er logget på som</string>
+
+
+
+
+
+
+
+</resources>

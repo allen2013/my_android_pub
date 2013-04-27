@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="wireless">الإعدادات اللاسلكية</string>
+<string name="settings">الإعدادات</string>
+<string name="guestaccess">وصول الضيوف</string>
+<string name="guestsettings">إعدادات الضيف</string>
+<string name="map">خريطة الشبكة</string>
+<string name="traffic">مقياس حركة المرور</string>
+<string name="parentalcontrl">عناصر تحكم الوالدين</string>
+<string name="marketplace">Marketplace</string>
+
+<string name="loadingtraffic">تحميل مقياس حركة المرور</string>
+<string name="loadingmap">تحميل خريطة الشبكة</string>
+<string name="loadingguestaccess">تحميل وصول الضيوف</string>
+<string name="loadingwireless">تحميل الإعدادات اللاسلكية</string>
+<string name="loadingparentalcontrl">تحميل عناصر تحكم الوالدين</string>
+<string name="loadingmymedia">تحميل وسائطي</string>
+
+
+<string name="remeberpassword">تذكر كلمة المرور</string>
+<string name="login">تسجيل الدخول</string>
+<string name="ok">موافق</string>
+<string name="cancel">إلغاء</string>
+<string name="wirelessname">الاسم/SSID</string>
+<string name="name">SSID</string>
+<string name="channel">القناة</string>
+<string name="networkkey">المفتاح/كلمة المرور</string>
+<string name="key">كلمة المرور</string>
+<string name="securityoptions">خيارات الأمان</string>
+<string name="Period">فترة الحساب</string>
+<string name="Time">وقت الاتصال (س:د)</string>
+<string name="Upload">تحميل/متوسط (ميغا)</string>
+<string name="Download">تنزيل/متوسط (ميغا)</string>
+<string name="Total">إجمالي/متوسط (ميغا)</string>
+<string name="Lpc_status">الحالة</string>
+<string name="Lpc_control">عناصر تحكم الوالدين</string>
+<string name="Enable">تمكين</string>
+<string name="Disable">تعطيل</string>
+<string name="Filteringlevel">مستوى التصفية</string>
+<string name="OpenDNSaccount">حساب OpenDNS</string>
+<string name="Filteringchang">تغيير الإعدادات الأساسية</string>
+<string name="lpc_Positive">السابق</string>
+<string name="lpc_Negative">التالي</string>
+<string name="Lpc_done">تم</string>
+<string name="lpc_presignlntitle">إعداد عناصر تحكم الوالدين المباشرة</string>
+<string name="lpc_createtitle">إنشاء حساب OpenDNS مجاني</string>
+<string name="lpc_createname">اسم المستخدم</string>
+<string name="lpc_createpassword">كلمة المرور</string>
+<string name="lpc_createpassword2">تأكيد كلمة المرور</string>
+<string name="lpc_createemail">البريد الإلكتروني</string>
+<string name="lpc_createemail2">تأكيد البريد الإلكتروني</string>
+<string name="lpc_createeinvalidmail">بريد إلكتروني غير صالح</string>
+<string name="lpc_createcheck">تحقق من التوافر</string>
+<string name="lpcsignintitle">تسجيل الدخول إلى حساب OpenDNS الخاص بك</string>
+<string name="lpcsigninintro">يرجى إدخال اسم المستخدم وكلمة المرور أدناه.</string>
+<string name="lpc_createintro">يرجى إدخال معلوماتك أدناه.</string>
+<string name="lpc_presignintro">أهلاً، سيقوم معالج الإعداد هذا بسرعة بتكوين عناصر تحكم الوالدين المباشرة من NETGEAR والتي يتم تشغيلها بواسطة OpenDNS على موجه NETGEAR الخاص بك.</string>
+<string name="lpc_presignintro1">بهدف استخدام عناصر تحكم الوالدين المباشرة، تحتاج إلى حساب OpenDNS مجاني. هل تملك واحداً بالفعل؟</string>
+<string name="lpc_presigninexist">نعم، استخدم حساب OpenDNS الموجود.</string>
+<string name="lpc_presignincreate">لا، أحتاج إلى إنشاء حساب OpenDNS مجاني.</string>
+<string name="lpcsettitle">مستوى التصفية</string>
+<string name="lpcsetintro">ستتم حماية كل أجهزة الكمبيوتر المتصلة بموجهك من المحتوى الذي تختاره أدناه. يمكنك تخصيص عناصر تحكم الوالدين المباشرة على موقع الويب الخاص بنا.</string>
+<string name="lpcset_none">بلا</string>
+<string name="lpcset_none_text">لا شيء محظور</string>
+<string name="lpcset_minimal">الأدنى</string>
+<string name="lpcset_minimal_text">يحمي فقط من هجمات التصيد الاحتيالي.</string>
+<string name="lpcset_low">منخفض</string>
+<string name="lpcset_low_text">يحمي من الإباحية وهجمات التصيد الاحتيالي.</string>
+<string name="lpcset_moderate">معتدل</string>
+<string name="lpcset_moderate_text">يحمي من كل المواقع المخصصة للراشدين والنشاط غير المشروع وهجمات التصيد الاحتيالي.</string>
+<string name="lpcset_high">عالي</string>
+<string name="lpcset_high_text">يحمي من المواقع المخصصة للراشدين والنشاط غير المشروع ومواقع الشبكات الاجتماعية ومواقع مشاركة الفيديو وهجمات التصيد الاحتيالي والمواقع العامة التي تهدر الوقت</string>
+<string name="lpc">عناصر تحكم الوالدين</string>
+<string name="lpc_donetitle">اكتمل الإعداد!</string>
+<string name="lpc_doneintro">قمت بإعداد عناصر تحكم الوالدين المباشرة من NETGEAR المشغلة من OpenDNS بنجاح. في المرة المقبلة قم بتشغيل الأداة المساعدة للإدارة، وسيتم توجيهك مباشرةً إلى شاشة الحالة حيث يمكنك:</string>
+<string name="lpc_doneintro1">التحقق مما إذا تم تمكين عناصر تحكم الوالدين المباشرة</string>
+<string name="lpc_doneintro2">تعطيل عناصر تحكم الوالدين المباشرة أو تمكينها</string>
+<string name="lpc_doneintro3">تعديل الإعدادات الأساسية</string>
+<string name="lpc_doneintro4">تغيير الإعدادات المخصصة مثل عناصر تحكم الوالدين المباشرة المرتكزة على أساس كل مستخدم ووقت اليوم</string>
+<string name="lpc_done_bttext">أنقلني إلى شاشة الحالة</string>
+<string name="lpc_introtitle">يرجى الملاحظة</string>
+<string name="lpc_introtext">لإعداد عناصر تحكم الوالدين المباشرة، تحتاج إلى حساب OpenDNS. هل لديك حساب بالفعل؟</string>
+<string name="lpc_enable">ممكّن</string>
+<string name="lpc_disable">معطَّل</string>
+<string name="search">البحث</string>
+<string name="speedtest_text">إن سرعة التنزيل الحالية من موقع الويب هذا هي %2 كيلوبايت في الثانية.</string>
+<string name="Kbps">كيلو بايت في الثانية</string>
+<string name="Clickhere">انقر هنا</string>
+<string name="Lpc_manage_nothing">لا شيء محظور</string>
+<string name="lpc_manage_customset">تغيير الإعدادات المخصصة</string>
+<string name="notenabled">غير ممكّن</string>
+<string name="connected">تم الاتصال</string>
+<string name="guestaccess_time">الفترة الزمنية</string>
+<string name="guestaccess_security">خيارات الأمان</string>
+<string name="disableguest_text">ميزة وصول الضيوف قيد الاستخدام. ويمكن أن يؤدي تعطيلها إلى تعطيل حركة المرور النشطة على الشبكة اللاسلكية. هل تريد المتابعة؟</string>
+<string name="wpa">الأمان</string>
+<string name="about_title">حول NETGEAR genie</string>
+<string name="about_info">حقوق النشر (c)‏ 2013، ‏NETGEAR Inc.</string>
+<string name="about_info1">كافة الحقوق محفوظة.</string>
+<string name="about_info2">يتم التشغيل بواسطة SiteView</string>
+<string name="version">الإصدار</string>
+<string name="close">إغلاق</string>
+<string name="notsupport">لا يدعم الموجه هذه الوظيفة.</string>
+<string name="gatewaydev">موجه</string>
+<string name="networkdev">جهاز الشبكة</string>
+<string name="windowspc">"كمبيوتر يعمل بنظام Windows</string>
+<string name="blurayplayer">مشغّل Blu-ray</string>
+<string name="bridge">الجسر</string>
+<string name="cablestb">كبل STB</string>
+<string name="cameradev">كاميرا</string>
+<string name="gamedev">وحدة تحكم الألعاب</string>
+<string name="imacdev">iMac</string>
+<string name="ipad">iPad</string>
+<string name="iphone">iPhone</string>
+<string name="ipodtouch">iPod Touch</string>
+<string name="linuxpc">كمبيوتر Linux</string>
+<string name="macbookdev">MacBook</string>
+<string name="macminidev">Mac Mini</string>
+<string name="macprodev">Mac Pro</string>
+<string name="mediadev">جهاز الوسائط</string>
+<string name="mobiledev">الهاتف الذكي</string>
+<string name="netstoragedev">تخزين</string>
+<string name="switchdev">التبديل</string>
+<string name="printerdev">طابعة</string>
+<string name="repeater">جهاز تكرار</string>
+<string name="satellitestb">الأقمار الصناعية STB</string>
+<string name="scannerdev">ماسحة ضوئية</string>
+<string name="slingbox">SlingBox</string>
+<string name="stb">STB آخر</string>
+<string name="tablepc">الجهاز اللوحي</string>
+<string name="tv">تلفزيون</string>
+<string name="unixpc">كمبيوتر يعمل بنظام UNIX</string>
+<string name="map_custom">الاسم المخصص</string>
+<string name="map_type">النوع</string>
+<string name="map_ip">عنوان IP</string>
+<string name="map_mac">عنوان MAC</string>
+<string name="modify">تعديل</string>
+<string name="refresh">تحديث</string>
+<string name="apply">تطبيق</string>
+<string name="custom">مخصص</string>
+<string name="Traffic_set_text_1">إعادة تشغيل عداد حركة المرور في</string>
+<string name="traffic_set_text_2"> وقت بدء قياس حركة المرور</string>
+<string name="traffic_set_hour">ساعة</string>
+<string name="traffic_set_minute">دقيقة</string>
+<string name="traffic_set_text_3">على</string>
+<string name="traffic_set_text_4">يوم من كل شهر</string>
+<string name="today">اليوم</string>
+<string name="yesterday">الأمس</string>
+<string name="this_week">الأسبوع الحالي</string>
+<string name="this_month">الشهر الحالي</string>
+<string name="last_month">الشهر الماضي</string>
+<string name="traffic_disable_text">تعطيل مقياس حركة المرور. هل تريد المتابعة؟</string>
+<string name="traffic_able_text">تمكين مقياس حركة المرور. هل تريد المتابعة؟</string>
+<string name="login_username">اسم المستخدم</string>
+<string name="login_password">كلمة المرور</string>
+<string name="login_alertinfo">فشل تسجيل الدخول! يرجى التحقق لمعرفة ما إذا كان هذا الكمبيوتر متصلاً بموجه NETGEAR.</string>
+<string name="wait">يرجى الانتظار...</string>
+<string name="bad_password">فشل تسجيل الدخول. يرجى إعادة إدخال كلمة مرور المسؤول الصحيحة لموجه NETGEAR</string>
+<string name="search_hint">البحث في موقع الدعم</string>
+<string name="logout">تسجل الخروج</string>
+<string name="about">حول</string>
+<string name="back">السابق</string>
+<string name="enablelpccontrol">تمكين عناصر تحكم الوالدين المباشرة</string>
+
+<!--
+<string name="loading">@</string>
+
+-->
+
+<string name="pleasewait">يرجى الانتظار...</string>
+
+
+<string name="wirelsssettin">يمكن أن يؤدي تغيير الإعدادات إلى تعطيل حركة المرور النشطة على الشبكة اللاسلكية. هل تريد المتابعة؟</string>
+<string name="setwait">استلام معلومات استجابة الموجه، يرجى الانتظار %1 ثانية.</string>
+<string name="seconds">ثوان</string>
+<string name="login_default">(كلمة المرور الافتراضية هي \"password\")</string>
+<string name="wirelsssettinrelogin">تم تغيير الإعداد اللاسلكي بنجاح. يرجى الانضمام مجدداً إلى الشبكة اللاسلكية من خلال استخدام إدخال لاسلكي جديد وتسجيل الدخول إلى genie.</string>
+<string name="mymedia">الوسائط الخاصة بي</string>
+<string name="dlna_server">مصدر</string>
+<string name="dlna_render">مشغل</string>
+<string name="dlna_control">قيد التشغيل</string>
+<string name="dlna_option">خيارات</string>
+
+
+<string name="menu_reset">إعادة تعيين</string>
+<string name="chooserender">يرجى تحديد مشغّل.</string>
+
+
+<string name="select">تحديد</string>
+<string name="servertiler">مصدر</string>
+<string name="rendertitle">مشغل</string>
+<string name="playingtitle">قيد التشغيل</string>
+<string name="optiontitle">خيارات</string>
+<string name="editsetting">تحرير الإعدادات</string>
+<string name="save">حفظ</string>
+<string name="trafficmeteritem01">حد حجم حركة المرور</string>
+<string name="trafficmeteritem02">حد شهري</string>
+<string name="trafficmeteritem03">الوقت</string>
+<string name="trafficmeteritem04">يوم</string>
+<string name="trafficmeteritem05">يوم بدء العداد</string>
+<string name="trafficmeteritem06">وقت بدء العداد</string>
+<string name="monthlylimitmbytes">حد شهري (ميغابايت)</string>
+
+
+<string name="androiddevice">جهاز Android</string>
+<string name="androidphone">هاتف Android</string>
+<string name="androidtablet">جهاز Android اللوحي</string>
+<string name="slidespeedtext">تحديد سرعة عرض الشرائح</string>
+<string name="slide_slow">بطيء</string>
+<string name="slide_normal">عادي</string>
+<string name="slide_rast">سريع</string>
+<string name="Lpc_custom_setting">تغيير الإعدادات المخصصة</string>
+<string name="license">الترخيص</string>
+<string name="genielicensetitle">البنود والشروط</string>
+<string name="neptunelicensetitle">ضمن توزيع NETGEAR genie.</string>
+<string name="fileopenfailed">لا يمكن فتح الملف.</string>
+<string name="playfails">لا يمكن تشغيل الملف.</string>
+<string name="nodevices">لم يتم العثور على جهاز مشترك. لاستخدام هذه الميزة، عليك تمكين ميزة مشاركة الملف للأجهزة في الشبكة أو توصيل محرك أقراص تخزين USB بالموجه إذا كان هذا الأخير يدعم اتصال تخزين USB.</string>
+<string name="routermodel">طراز الموجه</string>
+<string name="frimwareversion">إصدار البرنامج الثابت</string>
+<string name="dlnarefresh">إعادة تشغيل خدمة الوسائط</string>
+<string name="dlnarefolderfresh">تحديث مجلد المصدر</string>
+<string name="turnonserver">مشاركة الملفات في الشبكة</string>
+<string name="turnonrender">السماح بالتشغيل في الشبكة</string>
+<string name="dlnanote">ملاحظة:</string>
+<string name="dlnaoptionnote">إعادة تشغيل خدمة الوسائط عند تغيير إعداد الشبكة اللاسلكية.</string>
+<string name="dlnaoptionnote1">اضغط على مجلد مصدر التحديث في حال حدوث أي تغيير في مجلد (مجلدات) الوسائط.</string>
+<string name="dlnaoptionnote2">مشاركة الملف في الشبكة للسماح للأشخاص بالوصول إلى الملفات الموجودة في هذا الجهاز عبر الشبكة.</string>
+<string name="dlnaoptionnote3">السماح للأشخاص باستخدام هذا الجهاز لتشغيل الملفات عبر الشبكة.</string>
+<string name="norender">\”لم يتم العثور على مشغل. لتشغيل الملفات على هذا الجهاز، انتقل إلى الخيارات وحدد \”السماح بالتشغيل في الشبكة.</string>
+<string name="device_block">حظر</string>
+<string name="device_allow">السماح</string>
+<string name="turnonaccesscontrol">تشغيل التحكم بالوصول</string>
+
+<string name="accesscontrol">التحكم بالوصول</string>
+<string name="signalstrength">قوة الإشارة</string>
+
+<string name="linkrate">سرعة الارتباط</string>
+<string name="whatisit">ما هذا؟</string>
+<string name="dvr">DVR</string>
+<string name="choosesource">يرجى تحديد مصدر.</string>
+<string name="yes">نعم</string>
+<string name="no">لا</string>
+<string name="notnetgearrouter">لم يتم العثور على موجه NETGEAR أو أنه ليس <a href="http://www.netgear.com/landing/en-us/netgear-genie-routers.aspx">معتمداً</a>.</string>
+<string name="lpcinterneterror">إنترنت غير متوفر. يرجى توصيل الموجه بإنترنت أولاً.</string>
+<string name="noconnectrouter">يرجى توصيل هذا الجهاز لاسلكياً إلى موجه NETGEAR لديك، ثم المحاولة من جديد.</string>
+<string name="actiontimeout">انتهت مهلة الإجراء. يرجى المحاولة مرة أخرى.</string>
+<string name="emailisunavailable">إن اسم المستخدم لعنوان البريد الإلكتروني هذا مُستخدم بالفعل.</string>
+<string name="usernamenotavailable">اسم المستخدم غير متوفر.</string>
+<string name="opendnsdeviceisnotmine">اسم المستخدم غير متوفر.</string>
+<string name="passwordlengthillegal">يجب أن تتراوح كلمات المرور بين 6 أحرف و20 حرفاً.</string>
+<string name="s_average">معدل</string>
+<string name="s_total">الإجمالي</string>
+<string name="s_download">تنزيل</string>
+<string name="s_upload">تحميل</string>
+<string name="s_mbytes">ميغابايت</string>
+<string name="qrcode">رمز QR</string>
+<string name="qrcodedescribe">قم بمحاذاة رمز. QR مع الإطار لبدء عملية المسح</string>
+<string name="unqrcodedescribe">يتعذّر على جهازك التقاط الصور أو مسح رمز QR.</string>
+<string name="s_invaliduserpass">اسم المستخدم أو كلمة المرور غير صالحة.</string>
+<string name="s_smartlogin_url_1"><a href="https://genie.netgear.com/UserProfile/#ForgotPasswordPlace:">هل نسيت كلمة المرور؟  </a></string>
+<string name="s_smartlogin_url_2">ليس لديك معرّف؟ <a href="https://genie.netgear.com/UserProfile/#NewUserPlace:">تسجيل الدخول.</a></string>
+<string name="s_smartlogin_3">تذكر المعرّف وكلمة المرور الخاصين بي</string>
+<string name="s_smartnetwork">بعيدة</string>
+<string name="s_serial">تسلسلي</string>
+<string name="s_online">متصل</string>
+<string name="s_offline">غير متصل</string>
+<string name="s_mydevices">الأجهزة الخاصة بي</string>
+<string name="s_routerlogin">تسجيل دخول الموجه</string>
+<string name="s_local">محلية</string>
+<string name="s_network_error">حدثت مشكلة تتعلق بالشبكة تمنعك من الاتصال بخادم NETGEAR. يرجى المحاولة مرة أخرى. إذا قمت بتسجيل الدخول مسبقاً، حاول تسجيل الخروج ومن ثم عاود تسجيل الدخول.</string>
+<string name="s_nointernet">لم يتم اكتشاف اتصال الإنترنت.</string>
+<string name="s_versionwarning">يحتاج إلى الإصدار 2.3 من Android أو إلى إصدار أحدث.</string>
+<string name="qr_connect_router">التوصيل بـ</string>
+<string name="qr_url_found">تم العثور على عنوان URL التالي:</string>
+<string name="qr_connect_http">هل تريد فتحه؟</string>
+<string name="password_limit">من 8 إلى 63 حرفاً أو 64 قيماً سداسيةً عشريةً</string>
+
+<!-- Bypass Account -->
+<string name="NOCreateDeviceID">لا يمكن تنزيل معلومات حول حسابات المستخدم</string>
+<string name="NoCreateUserName">لم يتم تكوين أي حسابات للمستخدم لهذا الجهاز.</string>
+<string name="NetWorkConnection">لم يتم اكتشاف اتصال الإنترنت.</string>
+<string name="loginBypassPasswordError">لا تتطابق كلمة المرور مع اسم المستخدم، يرجى المحاولة مرة أخرى.</string>
+<string name="loginfailed">فشل تسجيل دخول الأداة المساعدة للمستخدم.</string>
+<string name="logoutfailed">فشل تسجيل الخروج من الأداة المساعدة للمستخدم.</string>
+<string name="getbypass">تنزيل معلومات الحساب</string>
+<string name="loggingbypass">جارٍ تسجيل الدخول...</string>
+<string name="exitbypass">جارٍ تسجيل الخروج...</string>
+<string name="lpcbypassuser">تم تسجيل دخولك كـ</string>
+
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+   android:background="#FFFFFF">
+  
+   <TextView android:text="Traffic volume control by:"
+  			android:id="@+id/tmsetting_t01"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			/>
+  	<Spinner android:id="@+id/tmsettingSpinner_01" 
+		 android:layout_height="wrap_content" 
+		 android:layout_width="fill_parent">
+		 </Spinner>
+	 <TextView android:text="Monthly limit:"
+  			android:id="@+id/tmsetting_t02"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			/>	
+  	<LinearLayout
+  	 android:layout_width="fill_parent"
+  	 android:layout_height="wrap_content" 
+  	 android:orientation="horizontal">
+  		<EditText 	android:id="@+id/monthlimit" 
+ 					android:layout_height="wrap_content"
+ 					android:inputType="number|numberSigned|numberDecimal" 
+ 					android:layout_width="fill_parent" 
+ 					android:maxLength="6"
+ 					android:layout_weight="2"/> 
+ 		<TextView android:text="Mbytes"
+  			android:id="@+id/Mbytes"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  			android:layout_weight="1"
+  			android:gravity="center_horizontal"
+  			/>			
+ 					
+  	</LinearLayout>		
+  	<View  android:layout_height="3dip"
+  			android:layout_width="fill_parent"/>		
+  	<TextView android:text="Traffic Counter:"
+  			android:id="@+id/tmsetting_t03"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  			/>
+  	<View  android:layout_height="3dip"
+  	       android:layout_width="fill_parent"/>		
+  	<TextView android:text="Restart Traffic Counter at day of each month:"
+  			android:id="@+id/tmsetting_t04"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  			/>       
+ 	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:layout_gravity="center_horizontal"
+		android:paddingLeft="12dp"
+		android:paddingRight="12dp"
+		android:paddingTop="10dp">
+	  
+	  	<kankan.wheel.widget.WheelView android:id="@+id/hour"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:layout_weight="1"/>
+		<kankan.wheel.widget.WheelView android:id="@+id/mins"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:layout_weight="1"/>
+		<kankan.wheel.widget.WheelView android:id="@+id/day"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:layout_weight="1"/>	
+	</LinearLayout>
+			
+  				 	
+  
+</LinearLayout>

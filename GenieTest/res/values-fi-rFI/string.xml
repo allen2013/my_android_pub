@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="wireless">Langattomat asetukset</string>
+<string name="settings">Asetukset</string>
+<string name="guestaccess">Vieraskäyttö</string>
+<string name="guestsettings">Vierasasetukset</string>
+<string name="map">Verkkokartta</string>
+<string name="traffic">Liikennemittari</string>
+<string name="parentalcontrl">Parental Controls</string>
+<string name="marketplace">Marketplace</string>
+
+<string name="loadingtraffic">Ladataan liikennemittari</string>
+<string name="loadingmap">Ladataan verkkokarttaa</string>
+<string name="loadingguestaccess">Ladataan vieraskäyttöä</string>
+<string name="loadingwireless">Ladataan langattomia asetuksia</string>
+<string name="loadingparentalcontrl">Ladataan lapsilukkoja</string>
+<string name="loadingmymedia">Ladataan Omat mediatiedostot -toimintoa</string>
+
+
+<string name="remeberpassword">Muista salasana</string>
+<string name="login">Käyttäjätunnus</string>
+<string name="ok">OK</string>
+<string name="cancel">Peruuta</string>
+<string name="wirelessname">Nimi/SSID</string>
+<string name="name">SSID</string>
+<string name="channel">Kanava</string>
+<string name="networkkey">Tunnus/salasana</string>
+<string name="key">Salasana</string>
+<string name="securityoptions">Suojausvaihtoehdot</string>
+<string name="Period">Laskujakso</string>
+<string name="Time">Yhteysaika (H:M)</string>
+<string name="Upload">Lataus verkkoon/keskim. (M)</string>
+<string name="Download">Lataus verkosta/keskim. (M)</string>
+<string name="Total">Yhteensä/keskim. (M)</string>
+<string name="Lpc_status">Tila</string>
+<string name="Lpc_control">Parental Controls</string>
+<string name="Enable">Ota käyttöön</string>
+<string name="Disable">Poista käytöstä</string>
+<string name="Filteringlevel">Suodatustaso</string>
+<string name="OpenDNSaccount">OpenDNS-tili</string>
+<string name="Filteringchang">Muuta perusasetuksia</string>
+<string name="lpc_Positive">Edellinen</string>
+<string name="lpc_Negative">Seuraava</string>
+<string name="Lpc_done">Valmis</string>
+<string name="lpc_presignlntitle">Live Parental Controls -ratkaisun asentaminen</string>
+<string name="lpc_createtitle">Luo ilmainen OpenDNS-tili</string>
+<string name="lpc_createname">Käyttäjätunnus</string>
+<string name="lpc_createpassword">Salasana</string>
+<string name="lpc_createpassword2">Vahvista salasana</string>
+<string name="lpc_createemail">Sähköposti</string>
+<string name="lpc_createemail2">Vahvista sähköposti</string>
+<string name="lpc_createeinvalidmail">Virheellinen sähköposti</string>
+<string name="lpc_createcheck">Tarkista, onko tunnus käytettävissä</string>
+<string name="lpcsignintitle">Kirjaudu OpenDNS-tilille</string>
+<string name="lpcsigninintro">Kirjoita käyttäjätunnus ja salasana alle.</string>
+<string name="lpc_createintro">Täytä tietosi alla oleviin kenttiin.</string>
+<string name="lpc_presignintro">Tervetuloa. Ohjattu asennustoiminto määrittää nopeasti NETGEAR Live Parental Controls Powered by OpenDNS -ratkaisun NETGEAR-reitittimeen.</string>
+<string name="lpc_presignintro1">Live Parental Controls -ratkaisun käyttämiseen tarvitaan ilmainen OpenDNS-tili. Onko sinulla tili?</string>
+<string name="lpc_presigninexist">Kyllä, minulla on käytössä OpenDNS-tili.</string>
+<string name="lpc_presignincreate">Ei, tarvitsen ilmaisen OpenDNS-tilin.</string>
+<string name="lpcsettitle">Suodatustaso</string>
+<string name="lpcsetintro">Kaikki reitittimeen kytketyt tietokoneet suojataan sisällöltä, jonka voit määrittää seuraavassa. Live Parental Controls -ratkaisua voi muokata myöhemmin web-sivustolla.</string>
+<string name="lpcset_none">Ei mitään</string>
+<string name="lpcset_none_text">Mitään ei ole estetty.</string>
+<string name="lpcset_minimal">Minimaalinen</string>
+<string name="lpcset_minimal_text">Suojaa vain tietojenkalasteluyrityksiltä.</string>
+<string name="lpcset_low">Alhainen</string>
+<string name="lpcset_low_text">Estää pääsyn pornografisille sivustoille ja suojaa tietojenkalasteluyrityksiltä.</string>
+<string name="lpcset_moderate">Keskitaso</string>
+<string name="lpcset_moderate_text">Estää pääsyn aikuisviihdesivustoille ja laittomille sivustoille sekä suojaa tietojenkalasteluyrityksiltä.</string>
+<string name="lpcset_high">Korkea</string>
+<string name="lpcset_high_text">Estää pääsyn aikuisviihdesivustoille, yhteisösivustoille, laittomille sivustoille, videoiden jakosivustoille ja muille vastaaville. Lisäksi suojaa tietojenkalasteluyrityksiltä.</string>
+<string name="lpc">Parental Controls</string>
+<string name="lpc_donetitle">Asennus on valmis.</string>
+<string name="lpc_doneintro">NETGEAR Live Parental Controls powered by OpenDNS -ratkaisun asennus on valmis. Kun seuraavan kerran käynnistät hallinta-apuohjelman, sinut ohjataan tilanäyttöön, jossa voit:</string>
+<string name="lpc_doneintro1">tarkistaa, onko Live Parental Controls käytössä</string>
+<string name="lpc_doneintro2">ottaa Live Parental Controls -ratkaisun käyttöön tai poistaa sen käytöstä</string>
+<string name="lpc_doneintro3">muokata perusasetuksia</string>
+<string name="lpc_doneintro4">mukauttaa asetuksia, kuten käyttäjäkohtaisia tai vuorokauden aikaan perustuvia Live Parental Controls -asetuksia</string>
+<string name="lpc_done_bttext">Siirry tilanäyttöön</string>
+<string name="lpc_introtitle">Huomautus</string>
+<string name="lpc_introtext">Live Parental Controls -lapsilukkojen määrittäminen vaatii OpenDNS-tilin. Onko sinulla jo tili?</string>
+<string name="lpc_enable">Käytössä</string>
+<string name="lpc_disable">Poistettu käytöstä</string>
+<string name="search">Haku</string>
+<string name="speedtest_text">Nykyinen latausnopeus tästä verkkosivustosta on %2 kbps.</string>
+<string name="Kbps">kbps</string>
+<string name="Clickhere">napsauta tätä</string>
+<string name="Lpc_manage_nothing">Mitään ei ole estetty.</string>
+<string name="lpc_manage_customset">Muuta asetuksia</string>
+<string name="notenabled">Ei käytössä</string>
+<string name="connected">Yhdistetty</string>
+<string name="guestaccess_time">Ajanjakso</string>
+<string name="guestaccess_security">Suojausvaihtoehdot</string>
+<string name="disableguest_text">Vieraskäyttö on käytössä. Sen poistaminen käytöstä voi keskeyttää langattoman verkon aktiivisen liikenteen. Haluatko jatkaa?</string>
+<string name="wpa">Suojaus</string>
+<string name="about_title">Tietoja NETGEAR genie -toiminnosta</string>
+<string name="about_info">Copyright (c) 2013, NETGEAR Inc.</string>
+<string name="about_info1">Kaikki oikeudet pidätetään.</string>
+<string name="about_info2">Powered by SiteView</string>
+<string name="version">Versio</string>
+<string name="close">Sulje</string>
+<string name="notsupport">Reititin ei tue tätä toimintoa.</string>
+<string name="gatewaydev">Reititin</string>
+<string name="networkdev">Verkkolaite</string>
+<string name="windowspc">Windows-tietokone</string>
+<string name="blurayplayer">Blu-ray-soitin</string>
+<string name="bridge">Silta</string>
+<string name="cablestb">Kaapeliverkon digisovitin</string>
+<string name="cameradev">Kamera</string>
+<string name="gamedev">Pelikonsoli</string>
+<string name="imacdev">iMac</string>
+<string name="ipad">iPad</string>
+<string name="iphone">iPhone</string>
+<string name="ipodtouch">iPod Touch</string>
+<string name="linuxpc">Linux-tietokone</string>
+<string name="macbookdev">MacBook</string>
+<string name="macminidev">Mac Mini</string>
+<string name="macprodev">Mac Pro</string>
+<string name="mediadev">Medialaite</string>
+<string name="mobiledev">Älypuhelin</string>
+<string name="netstoragedev">Tallennusväline</string>
+<string name="switchdev">Kytkin</string>
+<string name="printerdev">Tulostin</string>
+<string name="repeater">Toistin</string>
+<string name="satellitestb">Satelliittiverkon digisovitin</string>
+<string name="scannerdev">Skanneri</string>
+<string name="slingbox">Slingbox</string>
+<string name="stb">Muu digisovitin</string>
+<string name="tablepc">Tablet</string>
+<string name="tv">TV</string>
+<string name="unixpc">UNIX-tietokone</string>
+<string name="map_custom">Mukautettu nimi</string>
+<string name="map_type">Tyyppi</string>
+<string name="map_ip">IP-osoite</string>
+<string name="map_mac">MAC-osoite</string>
+<string name="modify">Muokkaa</string>
+<string name="refresh">Päivitä</string>
+<string name="apply">Käytä</string>
+<string name="custom">Mukautettu</string>
+<string name="Traffic_set_text_1">Nollaa liikennelaskuri</string>
+<string name="traffic_set_text_2">Liikennemittarin käynnistysaika</string>
+<string name="traffic_set_hour">Tunti</string>
+<string name="traffic_set_minute">Minuutit</string>
+<string name="traffic_set_text_3">jokaisen kuukauden</string>
+<string name="traffic_set_text_4">päivä</string>
+<string name="today">Tänään</string>
+<string name="yesterday">Eilen</string>
+<string name="this_week">Tällä viikolla</string>
+<string name="this_month">Tässä kuussa</string>
+<string name="last_month">Viime kuussa</string>
+<string name="traffic_disable_text">Poista liikennemittari käytöstä. Haluatko jatkaa?</string>
+<string name="traffic_able_text">Ota liikennemittari käyttöön. Haluatko jatkaa?</string>
+<string name="login_username">Käyttäjätunnus</string>
+<string name="login_password">Salasana</string>
+<string name="login_alertinfo">Kirjautuminen epäonnistui. Varmista, että tietokone on liitetty NETGEAR-reitittimeen.</string>
+<string name="wait">Odota...</string>
+<string name="bad_password">Kirjautuminen epäonnistui. Kirjoita NETGEAR-reitittimen oikea järjestelmänvalvojan salasana uudelleen.</string>
+<string name="search_hint">Hae tuesta</string>
+<string name="logout">Uloskirjaus</string>
+<string name="about">Tietoja</string>
+<string name="back">Edellinen</string>
+<string name="enablelpccontrol">Ota Live Parental Controls käyttöön</string>
+
+<!--
+<string name="loading">@</string>
+
+-->
+
+<string name="pleasewait">Odota...</string>
+
+
+<string name="wirelsssettin">Asetusten muuttaminen voi keskeyttää langattoman verkon aktiivisen liikenteen. Haluatko jatkaa?</string>
+<string name="setwait">Vastaanotetaan reitittimen vastaustietoja. Odota %1 sekuntia.</string>
+<string name="seconds">Sekuntia</string>
+<string name="login_default">(oletussalasana on password)</string>
+<string name="wirelsssettinrelogin">Langattomat asetukset on muutettu. Liity langattomaan verkkoon uudelleen uusien langattomien asetusten avulla ja kirjaudu genieen.</string>
+<string name="mymedia">Omat mediatiedostot</string>
+<string name="dlna_server">Lähde</string>
+<string name="dlna_render">Soitin</string>
+<string name="dlna_control">Toistetaan</string>
+<string name="dlna_option">Valinnat</string>
+
+
+<string name="menu_reset">Nollaa</string>
+<string name="chooserender">Valitse soitin.</string>
+
+
+<string name="select">Valinta</string>
+<string name="servertiler">Lähde</string>
+<string name="rendertitle">Soitin</string>
+<string name="playingtitle">Toistetaan</string>
+<string name="optiontitle">Valinnat</string>
+<string name="editsetting">Muokkaa asetuksia</string>
+<string name="save">Varmuuskopioi</string>
+<string name="trafficmeteritem01">Liikennemäärän rajoitus</string>
+<string name="trafficmeteritem02">Kuukausiraja</string>
+<string name="trafficmeteritem03">Aika</string>
+<string name="trafficmeteritem04">Päivä</string>
+<string name="trafficmeteritem05">Laskurin käynnistyspäivä</string>
+<string name="trafficmeteritem06">Laskurin käynnistysaika</string>
+<string name="monthlylimitmbytes">Kuukausiraja (Mt)</string>
+
+
+<string name="androiddevice">Android-laite</string>
+<string name="androidphone">Android-puhelin</string>
+<string name="androidtablet">Android-tablet</string>
+<string name="slidespeedtext">Valitse diaesityksen nopeus</string>
+<string name="slide_slow">Hidas</string>
+<string name="slide_normal">Normaali</string>
+<string name="slide_rast">paastota</string>
+<string name="Lpc_custom_setting">Muuta asetuksia</string>
+<string name="license">Käyttöoikeus</string>
+<string name="genielicensetitle">Käyttöehdot</string>
+<string name="neptunelicensetitle">NETGEAR genien levityksessä.</string>
+<string name="fileopenfailed">Tiedostoa ei voi avata.</string>
+<string name="playfails">Tiedostoa ei voi toistaa.</string>
+<string name="nodevices">Jaettua laitetta ei löytynyt. Tämän toiminnon käyttäminen edellyttää, että tiedostojen jakaminen on mahdollista verkossa olevilla laitteilla, tai että USB-muisti on liitetty reitittimeen, jos reititin tukee USB-liitäntää.</string>
+<string name="routermodel">Reitittimen malli</string>
+<string name="frimwareversion">Laiteohjelman versio</string>
+<string name="dlnarefresh">Käynnistä mediapalvelu uudelleen</string>
+<string name="dlnarefolderfresh">Päivitä lähdekansio</string>
+<string name="turnonserver">Jaa tiedostot verkossa</string>
+<string name="turnonrender">Salli toisto verkossa</string>
+<string name="dlnanote">Huomautus:</string>
+<string name="dlnaoptionnote">Käynnistä mediapalvelu uudelleen, kun langaton verkkoasetus on vaihdettu.</string>
+<string name="dlnaoptionnote1">Jos mediakansioissa on muutoksia, paina kohtaa Päivitä lähdekansio.</string>
+<string name="dlnaoptionnote2">Salli muiden käyttää tässä laitteessa olevia tiedostoja verkossa jakamalla tiedosto verkon kautta.</string>
+<string name="dlnaoptionnote3">Salli muiden käyttää tätä laitetta tiedostojen toistoon verkon kautta.</string>
+<string name="norender">Soitinta ei löydy. Toista tiedostoja tällä laitteella siirtymällä kohtaan Valinnat ja valitsemalla \“Salli toisto verkossa.\”</string>
+<string name="device_block">Estä</string>
+<string name="device_allow">Salli</string>
+<string name="turnonaccesscontrol">Ota käyttöön käytön valvonta</string>
+
+<string name="accesscontrol">Käytön valvonta</string>
+<string name="signalstrength">Signaalin voimakkuus</string>
+
+<string name="linkrate">Siirtonopeus</string>
+<string name="whatisit">Mikä se on?</string>
+<string name="dvr">DVR</string>
+<string name="choosesource">Valitse lähde.</string>
+<string name="yes">Kyllä</string>
+<string name="no">Ei</string>
+<string name="notnetgearrouter">NETGEAR-reititintä ei löydy, tai se ei ole <a href="http://www.netgear.com/landing/en-us/netgear-genie-routers.aspx">tuettu</a>.</string>
+<string name="lpcinterneterror">Internet ei ole käytettävissä. Yhdistä ensin reitittimesi Internetiin.</string>
+<string name="noconnectrouter">Liitä tämä laite langattomasti NETGEAR-reitittimeen ja yritä uudelleen.</string>
+<string name="actiontimeout">Toiminto aikakatkaistiin. Yritä uudelleen.</string>
+<string name="emailisunavailable">Sähköpostiosoite on käytössä.</string>
+<string name="usernamenotavailable">Käyttäjänimi ei ole käytettävissä.</string>
+<string name="opendnsdeviceisnotmine">Käyttäjänimi ei ole käytettävissä.</string>
+<string name="usernameformatillegal">Käyttäjätunnuksen ensimmäisen ja viimeisen merkin on oltava kirjain tai numero. Se saa sisältää myös merkkejä ".", "-" ja "_".</string>
+<string name="passwordlengthillegal">Salasanassa on oltava 6–20 merkkiä.</string>
+<string name="s_average">Keskimääräinen</string>
+<string name="s_total">Yhteensä</string>
+<string name="s_download">Lataa</string>
+<string name="s_upload">Lataa</string>
+<string name="s_mbytes">megatavua</string>
+<string name="qrcode">QR-koodi</string>
+<string name="qrcodedescribe">Aloita skannaus kohdistamalla QR-koodi kehykseen.</string>
+<string name="unqrcodedescribe">Laitteesi ei voi ottaa kuvia tai skannata QR-koodia.</string>
+<string name="s_invaliduserpass">Virheellinen käyttäjätunnus tai salasana.</string>
+<string name="s_smartlogin_url_1"><a href="https://genie.netgear.com/UserProfile/#ForgotPasswordPlace:">Unohditko salasanan?  </a></string>
+<string name="s_smartlogin_url_2">Eikö sinulla ole tunnusta? <a href="https://genie.netgear.com/UserProfile/#NewUserPlace:">Kirjaudu.</a></string>
+<string name="s_smartlogin_3">Muista tunnukseni ja salasanani</string>
+<string name="s_smartnetwork">Etä</string>
+<string name="s_serial">Sarja</string>
+<string name="s_online">Online</string>
+<string name="s_offline">Offline</string>
+<string name="s_mydevices">Omat laitteet</string>
+<string name="s_routerlogin">Reitittimen sisäänkirjaus</string>
+<string name="s_local">Paikallinen</string>
+<string name="s_network_error">NETGEAR-palvelimeen ei saada yhteyttä verkko-ongelman vuoksi. Yritä uudelleen. Jos olet jo kirjautunut sisään, kokeile kirjautua ulos ja uudelleen sisään.</string>
+<string name="s_nointernet">Internet-yhteyttä ei tunnisteta.</string>
+<string name="s_versionwarning">Vaatii Android-version 2.3 tai uudemman.</string>
+<string name="qr_connect_router">Muodosta yhteys</string>
+<string name="qr_url_found">Löytynyt URL:</string>
+<string name="qr_connect_http">Haluatko avata sen?</string>
+<string name="password_limit">8–63 merkkiä tai 64 heksadesimaalista arvoa</string>
+
+<!-- Bypass Account -->
+<string name="NOCreateDeviceID">Käyttäjätilitietoja ei voitu ladata</string>
+<string name="NoCreateUserName">Laitteeseen ei ole määritetty käyttäjätilejä.</string>
+<string name="NetWorkConnection">Internet-yhteyttä ei tunnisteta.</string>
+<string name="loginBypassPasswordError">Salasana ei vastaa käyttäjänimeä. Yritä uudelleen.</string>
+<string name="loginfailed">Käyttäjäapuohjelman sisäänkirjaus epäonnistui.</string>
+<string name="logoutfailed">Käyttäjäapuohjelman uloskirjautuminen epäonnistui.</string>
+<string name="getbypass">Tilitietoja ladataan</string>
+<string name="loggingbypass">Kirjaudutaan sisään…</string>
+<string name="exitbypass">Kirjaudutaan ulos…</string>
+<string name="lpcbypassuser">Et ole kirjautuneena sisään tunnuksella</string>
+
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/turbo_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp" >
+
+        <EditText
+            android:id="@+id/tb_file_url"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dip"
+            android:layout_toLeftOf="@+id/tb_file_chooesefile"
+            android:background="@android:drawable/editbox_background"
+            android:ems="10"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:hint="@string/search_hint"
+            android:singleLine="true"
+            android:textSize="15sp" >
+        </EditText>
+
+        <Button
+            android:id="@+id/tb_file_chooesefile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tb_file_url"
+            android:layout_alignBottom="@+id/tb_file_url"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/toolbar_uplevel"
+            android:textColor="#FFFFFF" />
+
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/tb_file_fileList"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1.06"
+        android:numColumns="3" >
+    </GridView>
+
+    <LinearLayout
+        android:id="@+id/tb_allfile_okbar"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/tb_file_fileupload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.12"
+            android:background="@drawable/title_bt_bj"
+            android:text="@string/fileupload"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+</LinearLayout>

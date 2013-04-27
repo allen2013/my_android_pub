@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Linear_conn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" >
+	
+	    <GridView
+	        android:id="@+id/computerlist_gridview"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/computerlist_titlelayout"
+	        android:numColumns="3"
+	        android:background="#E5E5FB" >
+	
+	    </GridView>
+	
+	    <RelativeLayout
+	        android:id="@+id/computerlist_titlelayout"
+	        android:layout_width="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_alignParentTop="true"
+	        android:layout_height="44dip" android:background="@drawable/title_bj">
+	
+	        <TextView
+	            android:id="@+id/computerlist_title"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerHorizontal="true"
+	            android:layout_centerVertical="true"
+	            android:text="@string/computerlist" />
+	
+	        <Button
+	            android:id="@+id/addComputer"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignBaseline="@+id/computerlist_title"
+	            android:layout_alignBottom="@+id/computerlist_title"
+	            android:layout_alignParentRight="true"
+	            android:layout_marginRight="5dip"
+	            android:background="@drawable/title_bt_bj"
+	            android:padding="3dip"
+	            android:text="@string/addComputer"
+	            android:textColor="#FFFFFF" />
+	
+	        <Button
+	            android:id="@+id/computerlist_btnback"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignBaseline="@+id/computerlist_title"
+	            android:layout_alignBottom="@+id/computerlist_title"
+	            android:layout_alignParentLeft="true"
+	            android:layout_marginLeft="5dip"
+	            android:background="@drawable/title_bt_bj"
+	            android:padding="3dip"
+	            android:text="@string/back"
+	            android:textColor="#FFFFFF" />
+	
+	    </RelativeLayout>
+	
+	</RelativeLayout>
+</LinearLayout>

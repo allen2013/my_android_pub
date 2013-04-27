@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, GenieTest!</string>
+<string name="app_name">GenieLogin</string>
+<string name="wireless">Wireless Settings</string>
+<string name="settings">Settings</string>
+<string name="guestaccess">Guest Access</string>
+<string name="guestsettings">Guest Settings</string>
+<string name="map">Network Map</string>
+<string name="traffic">Traffic Meter</string>
+<string name="speedtest">SpeedTest</string>
+<string name="readyshare">ReadyShare</string>
+<string name="parentalcontrl">Parental Controls</string>
+<string name="marketplace">Marketplace</string>	
+<string name="filebrowse">FileBrowse</string>
+<string name="loadingtraffic">Loading Traffic Meter</string>
+<string name="loadingmap">Loading Network Map</string>
+<string name="loadingguestaccess">Loading Guest Access</string>
+<string name="loadingwireless">Loading Wireless Settings</string>
+<string name="loadingparentalcontrl">Loading Parental Controls</string>
+<string name="loadingmymedia">Loading My Media</string>
+<string name="remeberpassword">Remember password</string>
+<string name="login">Login</string>
+<string name="ok">OK</string>
+<string name="cancel">Cancel</string>
+<string name="username">Username:admin</string>
+<string name="password">Pls input password ...</string>
+<string name="wirelessname">Name/SSID</string>
+<string name="name">SSID</string>
+<string name="channel">Channel</string>
+<string name="networkkey">Key/Password</string>
+<string name="key">Password</string>
+<string name="securityoptions">Security Options</string>
+<string name="inputurl">Enter a website to test its downloading speed.</string>
+<string name="menu_item01">menu_item01</string>
+<string name="menu_item02">menu_item02</string>
+<string name="Period">Counting Period</string>
+<string name="Time">Connection Time(H:M)</string>
+<string name="Upload">Upload/Avg(M)</string>
+<string name="Download">Download/Avg(M)</string>
+<string name="Total">Total/Avg(M)</string>
+<string name="Lpc_status">Status</string>
+<string name="Lpc_control">Parental Controls</string>
+<string name="Enable">Enable</string>
+<string name="Disable">Disable</string>
+<string name="Filteringlevel">Filtering level </string>
+<string name="OpenDNSaccount">OpenDNS Account</string>
+<string name="Filteringchang">Change Basic Setting</string>
+<string name="lpc_Positive">Previous</string>
+<string name="lpc_Negative">Next</string>
+<string name="Lpc_done">Done</string>
+<string name="lpc_presignlntitle">Setting up Live Parental Controls</string>
+<string name="lpc_createtitle">Create a free OpenDNS account</string>
+<string name="lpc_createname">Username</string>
+<string name="lpc_createpassword">Password</string>
+<string name="lpc_createpassword2">Confirm Password</string>
+<string name="lpc_createemail">Email</string>
+<string name="lpc_createemail2">Confirm Email</string>
+<string name="lpc_createeinvalidmail">Invalid Email</string>
+<string name="lpc_createcheck">Check availability</string>
+<string name="lpcsignintitle">Sign in to your OpenDNS account</string>
+<string name="lpcsigninintro">Please enter your username and password below.</string>
+<string name="lpc_createintro">Please enter your information below.</string>
+<string name="lpc_intro"></string>
+
+<string name="lpc_presignintro">Welcome, this setup wizard will quickly configure NETGEAR Live Parental Controls powered by OpenDNS on your NETGEAR router.</string>
+<string name="lpc_presignintro1">In order to use Live Parental Controls, you need a free OpenDNS account. Have you already have one?</string>
+
+<string name="lpc_presigninexist">Yes, use my existing OpenDNS account</string>
+<string name="lpc_presignincreate">No, I need to create a free OpenDNS account</string>
+<string name="lpcsettitle">Filtering Level</string>
+<string name="lpcsetintro">All computers connected to your router will be protected from the content you select below. You can customize your Live Parental Controls later on our website.</string>
+<string name="lpcset_none">None</string>
+<string name="lpcset_none_text">Nothing blocked.</string>
+<string name="lpcset_minimal">Minimal</string>
+<string name="lpcset_minimal_text">Protects only against phishing attacks.</string>
+<string name="lpcset_low">Low</string>
+<string name="lpcset_low_text">Protects against pornography and phishing attacks.</string>
+<string name="lpcset_moderate">Moderate</string>
+<string name="lpcset_moderate_text">Protects against all adult-related sites, illegal activity and phishing attacks.</string>
+<string name="lpcset_high">High</string>
+<string name="lpcset_high_text">Protects against all adult-related sites, illegal activity, social networking sites, video sharing sites, phishing attacks and general time-wasters</string>
+<string name="lpc">Parental Controls</string>
+<string name="lpc_donetitle">Setup is complete!</string>
+
+<string name="lpc_doneintro">You have successfully setup NETGEAR Live Parental Controls powered by OpenDNS. Next time you run the Management Utility, it will take you to the status screen where you can: </string>
+<string name="lpc_doneintro1">check whether Live Parental Controls are enabled</string>
+<string name="lpc_doneintro2">disable or enable Live Parental Controls</string>
+<string name="lpc_doneintro3">modify basic settings</string>
+<string name="lpc_doneintro4">change custom settings such as per-user and time-of-day based Live Parental Controls</string>
+
+
+<string name="lpc_done_bttext">Take me to the status screen</string>
+<string name="lpc_introtitle">Please Note</string>
+<string name="lpc_introtext">To set Live Parental Controls, you need an OpenDNS account. Do you already have an account?</string>
+<string name="lpc_enable">Enabled</string>
+<string name="lpc_disable">Disable</string>
+<string name="main_wifi_disable">Wi-Fi disabled</string>
+<string name="main_net_disable">net disable</string>
+<string name="search">Search</string>
+<string name="speedtest_text">Your current downloading speed from this website is </string>
+<string name="Kbps">Kbps</string>
+<string name="message_dialog_save">save ?</string>
+<string name="success">success</string>
+<string name="failure">failure</string>
+<string name="on">On</string>
+<string name="off">Off</string>
+<string name="Clickhere">Click here</string>
+<string name="Lpc_manage_nothing">Nothing blocked.</string>
+<string name="lpc_manage_customset">Change Custom Settings</string>
+<string name="number">Number</string>
+<string name="notenabled">Not Enabled</string>
+<string name="connected">Connected</string>
+<string name="guestaccess_time">Time Period</string>
+<string name="guestaccess_security">Security Options</string>
+<string name="disableguest_text">Guest Access is in use. Disabling it could disrupt active traffic on the wireless network. Do you want to continue?</string>
+
+<string name="wpa">Security</string>
+<string name="about_title">About NETGEAR Genie</string>
+<string name="about_info">Copyright (c) 2013, NETGEAR Inc.\nAll Rights Reserved.</string>
+<string name="powered_by">Powered by SiteView</string>
+<string name="version">Version</string>
+<string name="close">Close</string>
+<string name="notsupport">The router does not support this function.</string>
+<string name="gatewaydev">Router</string>
+<string name="networkdev">Network Device</string>
+<string name="windowspc">Windows PC</string>
+<string name="blurayplayer">Blu-ray Player</string>
+<string name="bridge">Bridge</string>
+<string name="cablestb">Cable STB</string>
+<string name="cameradev">Camera</string>
+<string name="gamedev">Gaming Console</string>
+<string name="imacdev">iMac</string>
+<string name="ipad">iPad</string>
+<string name="iphone">iPhone</string>
+<string name="ipodtouch">iPod Touch</string>
+<string name="linuxpc">Linux PC</string>
+<string name="macbookdev">MacBook</string>
+<string name="macminidev">Mac Mini</string>
+<string name="macprodev">Mac Pro</string>
+<string name="mediadev">Media Device</string>
+<string name="mobiledev">Smart Phone</string>
+<string name="netstoragedev">Storage</string>
+<string name="switchdev">Switch</string>
+<string name="printerdev">Printer</string>
+<string name="repeater">Repeater</string>
+<string name="satellitestb">Satellite STB</string>
+<string name="scannerdev">Scanner</string>
+<string name="slingbox">SlingBox</string>
+<string name="stb">Other STB</string>
+<string name="tablepc">Tablet</string>
+<string name="tv">TV</string>
+<string name="unixpc">UNIX PC</string>
+<string name="map_custom">Custom Name</string>
+<string name="map_type">Type</string>
+<string name="map_ip">IP Address</string>
+<string name="map_mac">MAC Address</string>
+<string name="modify">Modify</string>
+<string name="refresh">Refresh</string>
+<string name="apply">Apply</string>
+<string name="custom">Custom</string>
+<string name="spinner_prompt">Choose a planet</string>
+<string name="Traffic_set_text_1">Restart Traffic Counter at</string>
+<string name="traffic_set_text_2">Traffic Meter Start Time</string>
+<string name="traffic_set_hour">Hour</string>
+<string name="traffic_set_minute">Minute</string>
+<string name="traffic_set_text_3">On the </string>
+<string name="traffic_set_text_4">day of each month</string>
+<string name="inputerror">Input error</string>
+<string name="today">Today</string>
+<string name="yesterday">Yesterday</string>
+<string name="this_week">This week</string>
+<string name="this_month">This month</string>
+<string name="last_month">Last month</string>
+<string name="wifisettext">Without Wi-Fi, it can\'t open Genie. Turn on Wi-Fi now?</string>
+<string name="traffic_disable_text">Disable Traffic Meter. Do you want to continue?</string>
+<string name="traffic_able_text">Enable Traffic Meter. Do you want to continue?</string>
+<string name="login_username">User Name</string>
+<string name="login_password">Password</string>
+<string name="login_alertinfo">Login failed! Please check to see if this computer is connected to the NETGEAR router.</string>
+<string name="wait">Please wait...</string>
+<string name="bad_password">Login failed. Please re-enter the correct admin password for your NETGEAR router.</string>
+                           <!-- "Login failed. Please re-enter the correct admin password for your NETGEAR router." -->
+<string name="search_hint">Search Support</string>
+<string name="logout">Logout</string>
+<string name="about">About</string>
+<string name="back">Back</string>
+<string name="enablelpccontrol">Enable Live Parental Controls</string>
+<string name="loading">Loading</string>
+<string name="pleasewait">Please wait</string>
+<string name="wirelsssettin">Changing settings can disrupt active traffic on the wireless network. Do you want to continue?</string>
+<string name="setwait">Receiving router response information, please wait </string>
+
+<string name="seconds">seconds</string>
+<string name="login_default">(Default is \&quot;password\&quot;)</string>
+<string name="wirelsssettinrelogin">Wireless setting was changed successfully. Please re-join your wireless network by using new wireless setting and login to Genie.</string>
+<string name="mymedia">My Media</string>
+
+<string name="dlna_server">Source</string>
+<string name="dlna_render">Player</string>
+<string name="dlna_control">Playing</string>
+<string name="dlna_option">Options</string>
+<string name="menu_zoom">Zoom</string>
+<string name="menu_pan">Pan</string>
+<string name="menu_reset">Reset</string>
+<string name="chooserender">Please select a player.</string>
+<string name="dlnasharepath">Share Path</string>
+<string name="select">select</string>
+
+	<string name="per_null">无</string>
+	<string name="per_only_read">只读</string>
+	<string name="per_only_exec">只执行</string>
+	<string name="per_read_write">读写</string>
+	<string name="per_read_exec">只读, 执行</string>
+	<string name="per_write_exec">读写, 执行</string>
+	<string name="permission">属性</string>
+	<string name="copyFile">复制文件</string>
+	<string name="existed">已存在</string>
+	<string-array name="copyWarning">
+		<item>文件名后面加(2)</item>
+		<item>覆盖当前目录文件</item>
+		<item>取消操作</item>
+		<item>跳过</item>
+		<item>以同样方式处理后面的文件</item>
+
+	</string-array>
+	<string name="copying">正在复制中</string>
+	<string name="sure_delete_files">确定要删除文件 </string>
+	<string name="new_file">新建文件</string>
+	<string name="new_directory">新建文件夹</string>
+	<string name="rename">重命名</string>
+	<string name="dele_file_error">删除文件出错</string>
+	<string name="cancel_copy">取消复制</string>
+	<string name="fail_to_copy">复制文件失败</string>
+	<string name="done_copy">复制完成</string>
+	<string name="moving_files">移动文件中...</string>
+	<string name="hide">隐藏</string>
+	<string name="can_not_open_file">打开文件出错</string>
+	<string name="can_not_find_a_suitable_program_to_open_this_file">没找到适合打开这个文件的程序</string>
+	<string name="fail_to_modify">修改失败</string>
+	<string name="choice_program">选择程序</string>
+	<string-array name="programs">
+		<item>文本</item>
+		<item>图片</item>
+		<item>视频</item>
+		<item>音乐</item>
+		<item>安装软件</item>
+	</string-array>
+	<string-array name="apkmenu">
+		<item>启动软件</item>
+		<item>卸载软件</item>
+		<item>备份软件</item>
+		<item>详细信息</item>
+	</string-array>
+	<string-array name="longClickListMenu">
+		<item>打开</item>
+		<item>打开方式</item>
+		<item>复制</item>
+		<item>剪切</item>
+		<item>粘贴</item>
+		<item>删除</item>
+		<item>重命名</item>
+		<item>全选</item>
+		<item>不拖曳</item>
+		<item>拖曳</item>
+		<item>添加到库</item>
+		<item>属性</item>
+	</string-array>
+<string name="clipboard_is_empty">粘贴板为空</string>
+<string name="the_input_path_error_or_not_exsit">输入目录错误或不存在</string>
+<string name="history">历史</string>
+<string name="sure_exit">确定要退出?</string>
+<string name="no_root">没有root权限</string>
+<string name="path">路径</string>
+<string name="dele_file">删除文件</string>
+<string name="not_drag">不能拖拉</string>
+<string name="drag">拖拉</string>
+<string name="searching">正在搜索中...</string>
+<string name="done_search">已完成搜索 %s</string>
+<string name="key_word_can_not_contain">输入关键字不能有/</string>
+<string-array name="appnames"><item>新建文件夹</item>
+<item>新建文件</item>
+<item>粘贴</item>
+<item>搜索</item>
+<item>复制对话框</item>
+<item>APK管理</item>
+<item>设置</item>
+<item>图标</item>
+<item>文件库</item>
+<item>退出</item>
+</string-array>
+<!-- <string name="folder">文件夹</string> -->
+<string name="normal_file">普通文件</string>
+<string name="link_file">链接文件</string>
+<string name="dev_file">设备文件</string>
+<string name="chars_file">字符设备文件</string>
+<string-array name="rename_mult"><item>文件名后面加(2)</item>
+<item>替换当前目录文件</item>
+<item>取消操作</item>
+</string-array>
+<string name="creat_folder_failth">创建文件夹失败</string>
+<string name="creat_file_failth">创建文件失败</string>
+<string name="icon">图标</string>
+<string name="list">列表</string>
+<string name="file_not_existed">%s 文件不存在</string>
+<string name="set_backup_dir">设置软件备份目录</string>
+<string name="savesharepath">Whether to set the selected directory as a shared directory?</string>
+<string name="savesharepath2">Is set to the current directory as a shared directory?</string>
+<string name="servertiler">Source</string>
+<string name="rendertitle">Player</string>
+<string name="playingtitle">Playing</string>
+<string name="optiontitle">Options</string>
+<string name="dlnalocal">This device</string>
+<string name="editsetting">Edit Settings</string>
+<string name="save">Save</string>
+<string name="trafficmeteritem01">Traffic Volume Limit</string>
+<string name="trafficmeteritem02">Monthly Limit</string>
+<string name="trafficmeteritem03">Time</string>
+<string name="trafficmeteritem04">Day</string>
+<string name="trafficmeteritem05">Counter Start Day</string>
+<string name="trafficmeteritem06">Counter Start Time</string>
+<string name="mbytes">MB</string>
+<string name="androiddevice">Android Device</string>
+<string name="androidphone">Android Phone</string>
+<string name="androidtablet">Android Tablet</string>
+<string name="slidespeedtext">Select Slide Show Speed </string>
+<string name="slide_slow">Slow</string>
+<string name="slide_normal">Normal</string>
+<string name="slide_rast">Fast</string>
+<string name="Lpc_custom_setting">Change Custom Settings</string>
+<string name="info"></string>
+<string name="ttttt">   </string>
+<string name="license">License</string>
+<string name="genielicensetitle">Terms and Conditions</string>
+<string name="neptunelicensetitle">Within the NETGEAR Genie distribution</string>
+<string name="fileopenfailed">File cannot be opened</string>
+<string name="playfails">File cannot be played</string>
+<string name="nodevices">No shared device was found. To use this feature, you need to enable the file sharing feature for devices in the network, or connect a USB storage drive to your router if the router supports USB storage connection.</string>
+<string name="routermodel">Router Model</string>
+<string name="frimwareversion">Firmware Version</string>
+<string name="dlnarefresh">Restart media service</string>
+<string name="dlnarefolderfresh">Refresh source folder</string>
+<string name="turnonserver">Share files in network</string>
+<string name="turnonrender">Allow play in network</string>
+<string name="dlnanote">Note:</string>
+<string name="dlnaoptionnote">Restart media service when the wireless network setting is changed.\nTap Refresh source folder if there is any change in media folder(s).\nShare file in network to allow people access to files on this device over the network.\nAllow people to use this device to play files over the network.</string>
+<string name="norender">No player is found. To play files on this device, go to Options and select \&quot;Allow play in network.\&quot; </string>
+<string name="device_block">Block</string>
+<string name="device_allow">Allow</string>
+<string name="turnonaccesscontrol">Turn on Access Control</string>
+<string name="turnoffaccesscontrol">Turn off Access Control</string>
+<string name="accesscontrol">Access Control</string>
+<string name="signalstrength">Signal Strength</string>
+<string name="signal">WiFi Analyzer</string>
+<string name="linkrate">Link Rate</string>
+<string name="whatisit">What is it?</string>
+<string name="dvr">DVR</string>
+<string name="choosesource">\nPlease select a source.\n</string>
+<string name="yes">Yes</string>
+<string name="no">No</string>
+<string name="notnetgearrouter">NETGEAR router is not found or is not <a href="http://www.netgear.com/landing/en-us/netgear-genie-routers.aspx">supported</a>.</string>
+<string name="lpcinterneterror">Internet is not available. Please connect your Router to Internet first.</string>
+<string name="noconnectrouter">Please connect this device wirelessly to your NETGEAR router, then try again.</string>
+<string name="actiontimeout">Action timed out. Please try again.</string>
+<string name="emailisunavailable">Email has been taken</string>
+<string name="usernamenotavailable">User Name is unavailable.</string>
+<string name="opendnsdeviceisnotmine">Unavailable account!</string>
+<string name="usernameformatillegal">User name must start and end with a letter or number and can also contain \'.\',  \'-\' and \'_\'.</string>
+<string name="passwordlengthillegal">Passwords must be between 6 and 20 characters.</string>
+<string name="s_average">Average</string>
+<string name="s_total">Total</string>
+<string name="s_download">Download</string>
+<string name="s_upload">Upload</string>
+<string name="s_mbytes">Mbytes</string>
+<string name="qrcode">QR Code</string>
+<string name="qrcodedescribe">Align the QR code within the frame to start scanning</string>
+<string name="unqrcodedescribe">Your device cannot take pictures or scan the QR Code.</string>
+<string name="s_invaliduserpass">Invalid User Name or Password</string>
+<string name="s_smartlogin_url_1"><a href="https://genie.netgear.com/UserProfile/#ForgotPasswordPlace:">Forgot your password?</a></string>
+<string name="s_smartlogin_url_2">Don\'t have an ID? <a href="https://genie.netgear.com/UserProfile/#NewUserPlace:">Sign up</a></string>
+<string name="s_smartlogin_3">Remember my ID and password</string>
+<string name="s_smart_nodevice">No Devices Found.</string>
+<string name="s_smartnetwork">Remote</string>
+<string name="s_serial">Serial</string>
+<string name="s_online">Online</string>
+<string name="s_offline">Offline</string>
+<string name="s_mydevices">My Devices</string>
+<string name="s_routerlogin">Router Login</string>
+<string name="s_local">Local</string>
+<string name="s_network_error"> A network issue is preventing you from connecting to the NETGEAR server. Please try again. If you are already logged in, try logging out and logging in again.</string>
+<string name="s_nointernet">No Internet connection detected.</string>
+<string name="s_versionwarning">Need Android 2.3 or higher.</string>
+<string name="qr_connect_router">Connect to</string>
+<string name="qr_url_found">URL found: </string>
+<string name="qr_connect_http">Do you want to open it?</string>
+<string name="password_limit">8-63 characters or 64 hexadecimal values</string>
+<string name="wireless_qrcode_note">Scan this with mobile NETGEAR genie to join the network.</string>
+
+<!-- Wifi Analyzer -->
+
+<string name="s_sec">SEC</string>
+<string name="s_autoscan">AUTO SCAN EVERY</string>
+<string name="s_conectstatus">STATUS:Connected to</string>
+<string name="s_current_ch">Current Ch:</string>
+<string name="s_channelrating">\# of Networks</string>
+<string name="s_recommendchannel">Recommended Channels:</string>
+<string name="s_channel_2">Channel #</string>
+<string name="s_channel_clarity">Channel clarity</string>
+<string name="s_change_channel">Change Channel</string>
+<string name="s_wifi_more_1">WiFi Scanner</string>
+<string name="s_wifi_more_2">Channel Interference</string>
+<string name="s_wifi_more_3">Channel Graph</string>
+<string name="s_wifi_more_4">Signal Graph</string>
+<string name="s_wifi_more_5">Signal Meter</string>
+<string name="s_wifi_more_6">Room Signal</string>
+<string name="s_label_good">GOOD</string>
+<string name="s_label_poor">POOR</string>
+<string name="s_label_best">BEST</string>
+<string name="s_label_average">AVERAGE</string>
+<string name="s_label_great">GREAT</string>
+
+<!--   LPC -->
+	
+	
+	<string name="lpcuser">LPC User</string>
+	<string name="NOCreateDeviceID">could not download information about user accounts</string>
+	<string name="NoCreateUserName">No user accounts are configured for this device.</string>
+	<string name="NetWorkConnection">No Internet connection detected.</string>
+	<string name="loginBypassPasswordError">The password does not match this user name. Please try again.</string>
+	<string name="loginfailed">The User Utility login failed.</string>
+	<string name="logoutfailed">The User Utility log out failed.</string>
+	<string name="getbypass">Downloading account information</string>
+	<string name="loggingbypass">Logging in...</string>
+	<string name="exitbypass">Logging out...</string>
+	<string name="lpcbypassuser">You are logged in as </string>
+	<string name="string_ewm">Scan QRCode to connect.</string>
+	<string name="auto_broadcast">Slideshow</string>
+	<string name="auto_close">Stop play</string>
+	<string name="auto_5s">Every 5s player</string>
+	<string name="auto_10s">Every 10s player</string>
+	<string name="auto_15s">Every 15s player</string>
+	<string name="auto_20s">Every 20s player</string>
+	<string name="auto_25s">Every 25s player</string>
+	<string name="auto_30s">Every 30s player</string>
+	<string name="failed_getdeviceid">Failed to get device id!</string>
+	<string name="no_bypassaccount_inf">No account information!</string>
+	<string name="failed_get_bindusers">Failed to get device bound users!</string>
+
+<!--   need add's   multi-language -->
+	<string name="lpcbypassaccount">Bypass Account</string>
+	<string name="NoCreatebypassaccount">Please login your Live Parental Controls account and add a bypass account.</string>
+
+	<!-- filebrowse -->
+	<string name="filelistpage">File List</string>
+    <string name="OpenFile">Open</string>
+    <string name="login_ip">IP</string>
+    <string name="computerlist">Computer List</string>
+    <string name="addComputer">Add Computer</string>
+    <string name="edit_computer">Edit Computer</string>
+    <string name="delete_computer">Delete Computer</string>
+    <string name="login_name">Name</string>
+    <string name="fileupload">FileUpload</string>
+    <string name="chooesefile">ChooeseFile</string>
+    <string name="file_accept_requesttitle">Are you sure to receive file {filename} from {ip}?</string>
+    <string name="error">Error</string>
+    <string name="send_file">Send File</string>
+    <string name="receive_file">Receive File</string>
+    <string name="task_cancel">Cancel Task</string>
+    <string name="task_cancel_msg">Do you want to cancel current task?</string>
+    <string name="notselected_file_msg">You have not select the file!</string>
+    <string name="operations">Operations</string>
+    <string name="determine_delete_msg">Are you sure to delete {name}?</string>
+    <string name="file_location">Location</string>
+    <string name="file_lan">LAN</string>
+    <string name="transfer_finished_msg">The file {filename} transfer is complete</string>
+    <string name="picture_loading">Picture loading...</string>
+    
+     <string name="radio_filechooese">选择</string>
+    <string name="radio_copy">复制</string>
+    <string name="radio_cut">剪切</string>
+    <string name="radio_paste">粘贴</string>
+    <string name="radio_up">向上</string>
+    <string name="radio_new">新建</string>
+    <string name="radio_list">列表</string>
+    <string name="menu_new">New</string>
+    <string name="file">File</string>
+    <string name="folder">Folder</string>
+    <string name="nameoffile">Name</string>
+    <!-- RoomSignalTest -->
+    <string name="test_wifisignal">Test</string>
+    <string name="roomname_title">Room</string>
+    <string name="roomsignal">Room Signal</string>
+    <string name="roomname">Room Name</string>
+    <string name="add_room">Add Room</string>
+    <string name="edit_room">Edit Room</string>
+    <string name="delete_room">Delete Room</string>
+    <string name="delete_room_msg">Are you sure to delete room {roomname}?</string>
+    <string name="room_view">View</string>
+	
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="file_transfer">File Transfer</string>
+    
+    <!-- turbo transfer -->
+    <string name="turbo_file">File</string>
+    <string name="turbo_music">Music</string>
+    <string name="turbo_video">Video</string>
+    <string name="turbo_image">Image</string>
+    <string name="turbo_message">Pasteboard</string>
+    <string name="turbo_history">History</string>
+    <string name="turbo_cancel_info">The user cancels the file transfer!</string>
+    
+</resources>

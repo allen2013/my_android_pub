@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"    
+    android:background="#E5E5FB"
+    android:orientation="vertical" >
+
+
+    <LinearLayout 
+    android:id="@+id/smartswitchview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dip"
+    android:orientation="vertical" android:layout_marginLeft="8dip">
+	<RadioGroup 
+	     android:id="@+id/radioswitch"
+    	 android:layout_width="match_parent"
+    	 android:layout_height="wrap_content"
+    	 android:orientation="horizontal" android:visibility="gone">
+		<RadioButton
+		    android:id="@+id/localswitch"
+		    android:textColor="@android:color/black" 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text="@string/s_local" />
+		
+		<RadioButton
+		    android:id="@+id/smartswitch"
+		    android:textColor="@android:color/black" 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text="@string/s_smartnetwork" />
+	    
+	</RadioGroup>
+	
+    </LinearLayout>
+	<LinearLayout
+        android:focusable="true" android:focusableInTouchMode="true"
+        android:layout_width="0dp" android:layout_height="0dp"/> 
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">    
+    <ViewFlipper
+        android:id="@+id/viewFlipper"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+		android:layout_gravity="center"        
+        android:autoStart="false"
+        android:flipInterval="5000"
+        android:inAnimation="@anim/push_left_in"
+        android:outAnimation="@anim/push_left_out"
+        >
+		
+		<include layout="@layout/localrouterlogin"></include>
+		<include layout="@layout/smartnetworklogin"></include>
+		<include layout="@layout/smartrouterlist"></include>
+		<include layout="@layout/smartrouterlogin"></include>"
+         <!--android:inAnimation="@android:anim/slide_in_left"
+        android:outAnimation="@android:anim/slide_out_right" -->
+    </ViewFlipper>
+	</LinearLayout>
+	
+    <LinearLayout 
+    android:id="@+id/smartswitchview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dip"
+    android:orientation="vertical" android:layout_marginLeft="8dip">
+		
+	
+    </LinearLayout>
+    
+</LinearLayout>

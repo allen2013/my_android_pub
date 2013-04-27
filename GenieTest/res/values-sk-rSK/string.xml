@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="wireless">Nastav. bezdrôt. pripojenia</string>
+<string name="settings">Nastavenia</string>
+<string name="guestaccess">Hosťovský prístup</string>
+<string name="guestsettings">Nastavenia hosťa</string>
+<string name="map">Mapa siete</string>
+<string name="traffic">Merač prenosov</string>
+<string name="parentalcontrl">Rodičovská kontrola</string>
+<string name="marketplace">Marketplace</string>
+
+<string name="loadingtraffic">Načítava sa merač prenosov</string>
+<string name="loadingmap">Načítava sa mapa siete</string>
+<string name="loadingguestaccess">Načítava sa prístup hosťa</string>
+<string name="loadingwireless">Načítavajú sa nastavenia bezdrôtového pripojenia</string>
+<string name="loadingparentalcontrl">Načítava sa rodičovská kontrola</string>
+<string name="loadingmymedia">Načítavajú sa Moje médiá</string>
+
+
+<string name="remeberpassword">Zapamätať si heslo</string>
+<string name="login">Prihlásenie</string>
+<string name="ok">OK</string>
+<string name="cancel">Zrušiť</string>
+<string name="wirelessname">Meno/identifikátor SSID</string>
+<string name="name">SSID</string>
+<string name="channel">Kanál</string>
+<string name="networkkey">Kľúč/Heslo</string>
+<string name="key">Heslo</string>
+<string name="securityoptions">Možnosti zabezpečenia</string>
+<string name="Period">Perióda počítania</string>
+<string name="Time">Doba pripojenia (H:M)</string>
+<string name="Upload">Odovzdávanie/priem. (M)</string>
+<string name="Download">Preberanie/priem. (M)</string>
+<string name="Total">Celkom/priem. (M)</string>
+<string name="Lpc_status">Stav</string>
+<string name="Lpc_control">Rodičovská kontrola</string>
+<string name="Enable">Povoliť</string>
+<string name="Disable">Zakázať</string>
+<string name="Filteringlevel">Úroveň filtrovania</string>
+<string name="OpenDNSaccount">Konto služby OpenDNS</string>
+<string name="Filteringchang">Zmeniť základné nastavenia</string>
+<string name="lpc_Positive">Predchádz.</string>
+<string name="lpc_Negative">Ďalej</string>
+<string name="Lpc_done">Hotovo</string>
+<string name="lpc_presignlntitle">Natavenie funkcie Live Parental Controls</string>
+<string name="lpc_createtitle">Vytvoriť bezplatné konto služby OpenDNS</string>
+<string name="lpc_createname">Používateľské meno</string>
+<string name="lpc_createpassword">Heslo</string>
+<string name="lpc_createpassword2">Potvrďte heslo</string>
+<string name="lpc_createemail">E-mail</string>
+<string name="lpc_createemail2">Potvrďte e-mail</string>
+<string name="lpc_createeinvalidmail">Neplatná e-mailová adresa</string>
+<string name="lpc_createcheck">Skontrolovať dostupnosť</string>
+<string name="lpcsignintitle">Prihláste sa do vášho konta služby OpenDNS</string>
+<string name="lpcsigninintro">Nižšie zadajte vaše meno používateľa a heslo.</string>
+<string name="lpc_createintro">Nižšie zadajte vaše informácie.</string>
+<string name="lpc_presignintro">Vitajte. Tento sprievodca nastavením rýchlo nakonfiguruje funkciu Live Parental Controls od spoločnosti NETGEAR podporovanú službou OpenDNS vo vašom smerovači značky NETGEAR.</string>
+<string name="lpc_presignintro1">Aby ste mohli používať funkciu Live Parental Controls, musíte si vytvoriť bezplatné konto služby OpenDNS. Už máte svoje konto?</string>
+<string name="lpc_presigninexist">Áno, použiť moje existujúce konto služby OpenDNS.</string>
+<string name="lpc_presignincreate">Nie, musím si vytvoriť nové bezplatné konto služby OpenDNS.</string>
+<string name="lpcsettitle">Úroveň filtrovania</string>
+<string name="lpcsetintro">Všetky počítače pripojené k vášmu smerovaču budú chránené pred nižšie zvoleným obsahom. Neskôr si na našej webovej stránke môžete nastavenia funkcie Live Parental Controls prispôsobiť.</string>
+<string name="lpcset_none">Žiadne</string>
+<string name="lpcset_none_text">Nič nie je blokované.</string>
+<string name="lpcset_minimal">Minimálna</string>
+<string name="lpcset_minimal_text">Chráni iba pred útokmi na citlivé informácie.</string>
+<string name="lpcset_low">Nízka</string>
+<string name="lpcset_low_text">Chráni pred pornografiou a útokmi na citlivé informácie.</string>
+<string name="lpcset_moderate">Stredná</string>
+<string name="lpcset_moderate_text">Chráni pred všetkými stránkami pre dospelých, stránkami s nelegálnymi aktivitami a útokmi na citlivé informácie.</string>
+<string name="lpcset_high">Vysoká</string>
+<string name="lpcset_high_text">Chráni pred všetkými stránkami pre dospelých, stránkami s nelegálnymi aktivitami, stránkami sociálnych sietí, stránkami zdieľajúcimi videá, útokmi na citlivé informácie a všeobecnými stránkami na zabíjanie času.</string>
+<string name="lpc">Rodičovská kontrola</string>
+<string name="lpc_donetitle">Nastavenie je dokončené!</string>
+<string name="lpc_doneintro">Úspešne ste nastavili funkciu rodičovskej kontroly Live od spoločnosti NETGEAR podporovanú službou OpenDNS. Pri ďalšom spustení pomocného programu na správu sa presuniete na obrazovku stavu, kde môžete:</string>
+<string name="lpc_doneintro1">skontrolovať, či je zapnutá funkcia Live Parental Controls</string>
+<string name="lpc_doneintro2">vypnúť alebo zapnúť funkciu Live Parental Controls</string>
+<string name="lpc_doneintro3">upraviť základné nastavenia</string>
+<string name="lpc_doneintro4">zmeniť vlastné nastavenia, ako napr. funkciu Live Parental Controls založenú na používateľovi a čase v priebehu dňa</string>
+<string name="lpc_done_bttext">Prejsť na stavovú obrazovku</string>
+<string name="lpc_introtitle">Zapamätajte si</string>
+<string name="lpc_introtext">Ak chcete nastaviť rodičovskú kontrolu v službe Live, je potrebné, aby ste disponovali kontom v službe OpenDNS. Máte už konto vytvorené?</string>
+<string name="lpc_enable">Povolené</string>
+<string name="lpc_disable">Zakázané</string>
+<string name="search">Vyhľadať</string>
+<string name="speedtest_text">Vaša aktuálna rýchlosť preberania z tejto webovej lokality je %2 Kb/s.</string>
+<string name="Kbps">Kb/s</string>
+<string name="Clickhere">kliknite sem</string>
+<string name="Lpc_manage_nothing">Nič nie je blokované.</string>
+<string name="lpc_manage_customset">Zmeniť vlastné nastavenia</string>
+<string name="notenabled">Nepovolené</string>
+<string name="connected">Pripojené</string>
+<string name="guestaccess_time">Časové obdobie</string>
+<string name="guestaccess_security">Možnosti zabezpečenia</string>
+<string name="disableguest_text">Používa sa hosťovský prístup. V prípade deaktivácie môže dôjsť k narušeniu aktívnych prenosov v bezdrôtovej sieti. Chcete pokračovať?</string>
+<string name="wpa">Zabezpečenie</string>
+<string name="about_title">O aplikácii NETGEAR genie</string>
+<string name="about_info">Autorské práva (c) 2013, NETGEAR Inc.</string>
+<string name="about_info1">Všetky práva vyhradené.</string>
+<string name="about_info2">Prevádzkované na báze technológie SiteView</string>
+<string name="version">Verzia</string>
+<string name="close">Zavrieť</string>
+<string name="notsupport">Smerovač túto funkciu nepodporuje.</string>
+<string name="gatewaydev">Smerovač</string>
+<string name="networkdev">Sieťové zariadenie</string>
+<string name="windowspc">Počítač so systémom Windows</string>
+<string name="blurayplayer">Prehrávač formátu Blu-ray</string>
+<string name="bridge">Premostenie</string>
+<string name="cablestb">Káblové STB</string>
+<string name="cameradev">Fotoaparát</string>
+<string name="gamedev">Herná konzola</string>
+<string name="imacdev">iMac</string>
+<string name="ipad">iPad</string>
+<string name="iphone">iPhone</string>
+<string name="ipodtouch">iPod Touch</string>
+<string name="linuxpc">Počítač Linux</string>
+<string name="macbookdev">MacBook</string>
+<string name="macminidev">Mac Mini</string>
+<string name="macprodev">Mac Pro</string>
+<string name="mediadev">Mediálne zariadenie</string>
+<string name="mobiledev">Telefón SmartPhone</string>
+<string name="netstoragedev">Úložné zariadenie</string>
+<string name="switchdev">Prepínač</string>
+<string name="printerdev">Tlačiareň</string>
+<string name="repeater">Retranslátor</string>
+<string name="satellitestb">Satelitné STB</string>
+<string name="scannerdev">Skener</string>
+<string name="slingbox">SlingBox</string>
+<string name="stb">Iné STB</string>
+<string name="tablepc">Počítač typu Tablet</string>
+<string name="tv">TV</string>
+<string name="unixpc">Počítač UNIX</string>
+<string name="map_custom">Vlastný názov</string>
+<string name="map_type">Typ</string>
+<string name="map_ip">Adresa IP</string>
+<string name="map_mac">Adresa MAC</string>
+<string name="modify">Upraviť</string>
+<string name="refresh">Obnoviť</string>
+<string name="apply">Použiť</string>
+<string name="custom">Vlastné</string>
+<string name="Traffic_set_text_1">Vynulovať počítadlo prenosov</string>
+<string name="traffic_set_text_2">Čas spustenia merača prenosov</string>
+<string name="traffic_set_hour">Hodina</string>
+<string name="traffic_set_minute">Minúta</string>
+<string name="traffic_set_text_3">Každý</string>
+<string name="traffic_set_text_4">deň v každom mesiaci</string>
+<string name="today">Dnes</string>
+<string name="yesterday">Včera</string>
+<string name="this_week">Tento týždeň</string>
+<string name="this_month">Tento mesiac</string>
+<string name="last_month">Minulý mesiac</string>
+<string name="traffic_disable_text">Vypnúť aplikáciu na meranie objemu prenášaných dát. Chcete pokračovať?</string>
+<string name="traffic_able_text">Povoliť aplikáciu na meranie objemu prenášaných dát. Chcete pokračovať?</string>
+<string name="login_username">Meno používateľa</string>
+<string name="login_password">Heslo</string>
+<string name="login_alertinfo">Prihlásenie zlyhalo! Skontrolujte, či je tento počítač pripojený k smerovaču NETGEAR.</string>
+<string name="wait">Čakajte, prosím...</string>
+<string name="bad_password">Prihlásenie zlyhalo. Znovu zadajte správne heslo správcu pre váš smerovač NETGEAR.</string>
+<string name="search_hint">Vyhľadať podporu</string>
+<string name="logout">Odhlásenie</string>
+<string name="about">O aplikácii</string>
+<string name="back">Naspäť</string>
+<string name="enablelpccontrol">Zapnúť funkciu Live Parental Controls</string>
+
+<!--
+<string name="loading">@</string>
+
+-->
+
+<string name="pleasewait">Čakajte, prosím...</string>
+
+
+<string name="wirelsssettin">Zmena nastavení môže narušiť aktívne prenosy v bezdrôtovej sieti. Chcete pokračovať?</string>
+<string name="setwait">Prijímajú sa údaje odpovede zo smerovača. Počkajte %1 sek.</string>
+<string name="seconds">Sekundy</string>
+<string name="login_default">(predvolené je \"password\")</string>
+<string name="wirelsssettinrelogin">Nastavenie bezdrôtovej komunikácie sa úspešne zmenilo. Pripojte sa k bezdrôtovej sieti pomocou nového nastavenia bezdrôtovej komunikácie a prihláste sa do aplikácie genie.</string>
+<string name="mymedia">Moje médiá</string>
+<string name="dlna_server">Zdroj</string>
+<string name="dlna_render">Prehrávač</string>
+<string name="dlna_control">Prehráva sa</string>
+<string name="dlna_option">Možnosti</string>
+
+
+<string name="menu_reset">Vynulovať</string>
+<string name="chooserender">Vyberte prehrávač.</string>
+
+
+<string name="select">Výber</string>
+<string name="servertiler">Zdroj</string>
+<string name="rendertitle">Prehrávač</string>
+<string name="playingtitle">Prehráva sa</string>
+<string name="optiontitle">Možnosti</string>
+<string name="editsetting">Upraviť nastavenia</string>
+<string name="save">Uložiť</string>
+<string name="trafficmeteritem01">Limit objemu prenosov</string>
+<string name="trafficmeteritem02">Mesačný limit</string>
+<string name="trafficmeteritem03">Čas</string>
+<string name="trafficmeteritem04">Deň</string>
+<string name="trafficmeteritem05">Deň začiatku počítadla</string>
+<string name="trafficmeteritem06">Čas začiatku počítadla</string>
+<string name="monthlylimitmbytes">Mesačný limit (MB)</string>
+
+
+<string name="androiddevice">Zariadenie so systémom Android</string>
+<string name="androidphone">Telefón so systémom Android</string>
+<string name="androidtablet">Počítač typu Tablet so systémom Android</string>
+<string name="slidespeedtext">Vybrať rýchlosť prezentácie</string>
+<string name="slide_slow">Nízka</string>
+<string name="slide_normal">Normálna</string>
+<string name="slide_rast">rýchlo</string>
+<string name="Lpc_custom_setting">Zmeniť vlastné nastavenia</string>
+<string name="license">Licencia</string>
+<string name="genielicensetitle">Podmienky a požiadavky</string>
+<string name="neptunelicensetitle">V rámci distribúcie aplikácie NETGEAR genie.</string>
+<string name="fileopenfailed">Súbor nie je možné otvoriť.</string>
+<string name="playfails">Súbor nie je možné prehrať.</string>
+<string name="nodevices">Nenašlo sa žiadne zdieľané zariadenie. Ak chcete použiť túto funkciu, je potrebné, aby ste povolili funkciu zdieľania súborov v zariadeniach v sieti alebo pripojili pamäťové zariadenie USB k smerovaču, ak smerovač podporuje pripojenie k pamäťovým zariadeniam USB.</string>
+<string name="routermodel">Model smerovača</string>
+<string name="frimwareversion">Verzia firmvéru</string>
+<string name="dlnarefresh">Reštartovať službu médií</string>
+<string name="dlnarefolderfresh">Obnoviť zdrojový priečinok</string>
+<string name="turnonserver">Zdieľať súbory v sieti</string>
+<string name="turnonrender">Povoliť prehrávanie v sieti</string>
+<string name="dlnanote">Poznámka:</string>
+<string name="dlnaoptionnote">Keď sa zmení nastavenie bezdrôtovej siete, reštartujte službu médií.</string>
+<string name="dlnaoptionnote1">Ak sa vyskytne akákoľvek zmena priečinkov s médiami, ťuknite na položku Obnoviť zdrojový priečinok.</string>
+<string name="dlnaoptionnote2">Zdieľaním súboru v sieti umožníte používateľom získať prístup k súborom v tomto zariadení prostredníctvom siete.</string>
+<string name="dlnaoptionnote3">Umožniť používateľom použiť toto zariadenie na prehrávanie súborov v sieti.</string>
+<string name="norender">Nenašiel sa žiadny prehrávač. Ak chcete prehrávať súbory v tomto zariadení, prejdite do časti Možnosti a vyberte položku\„Povoliť prehrávanie v sieti\“.</string>
+<string name="device_block">Blokovať</string>
+<string name="device_allow">Povoliť</string>
+<string name="turnonaccesscontrol">Zapnúť riadenie prístupu</string>
+
+<string name="accesscontrol">Riadenie prístupu</string>
+<string name="signalstrength">Intenzita signálu</string>
+
+<string name="linkrate">Rýchlosť spojenia</string>
+<string name="whatisit">Čo je to?</string>
+<string name="dvr">DVR</string>
+<string name="choosesource">Vyberte zdroj.</string>
+<string name="yes">Áno</string>
+<string name="no">Nie</string>
+<string name="notnetgearrouter">Smerovač NETGEAR sa nenašiel alebo nie je <a href="http://www.netgear.com/landing/en-us/netgear-genie-routers.aspx">podporovaný</a>.</string>
+<string name="lpcinterneterror">Sieť internet nie je dostupná. Najprv pripojte smerovač do siete internet.</string>
+<string name="noconnectrouter">Toto zariadenie bezdrôtovo pripojte k vášmu smerovaču NETGEAR a pokus potom zopakujte.</string>
+<string name="actiontimeout">Časový limit akcie uplynul. Skúste to znova.</string>
+<string name="emailisunavailable">Tento e-mail sa už používa.</string>
+<string name="usernamenotavailable">Používateľské meno je nedostupné.</string>
+<string name="opendnsdeviceisnotmine">Používateľské meno je nedostupné.</string>
+<string name="usernameformatillegal">Používateľské meno sa musí začínať a končiť písmenom alebo číslom a môže taktiež obsahovať znaky „.“, „-“ a „_“.</string>
+<string name="passwordlengthillegal">Heslo musí pozostávať najmenej zo 6 až 20 znakov.</string>
+<string name="s_average">Priemer</string>
+<string name="s_total">Spolu</string>
+<string name="s_download">Prevziať</string>
+<string name="s_upload">Odovzdať</string>
+<string name="s_mbytes">MB</string>
+<string name="qrcode">Kód QR</string>
+<string name="qrcodedescribe">Skenovanie spustite zameraním kódu QR do rámca.</string>
+<string name="unqrcodedescribe">Vaše zariadenie nedokáže zachytávať snímky alebo naskenovať Kód QR.</string>
+<string name="s_invaliduserpass">Neplatné meno používateľa alebo hesla.</string>
+<string name="s_smartlogin_url_1"><a href="https://genie.netgear.com/UserProfile/#ForgotPasswordPlace::">Zabudli ste heslo?  </a></string>
+<string name="s_smartlogin_url_2">Nemáte identifikačné číslo? <a href="https://genie.netgear.com/UserProfile/#NewUserPlace:">Zaregistrujte sa.</a></string>
+<string name="s_smartlogin_3">Zapamätať si moje identifikačné číslo a heslo</string>
+<string name="s_smartnetwork">Vzdialené</string>
+<string name="s_serial">Sériové číslo</string>
+<string name="s_online">Online</string>
+<string name="s_offline">Offline</string>
+<string name="s_mydevices">Moje zariadenia</string>
+<string name="s_routerlogin">Prihlasovacie meno smerovača</string>
+<string name="s_local">Lokálne</string>
+<string name="s_network_error">Kvôli problému so sieťou nie je možné pripojiť sa k serveru NETGEAR. Skúste to znova. Ak ste už prihlásení, skúste sa odhlásiť a znova prihlásiť.</string>
+<string name="s_nointernet">Nezistilo sa žiadne internetové pripojenie.</string>
+<string name="s_versionwarning">Potrebujete zariadenie Android 2.3 alebo novšie.</string>
+<string name="qr_connect_router">Pripojiť k</string>
+<string name="qr_url_found">Našla sa adresa URL</string>
+<string name="qr_connect_http">Chcete ju otvoriť?</string>
+<string name="password_limit">8 – 63 znakov alebo 64 šestnástkových hodnôt</string>
+
+<!-- Bypass Account -->
+<string name="NOCreateDeviceID">Nepodarilo sa prevziať informácie o používateľských kontách</string>
+<string name="NoCreateUserName">Pre toto zariadenie nie sú nakonfigurované žiadne používateľské kontá.</string>
+<string name="NetWorkConnection">Nezistilo sa žiadne internetové pripojenie.</string>
+<string name="loginBypassPasswordError">Heslo sa nezhoduje s týmto používateľským menom. Skúste to znova.</string>
+<string name="loginfailed">Prihlásenie k používateľskému pomocnému programu zlyhalo.</string>
+<string name="logoutfailed">Odhlásenie z používateľského pomocného programu zlyhalo.</string>
+<string name="getbypass">Preberajú sa informácie o konte</string>
+<string name="loggingbypass">Prihlasovanie…</string>
+<string name="exitbypass">Odhlasovanie…</string>
+<string name="lpcbypassuser">Ste prihlásení ako</string>
+
+
+
+
+
+
+
+</resources>

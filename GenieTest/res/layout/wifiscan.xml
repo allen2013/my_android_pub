@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="#ffe5e5fb" android:paddingLeft="3.0dip" android:paddingTop="3.0dip" android:paddingRight="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@android:color/black" android:id="@id/connectstatus" android:background="@drawable/layout_bg_2" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="5.0dip" android:text="STATUS: " />
+        <LinearLayout android:id="@id/linearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <CheckBox android:textColor="@android:color/black" android:id="@id/radioButton1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/checkselector" android:text="@string/s_autoscan" />
+            <EditText android:textColor="@android:color/black" android:id="@id/autoscantime" android:layout_width="40.0dip" android:layout_height="wrap_content" android:text="5" android:inputType="number" android:background="@android:drawable/editbox_background"/>
+            <TextView android:textColor="@android:color/black" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/s_sec" />
+
+            <Button
+                android:id="@id/nowscan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/titleraboutselector"
+                android:text="@string/refresh"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+        <ExpandableListView
+            android:id="@id/wifiscanlist"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="#00000000" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@id/progress"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#b0000000"
+        android:clickable="true"
+        android:visibility="gone" >
+
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ProgressBar android:id="@id/progressBar1" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleSmall" />
+            <TextView android:textColor="@android:color/white" android:id="@id/loading" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

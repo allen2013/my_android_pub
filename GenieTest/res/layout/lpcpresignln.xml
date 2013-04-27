@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="vertical" android:padding="5sp">
+<TextView android:id="@+id/PresignlnTV01" 
+		  android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="@string/lpc_presignintro">
+		  </TextView>	  
+<RadioGroup android:id="@+id/PresignlnRG01" 
+		  android:layout_width="fill_parent" 
+		  android:layout_height="wrap_content">
+		  <RadioButton android:id="@+id/PresignlnCB01" 
+		  android:layout_width="wrap_content" 
+		  android:layout_height="wrap_content" android:text="@string/lpc_presigninexist">
+		  </RadioButton>
+		  <RadioButton android:id="@+id/PresignlnCB02" 
+		  android:layout_width="wrap_content" 
+		  android:layout_height="wrap_content" android:text="@string/lpc_presignincreate">
+		  </RadioButton>
+</RadioGroup>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/ScrollView01" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:background="#FFFFFF">
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+   android:background="#FFFFFF">
+  
+  <TextView android:text="TrafficMeter" 
+  			android:gravity="center" 
+  			android:id="@+id/tabletv_0"
+  			android:textSize="20sp"/>
+  <View  android:layout_height="2dip"
+         android:background="#FF909090" />			
+   <TableRow>        
+   		<TextView  android:id="@+id/tabletv_1"
+   				   android:gravity="left" 
+   				   android:layout_weight="1"
+   				   android:paddingLeft="3dip" 
+   				   android:paddingRight="3dip"
+   				   android:paddingTop="10dip"  
+                   android:paddingBottom="10dip"
+   				   />
+   		<TextView  android:id="@+id/tabletv_2"
+   		           android:gravity="left"
+   		           android:layout_weight="1"
+   		            android:paddingLeft="3dip" 
+   				   android:paddingRight="3dip"
+   				   android:paddingTop="10dip"  
+                   android:paddingBottom="10dip"/>
+   		<TextView  android:id="@+id/tabletv_3"
+   		           android:gravity="left"
+   		           android:layout_weight="1"
+   		            android:paddingLeft="3dip" 
+   				   android:paddingRight="3dip"
+   				   android:paddingTop="10dip"  
+                   android:paddingBottom="10dip"/>  
+   		<TextView  android:id="@+id/tabletv_4"
+   		           android:gravity="left"
+   		           android:layout_weight="1"
+   		            android:paddingLeft="3dip" 
+   				   android:paddingRight="3dip"
+   				   android:paddingTop="10dip"  
+                   android:paddingBottom="10dip"/>
+   		<TextView  android:id="@+id/tabletv_5"
+   		           android:gravity="left"
+   		           android:layout_weight="1"
+   		            android:paddingLeft="3dip" 
+   				   android:paddingRight="3dip"
+   				   android:paddingTop="10dip"  
+                   android:paddingBottom="10dip"/>                        
+    </TableRow>
+    <View  android:layout_height="2dip"
+         android:background="#FF909090" />
+     <TableRow>        
+   		<TextView  android:id="@+id/tabletv_6"
+   				   android:gravity="left" 
+   				   android:layout_weight="1"
+   				    android:paddingLeft="3dip" 
+   				   android:paddingRight="3dip"
+   				   android:paddingTop="10dip"  
+                   android:paddingBottom="10dip"/>
+   		<TextView  android:id="@+id/tabletv_7"
+   		           android:gravity="left"
+   		           android:layout_weight="1"
+   		            android:paddingLeft="3dip" 
+   				   android:paddingRight="3dip"
+   				   android:paddingTop="10dip"  
+                   android:paddingBottom="10dip"/>
+   		<TextView  android:id="@+id/tabletv_8"
+   		           android:gravity="left"
+   		           android:layout_weight="1"
+   		            android:paddingLeft="3dip" 
+   				   android:paddingRight="3dip"
+   				   android:paddingTop="10dip"  
+                   android:paddingBottom="10dip"/>  
+   		<TextView  android:id="@+id/tabletv_9"
+   		           android:gravity="left"
+   		           android:layout_weight="1"
+   		            android:paddingLeft="3dip" 
+   				   android:paddingRight="3dip"
+   				   android:paddingTop="10dip"  
+                   android:paddingBottom="10dip"/>
+   		<TextView  
+   					android:id="@+id/tabletv_10"
+   		           android:gravity="left"
+   		           android:layout_weight="1"
+   		            android:paddingLeft="3dip" 
+   				   android:paddingRight="3dip"
+   				   android:paddingTop="10dip"  
+                   android:paddingBottom="10dip"/>                     
+    </TableRow>
+    <View  android:layout_height="2dip"
+         android:background="#FF909090" />
+     <TableRow>        
+   		<TextView  android:id="@+id/tabletv_11"
+   				   android:gravity="left" 
+   				   android:layout_weight="1"
+   				    android:paddingLeft="3dip" 
+   				   android:paddingRight="3dip"
+   				   android:paddingTop="10dip"  
+                   android:paddingBottom="10dip"/>
+   		<TextView  android:id="@+id/tabletv_12"
+   		           android:gravity="left"
+   		           android:layout_weight="1"
+   		            android:paddingLeft="3dip" 
+   				   android:paddingRight="3dip"
+   				   android:paddingTop="10dip"  
+                   android:paddingBottom="10dip"/>
+   		<TextView  android:id="@+id/tabletv_13"
+   		           android:gravity="left"
+   		           android:layout_weight="1"
+   		            android:paddingLeft="3dip" 
+   				   android:paddingRight="3dip"
+   				   android:paddingTop="10dip"  
+                   android:paddingBottom="10dip"/>  
+   		<TextView  android:id="@+id/tabletv_14"
+   		           android:gravity="left"
+   		           android:layout_weight="1"
+   		            android:paddingLeft="3dip" 
+   				   android:paddingRight="3dip"
+   				   android:paddingTop="10dip"  
+                   android:paddingBottom="10dip"/>
+   		<TextView  android:id="@+id/tabletv_15"
+   		           android:gravity="left"
+   		           android:layout_weight="1"
+   		            android:paddingLeft="3dip" 
+   				   android:paddingRight="3dip"
+   				   android:paddingTop="10dip"  
+                   android:paddingBottom="10dip"/>                       
+    </TableRow>
+    <View  android:layout_height="2dip"
+         android:background="#FF909090" />
+     <TableRow>        
+   		<TextView  
+   					android:id="@+id/tabletv_16"
+   				   android:gravity="left" 
+   				   android:layout_weight="1"
+   				    android:paddingLeft="3dip" 
+   				   android:paddingRight="3dip"
+   				   android:paddingTop="10dip"  
+                   android:paddingBottom="10dip"/>
+   		<TextView  
+   					android:id="@+id/tabletv_17"
+   		           android:gravity="left"
+   		           android:layout_weight="1"
+   		            android:paddingLeft="3dip" 
+   				   android:paddingRight="3dip"
+   				   android:paddingTop="10dip"  
+                   android:paddingBottom="10dip"/>
+   		<TextView  
+   					android:id="@+id/tabletv_18"
+   		           android:gravity="left"
+   		           android:layout_weight="1"
+   		            android:paddingLeft="3dip" 
+   				   android:paddingRight="3dip"
+   				   android:paddingTop="10dip"  
+                   android:paddingBottom="10dip"/>  
+   		<TextView  
+   					android:id="@+id/tabletv_19"
+   		           android:gravity="left"
+   		           android:layout_weight="1"
+   		            android:paddingLeft="3dip" 
+   				   android:paddingRight="3dip"
+   				   android:paddingTop="10dip"  
+                   android:paddingBottom="10dip"/>
+   		<TextView  
+   					android:id="@+id/tabletv_20"
+   		           android:gravity="left"
+   		           android:layout_weight="1"
+   		            android:paddingLeft="3dip" 
+   				   android:paddingRight="3dip"
+   				   android:paddingTop="10dip"  
+                   android:paddingBottom="10dip"/>                       
+    </TableRow>
+    <View  android:layout_height="2dip"
+         android:background="#FF909090" />
+     <TableRow>        
+   		<TextView  
+   					android:id="@+id/tabletv_21"
+   				   android:gravity="left" 
+   				   android:layout_weight="1"
+   				    android:paddingLeft="3dip" 
+   				   android:paddingRight="3dip"
+   				   android:paddingTop="10dip"  
+                   android:paddingBottom="10dip"/>
+   		<TextView  
+   					android:id="@+id/tabletv_22"
+   		           android:gravity="left"
+   		           android:layout_weight="1"
+   		            android:paddingLeft="3dip" 
+   				   android:paddingRight="3dip"
+   				   android:paddingTop="10dip"  
+                   android:paddingBottom="10dip"/>
+   		<TextView  
+   					android:id="@+id/tabletv_23"
+   		           android:gravity="left"
+   		           android:layout_weight="1"
+   		            android:paddingLeft="3dip" 
+   				   android:paddingRight="3dip"
+   				   android:paddingTop="10dip"  
+                   android:paddingBottom="10dip"/>  
+   		<TextView  
+   					android:id="@+id/tabletv_24"
+   		           android:gravity="left"
+   		           android:layout_weight="1"
+   		            android:paddingLeft="3dip" 
+   				   android:paddingRight="3dip"
+   				   android:paddingTop="10dip"  
+                   android:paddingBottom="10dip"/>
+   		<TextView  
+   					android:id="@+id/tabletv_25"
+   		           android:gravity="left"
+   		           android:layout_weight="1"
+   		            android:paddingLeft="3dip" 
+   				   android:paddingRight="3dip"
+   				   android:paddingTop="10dip"  
+                   android:paddingBottom="10dip"/>                       
+    </TableRow>
+    <View  android:layout_height="2dip"
+         android:background="#FF909090" />
+     <TableRow>        
+   		<TextView  
+   					android:id="@+id/tabletv_26"
+   				   android:gravity="left" 
+   				   android:layout_weight="1"
+   				    android:paddingLeft="3dip" 
+   				   android:paddingRight="3dip"
+   				   android:paddingTop="10dip"  
+                   android:paddingBottom="10dip"/>
+   		<TextView  
+   					android:id="@+id/tabletv_27"
+   		           android:gravity="left"
+   		           android:layout_weight="1"
+   		            android:paddingLeft="3dip" 
+   				   android:paddingRight="3dip"
+   				   android:paddingTop="10dip"  
+                   android:paddingBottom="10dip"/>
+   		<TextView  
+   					android:id="@+id/tabletv_28"
+   		           android:gravity="left"
+   		           android:layout_weight="1"
+   		            android:paddingLeft="3dip" 
+   				   android:paddingRight="3dip"
+   				   android:paddingTop="10dip"  
+                   android:paddingBottom="10dip"/>  
+   		<TextView  
+   					android:id="@+id/tabletv_29"
+   		           android:gravity="left"
+   		           android:layout_weight="1"
+   		            android:paddingLeft="3dip" 
+   				   android:paddingRight="3dip"
+   				   android:paddingTop="10dip"  
+                   android:paddingBottom="10dip"/>
+   		<TextView  
+   					android:id="@+id/tabletv_30"
+   		           android:gravity="left"
+   		           android:layout_weight="1"
+   		            android:paddingLeft="3dip" 
+   				   android:paddingRight="3dip"
+   				   android:paddingTop="10dip"  
+                   android:paddingBottom="10dip"/>                       
+    </TableRow>
+    <View  android:layout_height="2dip"
+         android:background="#FF909090" />     
+
+</TableLayout>
+</ScrollView>
+

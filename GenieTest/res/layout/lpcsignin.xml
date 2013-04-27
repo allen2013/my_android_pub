@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="vertical" android:padding="5sp">
+<TextView 
+		android:id="@+id/TextView01" 
+		android:layout_height="wrap_content" 
+		android:layout_width="fill_parent" android:text="@string/lpcsigninintro"></TextView>
+<TableLayout
+  android:layout_height="wrap_content" 
+  android:layout_width="fill_parent">
+  		<TableRow> 
+		<TextView 
+		android:id="@+id/signinTV_name" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:text="@string/lpc_createname" android:layout_marginRight="10dip"></TextView>
+		<EditText 
+		android:id="@+id/signinET_name" 
+		android:layout_height="wrap_content" 
+		android:layout_width="fill_parent"
+		android:layout_weight="1"
+		android:singleLine="true" android:hint="@string/lpc_createname" android:imeOptions="actionNext"></EditText>
+		</TableRow>
+		<TableRow> 
+		<TextView 
+		android:id="@+id/signinTV_password" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:text="@string/lpc_createpassword" android:layout_marginRight="10dip"></TextView>
+		<EditText 
+		android:id="@+id/signinET_password" 
+		android:layout_height="wrap_content" 
+		android:layout_width="fill_parent" 
+		android:layout_weight="1"
+		android:password="true"
+		android:singleLine="true" android:hint="@string/lpc_createpassword" android:imeOptions="actionDone"></EditText>
+		</TableRow>		
+	</TableLayout>			
+</LinearLayout>
+</ScrollView>

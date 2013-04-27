@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/filelist_title"
+        android:layout_width="match_parent"
+        android:layout_height="44dip"
+        android:background="@drawable/title_bj" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/filelistpage"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/filelist_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/title_bt_bj"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="@string/back"
+            android:textColor="#FFFFFF" />
+
+        <ImageView
+            android:id="@+id/optmultfile"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dip"
+            android:gravity="center"
+            android:src="@drawable/singlefile"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/url"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dip"
+            android:layout_toLeftOf="@+id/chooesefile"
+            android:background="@android:drawable/editbox_background"
+            android:ems="10"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:hint="@string/search_hint"
+            android:singleLine="true"
+            android:textSize="15sp" >
+        </EditText>
+
+        <Button
+            android:id="@+id/chooesefile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/url"
+            android:layout_alignBottom="@+id/url"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/toolbar_uplevel"
+            android:textColor="#FFFFFF" />
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/fileList"
+        android:layout_width="wrap_content"
+        android:layout_height="348dp"
+        android:layout_gravity="center"
+        android:layout_weight="1.06"
+        android:numColumns="3" >
+    </GridView>
+
+    <Button
+        android:id="@+id/fileupload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/url"
+        android:layout_alignBottom="@+id/url"
+        android:layout_alignParentRight="true"
+        android:layout_weight="0.12"
+        android:background="@drawable/title_bt_bj"
+        android:text="@string/fileupload"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

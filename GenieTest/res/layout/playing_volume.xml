@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#b0000000"
+    android:orientation="horizontal" >
+<SeekBar
+    
+	    android:id="@+id/volumeseekbar"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:layout_marginTop="10dip" 
+		android:layout_marginLeft="50dip" 
+		android:layout_marginRight="50dip" android:layout_marginBottom="10dip">	    
+	</SeekBar>
+<!-- <com.dragonflow.VerticalSeekBar
+	    android:id="@+id/volumeseekbar"
+		android:layout_width="32dp"
+		android:layout_height="100dip"  
+		android:progressDrawable="@drawable/seekbar_style"  
+	   	android:thumb="@drawable/seekbar_thumb"
+	   	android:background="@drawable/progress_buffering_v">	    
+	</com.dragonflow.VerticalSeekBar>
+	 -->	
+</LinearLayout>

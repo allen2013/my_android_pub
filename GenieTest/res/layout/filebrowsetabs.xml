@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <RadioGroup
+            android:id="@+id/main_radio"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@drawable/maintab_toolbar_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radio_chooesefile"
+                style="@style/fb_tab_bottom"
+                android:layout_marginTop="2.0dip"
+                android:drawableTop="@drawable/toolbar_select"
+                android:tag="radio_button0"
+                android:text="@string/radio_filechooese" />
+
+            <RadioButton
+                android:id="@+id/radio_copy"
+                style="@style/fb_tab_bottom"
+                android:layout_marginTop="2.0dip"
+                android:drawableTop="@drawable/toolbar_copy"
+                android:tag="radio_button1"
+                android:text="@string/radio_copy" />
+
+            <RadioButton
+                android:id="@+id/radio_cut"
+                style="@style/fb_tab_bottom"
+                android:layout_marginTop="2.0dip"
+                android:drawableTop="@drawable/toolbar_cut"
+                android:tag="radio_button2"
+                android:text="@string/radio_cut" />
+
+            <RadioButton
+                android:id="@+id/radio_paste"
+                style="@style/fb_tab_bottom"
+                android:layout_marginTop="2.0dip"
+                android:drawableTop="@drawable/toolbar_paste"
+                android:tag="radio_button3"
+                android:text="@string/radio_paste" />
+
+            <RadioButton
+                android:id="@+id/radio_up"
+                style="@style/fb_tab_bottom"
+                android:layout_marginTop="2.0dip"
+                android:drawableTop="@drawable/toolbar_uplevel"
+                android:tag="radio_button3"
+                android:text="@string/radio_up" />
+
+            <RadioButton
+                android:id="@+id/radio_new"
+                style="@style/fb_tab_bottom"
+                android:layout_marginTop="2.0dip"
+                android:drawableTop="@drawable/toolbar_new"
+                android:tag="radio_button3"
+                android:text="@string/radio_new" />
+
+            <RadioButton
+                android:id="@+id/radio_list"
+                style="@style/fb_tab_bottom"
+                android:layout_marginTop="2.0dip"
+                android:drawableTop="@drawable/toolbar_mode_icon"
+                android:tag="radio_button3"
+                android:text="@string/radio_list" />
+        </RadioGroup>
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.95" />
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.0"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</TabHost>
